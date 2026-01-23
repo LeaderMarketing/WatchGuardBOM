@@ -1,0 +1,383 @@
+.section h2 {
+  margin-bottom: 0.5rem;
+}
+
+.intro {
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Category Banner Styles */
+.bannerContainer {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.bannerImage {
+  width: 100%;
+  height: 180px;
+  position: relative;
+  background: linear-gradient(135deg, #1a1a2e 0%, #2d2d44 100%);
+}
+
+.bannerImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.bannerPlaceholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  background: linear-gradient(135deg, #1a1a2e 0%, #2d2d44 50%, #e81410 100%);
+  color: #fff;
+}
+
+.bannerIcon {
+  font-size: 3rem;
+}
+
+.bannerText {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.mainTabs {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tabBtn {
+  background: #fff;
+  border: 2px solid var(--table-border);
+  padding: 10px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--text-color);
+  transition: all 0.2s ease;
+}
+
+.tabBtn:hover {
+  border-color: var(--wgrd-red);
+  color: var(--wgrd-red);
+}
+
+.tabBtn.active {
+  background-color: var(--wgrd-red);
+  border-color: var(--wgrd-red);
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(232, 20, 16, 0.3);
+}
+
+.subTabs {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #f8f9fa;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.toggleContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.toggleLabel {
+  font-weight: 500;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 26px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+.slider::before {
+  position: absolute;
+  content: '';
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #fff;
+  transition: 0.4s;
+}
+
+.switch input:checked + .slider {
+  background-color: var(--wgrd-red);
+}
+
+.switch input:checked + .slider::before {
+  transform: translateX(24px);
+}
+
+.round {
+  border-radius: 34px;
+}
+
+.round::before {
+  border-radius: 50%;
+}
+
+/* Table Wrapper - Scrollable Container */
+.tableWrapper {
+  overflow-x: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background: #fff;
+  cursor: grab;
+}
+
+/* CSS Grid for Perfect Alignment */
+.grid {
+  display: grid;
+  min-width: max-content;
+}
+
+/* Header Label (Top-Left Cell) */
+.headerLabel {
+  position: sticky;
+  left: 0;
+  z-index: 20;
+  background: #f9fafb;
+  border-right: 2px solid #e0e0e0;
+  border-bottom: 2px solid #e0e0e0;
+  padding: 20px 16px;
+  display: flex;
+  align-items: flex-end;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Product Card (Header Cells) */
+.productCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px 16px;
+  background: #fff;
+  border: none;
+  border-bottom: 2px solid #e0e0e0;
+  border-right: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+  position: relative;
+}
+
+.productCard:hover {
+  background: #fafafa;
+}
+
+.productCard.selected {
+  background: #fff5f5;
+  box-shadow: inset 0 0 0 3px var(--wgrd-red);
+}
+
+.productImageWrap {
+  width: 120px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.productImage {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.imagePlaceholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #bbb;
+}
+
+.productName {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--wgrd-red);
+}
+
+.productDesc {
+  margin: 0;
+  font-size: 0.78rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+.selectedBadge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: var(--wgrd-red);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+/* Price Row */
+.priceLabel {
+  position: sticky;
+  left: 0;
+  z-index: 10;
+  background: linear-gradient(135deg, #fef2f2, #fff);
+  border-right: 2px solid #e0e0e0;
+  border-bottom: 2px solid #fecaca;
+  padding: 14px 16px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--wgrd-red);
+  display: flex;
+  align-items: center;
+}
+
+.priceCell {
+  padding: 14px 16px;
+  background: linear-gradient(135deg, #fef2f2, #fff);
+  border-bottom: 2px solid #fecaca;
+  border-right: 1px solid #fdd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  transition: background-color 0.15s ease;
+}
+
+.priceCell:last-child {
+  border-right: none;
+}
+
+.priceCell .priceValue {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--wgrd-red);
+}
+
+.priceCell .priceNote {
+  font-size: 0.7rem;
+  color: #888;
+  font-weight: 500;
+}
+
+/* Section Header Row */
+.sectionHeader {
+  background: #212529;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 10px 16px;
+}
+
+/* Feature Label (First Column) */
+.featureLabel {
+  position: sticky;
+  left: 0;
+  z-index: 10;
+  background: #f9fafb;
+  border-right: 2px solid #e0e0e0;
+  border-bottom: 1px solid #eee;
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+/* Data Cells */
+.cell {
+  padding: 12px 16px;
+  font-size: 0.85rem;
+  color: #333;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.4;
+  background: #fff;
+  transition: background-color 0.15s ease;
+}
+
+.cell:last-child {
+  border-right: none;
+}
+
+/* Selected Column Cells */
+.selectedCell {
+  background: #fff8f8;
+  box-shadow: inset 3px 0 0 var(--wgrd-red), inset -3px 0 0 var(--wgrd-red);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tabBtn {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+
+  .headerLabel,
+  .featureLabel {
+    min-width: 140px;
+    width: 140px;
+  }
+}

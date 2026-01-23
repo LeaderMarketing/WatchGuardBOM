@@ -1,0 +1,42 @@
+.section {
+  padding: 40px 20px;
+}
+
+.placeholder {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 60px 30px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 16px;
+  border: 2px dashed var(--table-border);
+}
+
+.icon {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.placeholder h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 16px;
+}
+
+.placeholder p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.comingSoon {
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: var(--wgrd-red);
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 30px;
+}

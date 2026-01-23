@@ -1,0 +1,121 @@
+.section {
+  margin-top: 1.5rem;
+}
+
+/* Collapsible Toggle Button - matches Wi-Fi style */
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  transition: background 0.15s ease;
+}
+
+.toggle:hover {
+  background: #f0f0f0;
+}
+
+.icon {
+  display: inline-block;
+  font-size: 0.8rem;
+  transition: transform 0.2s ease;
+}
+
+.toggle[aria-expanded='true'] .icon {
+  transform: rotate(180deg);
+}
+
+.tableContainer {
+  margin-top: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+  font-size: 0.9rem;
+}
+
+.table th {
+  background: #1a1a2e;
+  color: #fff;
+  padding: 0.875rem 1rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.table th:not(:first-child) {
+  text-align: center;
+  width: 150px;
+}
+
+.table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+.table td:not(:first-child) {
+  text-align: center;
+  color: var(--wgrd-red);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.table tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.table tbody tr:hover {
+  background: #f5f5f5;
+}
+
+.table td:first-child {
+  font-weight: 400;
+}
+
+.table td:first-child strong {
+  font-weight: 700;
+}
+
+/* Text cells (not checkmarks) - black text */
+.textCell {
+  color: #333 !important;
+  font-weight: 500 !important;
+  font-size: 0.9rem !important;
+}
+
+/* Gold text - highlighted in red */
+.goldText {
+  color: var(--wgrd-red) !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+}
+
+/* Sub-rows for nested data like retention periods */
+.subRow {
+  background: #f8f9fa !important;
+}
+
+.subRow:hover {
+  background: #f0f0f0 !important;
+}
+
+.subLabel {
+  padding-left: 2rem !important;
+  font-style: italic;
+  color: #555;
+}

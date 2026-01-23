@@ -1,0 +1,97 @@
+.page {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 14px;
+  color: #212529;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.header h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #212529;
+}
+
+.mainLayout {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Floating Cart Button - matching the Your Configuration toggle style */
+.floatingCartBtn {
+  position: fixed;
+  right: 0;
+  top: calc(50% + 70px);
+  transform: translateY(-50%);
+  z-index: 998;
+  width: 56px;
+  height: 56px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  background: #555;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  box-shadow: -2px 2px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.15s ease, width 0.15s ease;
+}
+
+.floatingCartBtn:hover {
+  background: #444;
+  width: 62px;
+}
+
+.floatingCartBtn.hasItems {
+  background: var(--wgrd-red, #e81410);
+  animation: cartPulse 2s infinite;
+}
+
+.floatingCartBtn.hasItems:hover {
+  background: #b4001e;
+}
+
+@keyframes cartPulse {
+  0%, 100% {
+    box-shadow: -2px 2px 12px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    box-shadow: -2px 2px 20px rgba(232, 20, 16, 0.5);
+  }
+}
+
+.cartIcon {
+  font-size: 1.4rem;
+}
+
+.cartBadge {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  background: #fff;
+  color: var(--wgrd-red, #e81410);
+  font-size: 0.7rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4px;
+}
