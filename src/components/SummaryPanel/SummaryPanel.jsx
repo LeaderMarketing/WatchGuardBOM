@@ -1,10 +1,11 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { ClipboardText, GearSix, Package, ShoppingCartSimple, X } from '@phosphor-icons/react';
+import { ClipboardText, GearSix, Package, ShoppingCartSimple, Storefront, X } from '@phosphor-icons/react';
 import styles from './SummaryPanel.module.css';
 import { getSkuCode, getAvailableServiceTypes, hasApplianceOnly } from '../../data/productSkus.js';
 import { getUrlBySku } from '../../data/productUrls.js';
 import { useQuote } from '../../context/QuoteContext.jsx';
 import { getProductPrice, getAppliancePrice, getSubscriptionPrice, formatPrice } from '../../data/productPrices.js';
+import { addConfigurationToCart, canAddConfigurationToCart } from '../../data/cartUtils.js';
 
 // Base URL for the partner website
 const PARTNER_BASE_URL = 'https://partner.leadersystems.com.au';
@@ -228,6 +229,65 @@ function SummaryPanel({
     setTimeout(() => setShowNotification(false), 3000);
   };
 
+  // Handle Add to Leader Systems Cart button click
+  const [addingToCart, setAddingToCart] = useState(false);
+
+  const handleAddToCart = async () => {
+    if (!selectedProductData || addingToCart) return;
+
+    const productName = selectedProductData.name;
+    const serviceType = applianceOnly
+      ? 'Appliance Only'
+      : isWifiProduct
+      ? selectedWifiLicense
+      : selectedService;
+    const term = applianceOnly ? null : selectedTerm;
+
+    setAddingToCart(true);
+    setNotificationMessage('Adding to Leader Cart...');
+    setShowNotification(true);
+
+    try {
+      const result = await addConfigurationToCart({
+        productName,
+        serviceType,
+        term,
+        isHighAvailability,
+      });
+
+      setNotificationMessage(result.message);
+      setShowNotification(true);
+      setTimeout(() => setShowNotification(false), 5000);
+    } catch {
+      setNotificationMessage('Failed to add to cart — unexpected error.');
+      setShowNotification(true);
+      setTimeout(() => setShowNotification(false), 5000);
+    } finally {
+      setAddingToCart(false);
+    }
+  };
+
+  // Check if current configuration can be added to the real cart
+  const cartAvailable = useMemo(() => {
+    if (!selectedProductData) return false;
+
+    const productName = selectedProductData.name;
+    const serviceType = applianceOnly
+      ? 'Appliance Only'
+      : isWifiProduct
+      ? selectedWifiLicense
+      : selectedService;
+    const term = applianceOnly ? null : selectedTerm;
+
+    const { canAdd } = canAddConfigurationToCart({
+      productName,
+      serviceType,
+      term,
+      isHighAvailability,
+    });
+    return canAdd;
+  }, [selectedProductData, selectedService, selectedTerm, selectedWifiLicense, applianceOnly, isWifiProduct, isHighAvailability]);
+
   return (
     <>
       {/* Overlay when panel is open */}
@@ -388,6 +448,20 @@ function SummaryPanel({
               <span className={styles.skuLabel}>SKU:</span>
               <code className={styles.skuCode}>{currentSku}</code>
             </div>
+          )}
+
+          {/* Add to Leader Systems Cart — primary action */}
+          {selectedProductData && cartAvailable && (
+            <button
+              type="button"
+              className={styles.addToCartCta}
+              onClick={handleAddToCart}
+              disabled={addingToCart}
+              title="Add this configuration directly to the Leader Systems shopping cart"
+            >
+              <Storefront size={18} weight="bold" />
+              {addingToCart ? 'Adding...' : 'Add to Leader Cart'}
+            </button>
           )}
 
           <button

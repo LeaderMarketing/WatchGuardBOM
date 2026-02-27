@@ -6,13 +6,13 @@ export const wifiSkuProductIds = {
   // ============================================
   // AP130
   // ============================================
-  'WGA13000': '', // AP130 Appliance Only
-  'WGA13031': '', // AP130 Standard Wi-Fi 1-yr
-  'WGA13033': '', // AP130 Standard Wi-Fi 3-yr
-  'WGA13035': '', // AP130 Standard Wi-Fi 5-yr
-  'WGA13071': '', // AP130 USP Wi-Fi 1-yr
-  'WGA13073': '', // AP130 USP Wi-Fi 3-yr
-  'WGA13075': '', // AP130 USP Wi-Fi 5-yr
+  'WGA130000': '102373', // AP130 Appliance Only
+  'WGA13022101': '102553', // AP130 Standard Wi-Fi 1-yr
+  'WGA13022103': '102554', // AP130 Standard Wi-Fi 3-yr
+  'WGA13022105': '102555', // AP130 Standard Wi-Fi 5-yr
+  'WGA13022001': '102542', // AP130 USP Wi-Fi 1-yr
+  'WGA13022003': '102550', // AP130 USP Wi-Fi 3-yr
+  'WGA13022005': '102552', // AP130 USP Wi-Fi 5-yr
 
   // ============================================
   // AP230W

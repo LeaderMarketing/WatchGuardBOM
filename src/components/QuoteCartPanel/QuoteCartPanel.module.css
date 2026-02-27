@@ -440,6 +440,46 @@
   background: #f8f9fa;
   border-top: 1px solid #e0e0e0;
   border-radius: 0 0 16px 16px;
+  flex-wrap: wrap;
+}
+
+.leaderCartBtn {
+  flex: 1 1 100%;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #1b7a2e, #15612a);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(27, 122, 46, 0.3);
+}
+
+.leaderCartBtn:hover {
+  background: linear-gradient(135deg, #15612a, #0f4d21);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(27, 122, 46, 0.45);
+}
+
+.leaderCartBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.leaderCartMsg {
+  flex: 1 1 100%;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 0 0;
+  color: #1b7a2e;
 }
 
 .emailBtn,

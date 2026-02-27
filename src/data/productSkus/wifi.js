@@ -6,16 +6,16 @@ export const wifiProductSkus = {
   // ============================================
 
   'AP130': {
-    'Appliance Only': 'WGA13000',
+    'Appliance Only': 'WGA130000',
     'Standard Wi-Fi': {
-      '1 Year': 'WGA13031',
-      '3 Year': 'WGA13033',
-      '5 Year': 'WGA13035',
+      '1 Year': 'WGA13022101',
+      '3 Year': 'WGA13022103',
+      '5 Year': 'WGA13022105',
     },
     'USP Wi-Fi': {
-      '1 Year': 'WGA13071',
-      '3 Year': 'WGA13073',
-      '5 Year': 'WGA13075',
+      '1 Year': 'WGA13022001',
+      '3 Year': 'WGA13022003',
+      '5 Year': 'WGA13022005',
     },
   },
 

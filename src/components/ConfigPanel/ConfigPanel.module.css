@@ -1,0 +1,209 @@
+/* ─── Sticky Config Panel (bottom of viewport) ─── */
+.panel {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 900;
+  background: #fff;
+  border-top: 2px solid #e2e8f0;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+  padding: 12px 24px;
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  gap: 0;
+  align-items: center;
+  min-height: 80px;
+  transition: transform 0.3s ease;
+}
+
+.panelHidden {
+  transform: translateY(100%);
+}
+
+/* ─── Vertical divider ─── */
+.divider {
+  width: 1px;
+  background: #e2e8f0;
+  align-self: stretch;
+  margin: 4px 16px;
+}
+
+/* ─── Side (hardware / subscription) ─── */
+.side {
+  display: grid;
+  grid-template-columns: 60px 1fr auto;
+  gap: 12px;
+  align-items: center;
+}
+
+.sideImage {
+  width: 56px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #f8fafc;
+}
+
+.sideImagePlaceholder {
+  width: 56px;
+  height: 42px;
+  border-radius: 6px;
+  background: #f1f5f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sideInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.sideName {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #1e293b;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sideDesc {
+  font-size: 0.72rem;
+  color: #64748b;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sideSku {
+  font-size: 0.7rem;
+  color: #c4122f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sideSku:hover {
+  text-decoration: underline;
+}
+
+.sideActions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.sidePrice {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.sidePriceLabel {
+  font-size: 0.62rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.sideAddBtn {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+.hwBtn {
+  background: #c4122f;
+  color: #fff;
+}
+
+.hwBtn:hover {
+  background: #a30f27;
+}
+
+.subBtn {
+  background: linear-gradient(135deg, #1b7a2e, #15612a);
+  color: #fff;
+}
+
+.subBtn:hover {
+  background: linear-gradient(135deg, #15612a, #0f4d21);
+}
+
+/* ─── Empty State ─── */
+.emptyState {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #94a3b8;
+  font-size: 0.8rem;
+  font-style: italic;
+  padding: 8px;
+  text-align: center;
+}
+
+/* ─── Subscription side with dropdowns ─── */
+.subSide {
+  display: grid;
+  grid-template-columns: 60px 1fr 1fr auto;
+  gap: 12px;
+  align-items: center;
+}
+
+.subDropdownGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.subDropdownLabel {
+  font-size: 0.62rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #94a3b8;
+}
+
+.subDropdown {
+  padding: 6px 28px 6px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #1e293b;
+  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23475569'%3E%3Cpath d='M4.22 6.22a.75.75 0 011.06 0L8 8.94l2.72-2.72a.75.75 0 111.06 1.06l-3.25 3.25a.75.75 0 01-1.06 0L4.22 7.28a.75.75 0 010-1.06z'/%3E%3C/svg%3E") right 6px center / 14px no-repeat;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  min-width: 140px;
+}
+
+.subDropdown:focus {
+  outline: none;
+  border-color: #c4122f;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 900px) {
+  .panel {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 10px 16px;
+  }
+
+  .divider {
+    display: none;
+  }
+}

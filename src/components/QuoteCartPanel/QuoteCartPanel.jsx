@@ -5,6 +5,7 @@ import {
   Package,
   ShoppingCartSimple,
   Spinner,
+  Storefront,
   Trash,
   X,
 } from '@phosphor-icons/react';
@@ -13,6 +14,7 @@ import 'jspdf-autotable';
 import styles from './QuoteCartPanel.module.css';
 import { useQuote } from '../../context/QuoteContext';
 import { formatPrice } from '../../data/productPrices.js';
+import { addMultipleToCart } from '../../data/cartUtils.js';
 
 // Dummy Account Managers - replace with actual names later
 const accountManagers = [
@@ -160,6 +162,47 @@ function QuoteCartPanel({ isOpen, onClose }) {
       alert('Failed to generate PDF. Please try again.');
     } finally {
       setIsGeneratingPdf(false);
+    }
+  };
+
+  // Add all quote items to the real Leader Systems shopping cart
+  const [addingToLeaderCart, setAddingToLeaderCart] = useState(false);
+  const [leaderCartMessage, setLeaderCartMessage] = useState('');
+
+  const handleAddAllToLeaderCart = async () => {
+    if (!hasItems || addingToLeaderCart) return;
+
+    // Map quote cart items to configurations for addMultipleToCart
+    const configurations = items.map((item) => {
+      const descParts = item.description.match(/^(.+?)\s*\((.+?)\)$/);
+      if (descParts) {
+        return {
+          productName: item.name,
+          serviceType: descParts[1],
+          term: descParts[2],
+          quantity: item.quantity,
+        };
+      }
+      return {
+        productName: item.name,
+        serviceType: item.description,
+        term: null,
+        quantity: item.quantity,
+      };
+    });
+
+    setAddingToLeaderCart(true);
+    setLeaderCartMessage('Adding items to Leader Cart...');
+
+    try {
+      const result = await addMultipleToCart(configurations);
+      setLeaderCartMessage(result.message);
+      setTimeout(() => setLeaderCartMessage(''), 6000);
+    } catch {
+      setLeaderCartMessage('Failed to add items — unexpected error.');
+      setTimeout(() => setLeaderCartMessage(''), 6000);
+    } finally {
+      setAddingToLeaderCart(false);
     }
   };
 
@@ -403,6 +446,19 @@ function QuoteCartPanel({ isOpen, onClose }) {
         {/* Modal Footer */}
         {hasItems && (
           <div className={styles.modalFooter}>
+            <button
+              type="button"
+              className={styles.leaderCartBtn}
+              onClick={handleAddAllToLeaderCart}
+              disabled={addingToLeaderCart}
+              title="Add all items to the real Leader Systems shopping cart"
+            >
+              <Storefront size={18} weight="bold" />
+              {addingToLeaderCart ? 'Adding...' : 'Add All to Leader Cart'}
+            </button>
+            {leaderCartMessage && (
+              <div className={styles.leaderCartMsg}>{leaderCartMessage}</div>
+            )}
             <button
               type="button"
               className={styles.emailBtn}

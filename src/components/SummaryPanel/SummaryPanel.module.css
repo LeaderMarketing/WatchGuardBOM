@@ -428,6 +428,31 @@
   font-style: italic;
 }
 
+/* Add to Leader Cart CTA — prominent green button */
+.addToCartCta {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  background: #1b7a2e;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 2px 8px rgba(27, 122, 46, 0.3);
+}
+
+.addToCartCta:hover {
+  background: #15612a;
+  box-shadow: 0 4px 14px rgba(27, 122, 46, 0.45);
+}
+
 .primaryCta {
   width: 100%;
   padding: 0.9rem 1rem;

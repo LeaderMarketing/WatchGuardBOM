@@ -5,3 +5,7 @@ dist/
 .env
 .env.local
 .env.*.local
+server/products.db
+server/products.db-wal
+server/products.db-shm
+.playwright-mcp/
