@@ -368,6 +368,147 @@
   box-shadow: inset 3px 0 0 var(--wgrd-red), inset -3px 0 0 var(--wgrd-red);
 }
 
+/* ─── Sticky Floating Header Bar ─── */
+.stickyBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: #fff;
+  border-bottom: 2px solid #e0e0e0;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+  transform: translateY(-100%);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.stickyBar.stickyVisible {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.stickyInner {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.stickyGrid {
+  display: grid;
+  min-width: max-content;
+}
+
+.stickyLabelCell {
+  background: #f9fafb;
+  border-right: 2px solid #e0e0e0;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.stickyProductCell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background: #fff;
+  border-right: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  border: none;
+  text-align: left;
+  position: relative;
+  font-family: inherit;
+}
+
+.stickyProductCell:hover {
+  background: #fafafa;
+}
+
+.stickyProductCell.stickySelected {
+  background: #fff5f5;
+  box-shadow: inset 0 0 0 2px var(--wgrd-red);
+}
+
+.stickyImageWrap {
+  width: 48px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.stickyImageWrap img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.stickyImagePlaceholder {
+  width: 100%;
+  height: 100%;
+  background: #f0f0f0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bbb;
+}
+
+.stickyInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.stickyName {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--wgrd-red);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stickyPrice {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.stickyPriceNote {
+  font-size: 0.6rem;
+  color: #888;
+  margin-left: 2px;
+}
+
+.stickySelectedBadge {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background: var(--wgrd-red);
+  color: #fff;
+  font-size: 0.55rem;
+  font-weight: 600;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+/* Sentinel - invisible element at the bottom of the table */
+.tableSentinel {
+  height: 1px;
+  width: 100%;
+  pointer-events: none;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .tabBtn {
@@ -379,5 +520,25 @@
   .featureLabel {
     min-width: 140px;
     width: 140px;
+  }
+
+  .stickyLabelCell {
+    min-width: 100px;
+    width: 100px;
+    padding: 8px 10px;
+    font-size: 0.7rem;
+  }
+
+  .stickyImageWrap {
+    width: 36px;
+    height: 28px;
+  }
+
+  .stickyName {
+    font-size: 0.7rem;
+  }
+
+  .stickyPrice {
+    font-size: 0.65rem;
   }
 }

@@ -600,4 +600,99 @@
     min-width: 140px;
     width: 140px;
   }
+
+  .stickyLabelCell {
+    min-width: 100px;
+    width: 100px;
+  }
+
+  .stickyName {
+    font-size: 0.68rem;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   STICKY FLOATING HEADER BAR
+   ═══════════════════════════════════════════════════════════ */
+.stickyBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: #f8f9fa;
+  border-bottom: 2px solid #e0e0e0;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-100%);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  pointer-events: none;
+  font-family: 'SuisseIntl', Arial, sans-serif;
+  /* Match .page padding so centering aligns with page content */
+  padding: 0 20px;
+}
+
+.stickyBar.stickyVisible {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Mirrors .container (max-width + padding) so the scroll area
+   lines up exactly with .tableWrapper inside it. */
+.stickyConstraint {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.stickyInner {
+  /* Pure scroll container — no padding — so scrollLeft syncs
+     pixel-for-pixel with .tableWrapper.
+     Scrollbar hidden because user scrolls via the main grid. */
+  overflow-x: auto;
+  scrollbar-width: none;            /* Firefox */
+  -ms-overflow-style: none;         /* IE/Edge */
+}
+
+.stickyInner::-webkit-scrollbar {
+  display: none;                    /* Chrome/Safari */
+}
+
+.stickyGrid {
+  display: grid;
+  min-width: max-content;
+  column-gap: 4px;
+  padding-top: 5px;
+}
+
+.stickyLabelCell {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: #f8f9fa;
+}
+
+.stickyProductCell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 4px;
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px 12px 0 0;
+}
+
+.stickyName {
+  font-family: 'SuisseIntl', Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

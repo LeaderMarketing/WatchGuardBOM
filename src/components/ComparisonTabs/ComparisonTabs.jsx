@@ -1,4 +1,5 @@
-import React, { useMemo, useRef, useEffect } from 'react';
+import React, { useMemo, useRef, useEffect, useState, useCallback } from 'react';
+import { createPortal } from 'react-dom';
 import { Package } from '@phosphor-icons/react';
 import { productData } from './productData';
 import styles from './ComparisonTabs.module.css';
@@ -32,6 +33,9 @@ function ComparisonTabs({
   onSelectProduct,
 }) {
   const scrollContainerRef = useRef(null);
+  const headerRowRef = useRef(null);
+  const stickyScrollRef = useRef(null);
+  const [isSticky, setIsSticky] = useState(false);
 
   const tableData = useMemo(() => {
     if (activeCategory === 'wifi6') {
@@ -93,6 +97,62 @@ function ComparisonTabs({
       container.removeEventListener('mouseup', endDrag);
       container.removeEventListener('mousemove', onMouseMove);
     };
+  }, [tableData]);
+
+  // IntersectionObserver: show sticky bar when header row scrolls out of view,
+  // hide it when the table wrapper bottom also scrolls out of view (past the table).
+  useEffect(() => {
+    const headerEl = headerRowRef.current;
+    const tableWrapperEl = scrollContainerRef.current;
+    if (!headerEl || !tableWrapperEl) return;
+
+    let headerVisible = true;
+    let tableVisible = true;
+
+    const updateSticky = () => {
+      // Show sticky when header is NOT visible AND table IS still visible
+      setIsSticky(!headerVisible && tableVisible);
+    };
+
+    // When the header row (product cards) leaves the viewport above, show sticky
+    const headerObserver = new IntersectionObserver(
+      ([entry]) => {
+        headerVisible = entry.isIntersecting;
+        updateSticky();
+      },
+      { threshold: 0 }
+    );
+
+    // When the table wrapper leaves the viewport (scrolled past it), hide sticky
+    const tableObserver = new IntersectionObserver(
+      ([entry]) => {
+        tableVisible = entry.isIntersecting;
+        updateSticky();
+      },
+      { threshold: 0 }
+    );
+
+    headerObserver.observe(headerEl);
+    tableObserver.observe(tableWrapperEl);
+
+    return () => {
+      headerObserver.disconnect();
+      tableObserver.disconnect();
+    };
+  }, [tableData]);
+
+  // Sync horizontal scroll between main table and sticky bar
+  useEffect(() => {
+    const container = scrollContainerRef.current;
+    const stickyInner = stickyScrollRef.current;
+    if (!container || !stickyInner) return;
+
+    const onScroll = () => {
+      stickyInner.scrollLeft = container.scrollLeft;
+    };
+
+    container.addEventListener('scroll', onScroll, { passive: true });
+    return () => container.removeEventListener('scroll', onScroll);
   }, [tableData]);
 
   if (!tableData) return null;
@@ -173,6 +233,56 @@ function ComparisonTabs({
         )}
       </div>
 
+      {/* Sticky Floating Header Bar - rendered via portal to document.body */}
+      {createPortal(
+        <div className={`${styles.stickyBar} ${isSticky ? styles.stickyVisible : ''}`}>
+          <div className={styles.stickyInner} ref={stickyScrollRef}>
+            <div
+              className={styles.stickyGrid}
+              style={{
+                gridTemplateColumns: `200px repeat(${numProducts}, 220px)`,
+              }}
+            >
+              <div className={styles.stickyLabelCell}>
+                <span>Compare Models</span>
+              </div>
+              {tableData.products.map((product) => {
+                const isSelected = selectedProduct === product.name;
+                const isWifi = activeCategory === 'wifi6';
+                const price = getStartingPrice(product.name, isWifi);
+                return (
+                  <button
+                    key={`sticky-${product.name}`}
+                    type="button"
+                    className={`${styles.stickyProductCell} ${isSelected ? styles.stickySelected : ''}`}
+                    onClick={() => onSelectProduct && onSelectProduct(product.name)}
+                  >
+                    <div className={styles.stickyImageWrap}>
+                      {product.image ? (
+                        <img src={product.image} alt={product.name} />
+                      ) : (
+                        <div className={styles.stickyImagePlaceholder}>
+                          <Package size={16} weight="duotone" />
+                        </div>
+                      )}
+                    </div>
+                    <div className={styles.stickyInfo}>
+                      <span className={styles.stickyName}>{product.name}</span>
+                      <span className={styles.stickyPrice}>
+                        {formatPrice(price)}
+                        <span className={styles.stickyPriceNote}>ex.GST</span>
+                      </span>
+                    </div>
+                    {isSelected && <span className={styles.stickySelectedBadge}>✓</span>}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        </div>,
+        document.body
+      )}
+
       {/* Comparison Table using CSS Grid */}
       <div className={styles.tableWrapper} ref={scrollContainerRef}>
         <div
@@ -182,7 +292,7 @@ function ComparisonTabs({
           }}
         >
           {/* Header Row: Empty cell + Product Cards */}
-          <div className={styles.headerLabel}>
+          <div className={styles.headerLabel} ref={headerRowRef}>
             <span>Compare Models</span>
           </div>
           {tableData.products.map((product) => {
