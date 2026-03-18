@@ -1,0 +1,201 @@
+{
+  "id": 261,
+  "slug": "AP432",
+  "name": "WatchGuard AP432",
+  "family": "Access Points",
+  "category": "wifi",
+  "description": "High-density 4x4 AP for large campuses",
+  "image_file": "AP432.jpg",
+  "appliance": {
+    "id": 3092,
+    "sku_code": "WGA432000",
+    "full_sku": "NWG-WGA432000",
+    "name": "WatchGuard AP432 Appliance Only",
+    "msrp": 923,
+    "delivery_method": "Physical",
+    "url": "https://partner.leadersystems.com.au/products.html?A1sbM3vwCRI=P6L9Q8/KWjlyeRgiimFJEw==g4exg6byYSIJs6kPb7QH7d0qs0tl",
+    "sku_type": "appliance",
+    "subscription_type": null,
+    "term_years": null
+  },
+  "subscriptions": [
+    {
+      "id": 3097,
+      "sku_code": "WGA43222101",
+      "full_sku": "NWG-WGA43222101",
+      "name": "Standard Wi-Fi Management for WatchGuard AP432 - 1-year",
+      "msrp": 92,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?gQ3J3vU/FEU=bpMz72a11Wm2+FkZak4Hjg==66CF/G+F9q1zji9Sfq6Fj/LQ0H6kKlU=",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Wi-Fi",
+      "term_years": 1
+    },
+    {
+      "id": 3098,
+      "sku_code": "WGA43222103",
+      "full_sku": "NWG-WGA43222103",
+      "name": "Standard Wi-Fi Management for WatchGuard AP432 - 3-year",
+      "msrp": 183,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?t8rgOob+awM=04uGgxK2TI395HRogCIDSg==btGk5kPiBar0JoCew6xMSv+CefrXo5c=",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Wi-Fi",
+      "term_years": 3
+    },
+    {
+      "id": 3099,
+      "sku_code": "WGA43222105",
+      "full_sku": "NWG-WGA43222105",
+      "name": "Standard Wi-Fi Management for WatchGuard AP432 - 5-year",
+      "msrp": 275,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?vmb5xRgv/RY=cK9PTDmfLCPLZKcsAiYK2Q==8JBMME0mQkdMwyGrYBrkjvHVarBLbx4=",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Wi-Fi",
+      "term_years": 5
+    },
+    {
+      "id": 3094,
+      "sku_code": "WGA43222001",
+      "full_sku": "NWG-WGA43222001",
+      "name": "USP Wi-Fi Management for WatchGuard AP432 - 1-year",
+      "msrp": 153,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?565oCfNQ9Wo=fgEJ4QENDTab9tuMdKmvfg==qEXSBdrvUp74bGqL45oF4EoBgJLU9CY=",
+      "sku_type": "subscription",
+      "subscription_type": "USP Wi-Fi",
+      "term_years": 1
+    },
+    {
+      "id": 3095,
+      "sku_code": "WGA43222003",
+      "full_sku": "NWG-WGA43222003",
+      "name": "USP Wi-Fi Management for WatchGuard AP432 - 3-year",
+      "msrp": 306,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?WfJ/hK7uCFk=4+nucdDorR07cRgD6N3tUw==0//3zxiXcIRFxwN2iEbhrARy7PntuSg=",
+      "sku_type": "subscription",
+      "subscription_type": "USP Wi-Fi",
+      "term_years": 3
+    },
+    {
+      "id": 3096,
+      "sku_code": "WGA43222005",
+      "full_sku": "NWG-WGA43222005",
+      "name": "USP Wi-Fi Management for WatchGuard AP432 - 5-year",
+      "msrp": 458,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?wFYwZB43Amo=OwoHsq0sR/NvZ8LD+KXa7A==X+1vaIt/emBgkyUCp39SIEpAo+Vgw44=",
+      "sku_type": "subscription",
+      "subscription_type": "USP Wi-Fi",
+      "term_years": 5
+    }
+  ],
+  "tradeUps": [],
+  "highAvailability": [],
+  "activationBundles": [
+    {
+      "id": 3093,
+      "sku_code": "WGA43203309",
+      "full_sku": "NWG-WGA43203309",
+      "name": "Points Activation Bundle for WatchGuard AP432",
+      "msrp": 110,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?0IjY+MSQ0Ec=PVtM/XM/UHdNikuO20EhmA==6sl2yDiZTFXEWSfl1MgjS5ZizJ4QrIQ=",
+      "sku_type": "activation_bundle",
+      "subscription_type": null,
+      "term_years": null
+    }
+  ],
+  "specSections": [
+    {
+      "title": "OVERVIEW",
+      "rows": [
+        {
+          "label": "Recommended Use Cases",
+          "key": "idealFor"
+        },
+        {
+          "label": "Environment",
+          "key": "environment"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SPECS",
+      "rows": [
+        {
+          "label": "Radios & Streams",
+          "key": "radiosStreams"
+        },
+        {
+          "label": "Number of Antennas",
+          "key": "numAntennas"
+        },
+        {
+          "label": "Maximum Data Rate",
+          "key": "maxDataRate"
+        },
+        {
+          "label": "Ports",
+          "key": "ports"
+        },
+        {
+          "label": "Power Consumption",
+          "key": "powerConsumption"
+        },
+        {
+          "label": "Mounting Options (Included)",
+          "key": "mountingOptions"
+        },
+        {
+          "label": "Optional Accessories",
+          "key": "optionalAccessories"
+        }
+      ]
+    }
+  ],
+  "features": {
+    "OVERVIEW": [
+      {
+        "name": "Recommended Use Cases",
+        "value": "High-density indoor environments including expansive offices and large corporate or education campuses"
+      },
+      {
+        "name": "Environment",
+        "value": "Indoor"
+      }
+    ],
+    "TECHNICAL SPECS": [
+      {
+        "name": "Radios & Streams",
+        "value": "Wi‑Fi 6 4x4"
+      },
+      {
+        "name": "Number of Antennas",
+        "value": "8 internal omnidirectional"
+      },
+      {
+        "name": "Maximum Data Rate",
+        "value": "2402 Mbps / 1148 Mbps"
+      },
+      {
+        "name": "Ports",
+        "value": "1 x 2.5Gbps (PoE+)"
+      },
+      {
+        "name": "Power Consumption",
+        "value": "Peak 19.5W / Average 11.65W"
+      },
+      {
+        "name": "Mounting Options (Included)",
+        "value": "T-Bar ceiling, flat surface mount"
+      },
+      {
+        "name": "Optional Accessories",
+        "value": "Universal standing bracket, 802.3at PoE+ injector"
+      }
+    ]
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "id": 269,
+  "slug": "M5800",
+  "name": "Firebox M5800",
+  "family": "M-Series",
+  "category": "mseries",
+  "description": "Enterprise flagship with unrestricted VPN tunnels",
+  "image_file": "m5800.jpg",
+  "appliance": {
+    "id": 3176,
+    "sku_code": "WGM58000",
+    "full_sku": "NWG-WGM58000",
+    "name": "WatchGuard Firebox M5800 Appliance Only",
+    "msrp": 11561,
+    "delivery_method": "Physical",
+    "url": "https://partner.leadersystems.com.au/products.html?IQc4mjiUZSc=IEMrZIGuyGP1MV7M7UmwUg==qc3GWcH5YEgrRvIBswT4yTD3exY=",
+    "sku_type": "appliance",
+    "subscription_type": null,
+    "term_years": null
+  },
+  "subscriptions": [
+    {
+      "id": 3179,
+      "sku_code": "WGM58000071",
+      "full_sku": "NWG-WGM58000071",
+      "name": "WatchGuard Basic Security Suite for Firebox M5800 - 1-Year",
+      "msrp": 44961,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?mH5El2c90+U=8jGSQRfsS/Ccr5xPlYs4Vw==5cCkeKyq9RinNnqMORC/LPtfxjB7xSE=",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Suite",
+      "term_years": 1
+    },
+    {
+      "id": 3180,
+      "sku_code": "WGM58000073",
+      "full_sku": "NWG-WGM58000073",
+      "name": "WatchGuard Basic Security Suite for Firebox M5800 - 3-Year",
+      "msrp": 94503,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?0ARQ0t3JBII=HSYluNTJBMo8b21zC/oPZQ==tpEFTXncjnEGTD6RW9yVatLUHj0vyhs=",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Suite",
+      "term_years": 3
+    },
+    {
+      "id": 3177,
+      "sku_code": "WGM58000061",
+      "full_sku": "NWG-WGM58000061",
+      "name": "WatchGuard Standard Support for Firebox M5800 - 1-Year",
+      "msrp": 34894,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?7m75mfAwWgA=zuWTSSTEOVlZFj9n4QK+QQ==EjdnJhx4bjCZAYCQznCwzrc2IpSe4BU=",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support",
+      "term_years": 1
+    },
+    {
+      "id": 3178,
+      "sku_code": "WGM58000063",
+      "full_sku": "NWG-WGM58000063",
+      "name": "WatchGuard Standard Support for Firebox M5800 - 3-Year",
+      "msrp": 47310,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?dze05FAOQqc=o/MVP4durQJw2A7dru+OwA==ePmpzl8lISrdEYxc34jCu9qwGo5iZ3o=",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support",
+      "term_years": 3
+    },
+    {
+      "id": 3181,
+      "sku_code": "WGM58000081",
+      "full_sku": "NWG-WGM58000081",
+      "name": "WatchGuard Total Security Suite for Firebox M5800 - 1-Year",
+      "msrp": 82872,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?KzG1ofT1Wrk=L4HUmx2eGsQaonqJziAYwg==OVsksxRaNrl9tcrkfaF63eaKl+XgsZ8=",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Suite",
+      "term_years": 1
+    },
+    {
+      "id": 3182,
+      "sku_code": "WGM58000083",
+      "full_sku": "NWG-WGM58000083",
+      "name": "WatchGuard Total Security Suite for Firebox M5800 - 3-Year",
+      "msrp": 151127,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?7VmCbutSivM=3g9OVFpQpT2kc5PSOfF4Lg==tT9kCp+GtSTwrUZIknExbkhVHVvnU/E=",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Suite",
+      "term_years": 3
+    }
+  ],
+  "tradeUps": [],
+  "highAvailability": [
+    {
+      "id": 3175,
+      "sku_code": "WGM580001620",
+      "full_sku": "NWG-WGM580001620",
+      "name": "WatchGuard High Availability for M5800 - 1-Month Subscription",
+      "msrp": 9.24,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?/KpxutpPDhQ=FlGwTeisByvvREj/vdClvg==1KOQrMayf0azUX+bwjSXJp/IL8KcF4KY",
+      "sku_type": "high_availability",
+      "subscription_type": "High Availability",
+      "term_years": 0
+    },
+    {
+      "id": 3183,
+      "sku_code": "WGM580001601",
+      "full_sku": "NWG-WGM580001601",
+      "name": "WatchGuard High Availability for M5800 - 1-Year",
+      "msrp": 122,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?Bu7O3sVE36E=goq0sKPVy+/+ZY56YvTMaQ==3gRPaxXOl00EGigm9CUda1OySL92vdE+",
+      "sku_type": "high_availability",
+      "subscription_type": "High Availability",
+      "term_years": 1
+    },
+    {
+      "id": 3174,
+      "sku_code": "WGM580001603",
+      "full_sku": "NWG-WGM580001603",
+      "name": "WatchGuard High Availability for M5800 - 3-Year",
+      "msrp": 292,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?g1E83i1rENA=ZcdEK3BmmMIIRFqKNiJCaQ==fFlP64nu9l6+aH3d/1XfByeSv8uBnlJ2",
+      "sku_type": "high_availability",
+      "subscription_type": "High Availability",
+      "term_years": 3
+    }
+  ],
+  "activationBundles": [],
+  "specSections": [
+    {
+      "title": "OVERVIEW",
+      "rows": [
+        {
+          "label": "Ideal For",
+          "key": "idealFor"
+        }
+      ]
+    },
+    {
+      "title": "PERFORMANCE",
+      "rows": [
+        {
+          "label": "UTM (Full Scan)",
+          "key": "utmFullScan"
+        },
+        {
+          "label": "Firewall (UDP 1518)",
+          "key": "firewallUdp"
+        },
+        {
+          "label": "VPN (UDP 1518)",
+          "key": "vpnUdp"
+        },
+        {
+          "label": "VPN (IMIX)",
+          "key": "vpnImix"
+        },
+        {
+          "label": "AntiVirus",
+          "key": "antivirus"
+        },
+        {
+          "label": "IPS (Full Scan)",
+          "key": "ipsFullScan"
+        },
+        {
+          "label": "HTTPS (Full Scan)",
+          "key": "httpsFullScan"
+        }
+      ]
+    },
+    {
+      "title": "VPN TUNNELS",
+      "rows": [
+        {
+          "label": "Branch Office VPN Tunnels",
+          "key": "branchVpn"
+        },
+        {
+          "label": "Mobile VPN",
+          "key": "mobileVpn"
+        }
+      ]
+    },
+    {
+      "title": "HARDWARE",
+      "rows": [
+        {
+          "label": "Interfaces & Modules",
+          "key": "interfaces"
+        }
+      ]
+    },
+    {
+      "title": "NETWORKING FEATURES",
+      "rows": [
+        {
+          "label": "VLAN",
+          "key": "vlan"
+        },
+        {
+          "label": "SD-WAN Dynamic Path Selection",
+          "key": "sdwan"
+        }
+      ]
+    }
+  ],
+  "features": {
+    "OVERVIEW": [
+      {
+        "name": "Ideal For",
+        "value": "7500 Users"
+      }
+    ],
+    "PERFORMANCE": [
+      {
+        "name": "UTM (Full Scan)",
+        "value": "11.3 Gbps"
+      },
+      {
+        "name": "Firewall (UDP 1518)",
+        "value": "87 Gbps"
+      },
+      {
+        "name": "VPN (UDP 1518)",
+        "value": "18.8 Gbps"
+      },
+      {
+        "name": "VPN (IMIX)",
+        "value": "5.2 Gbps"
+      },
+      {
+        "name": "AntiVirus",
+        "value": "22 Gbps"
+      },
+      {
+        "name": "IPS (Full Scan)",
+        "value": "12.5 Gbps"
+      },
+      {
+        "name": "HTTPS (Full Scan)",
+        "value": "4.9 Gbps"
+      }
+    ],
+    "VPN TUNNELS": [
+      {
+        "name": "Branch Office VPN Tunnels",
+        "value": "Unrestricted"
+      },
+      {
+        "name": "Mobile VPN",
+        "value": "Unrestricted"
+      }
+    ],
+    "HARDWARE": [
+      {
+        "name": "Interfaces & Modules",
+        "value": "8x1Gb, 4x10Gb fiber (included), optional 8x1Gb, 8x1Gb fiber, 4x10Gb fiber, 2x40Gb fiber"
+      }
+    ],
+    "NETWORKING FEATURES": [
+      {
+        "name": "VLAN",
+        "value": "Unrestricted"
+      },
+      {
+        "name": "SD-WAN Dynamic Path Selection",
+        "value": "✓"
+      }
+    ]
+  }
+}

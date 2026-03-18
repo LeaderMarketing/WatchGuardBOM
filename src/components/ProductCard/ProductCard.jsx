@@ -3,6 +3,20 @@ import { ShoppingCartSimple, CaretDown } from '@phosphor-icons/react';
 import styles from './ProductCard.module.css';
 import { useQuote } from '../../context/QuoteContext.jsx';
 
+const BASE = import.meta.env.BASE_URL || '/';
+
+async function fetchWithFallback(apiPath, staticFile) {
+  try {
+    const res = await fetch(apiPath);
+    if (!res.ok) throw new Error(res.status);
+    return await res.json();
+  } catch {
+    const res = await fetch(`${BASE}static-data/${staticFile}`);
+    if (!res.ok) throw new Error(`Static fallback failed: ${res.status}`);
+    return res.json();
+  }
+}
+
 export default function ProductCard({ product, onSelectHardware, onSelectSubscription }) {
   const { addItem } = useQuote();
   const [featuresOpen, setFeaturesOpen] = useState(false);
@@ -12,8 +26,7 @@ export default function ProductCard({ product, onSelectHardware, onSelectSubscri
 
   // Fetch full product details (subscriptions + features) on mount
   useEffect(() => {
-    fetch(`/api/products/${product.slug}`)
-      .then(r => r.json())
+    fetchWithFallback(`/api/products/${product.slug}`, `product-${product.slug}.json`)
       .then(data => {
         setDetails(data);
         // Set default subscription type

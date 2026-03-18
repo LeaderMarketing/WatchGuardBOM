@@ -1,0 +1,298 @@
+{
+  "id": 283,
+  "slug": "T45-PoE",
+  "name": "Firebox T45-PoE",
+  "family": "T-Series",
+  "category": "tabletop",
+  "description": "Tabletop firewall with Power over Ethernet ports",
+  "image_file": "T145.jpg",
+  "appliance": {
+    "id": 3360,
+    "sku_code": "WGT47000-AU",
+    "full_sku": "NWG-WGT47000-AU",
+    "name": "WatchGuard Firebox T45-PoE  Appliance Only (AU)",
+    "msrp": 734,
+    "delivery_method": "Physical",
+    "url": "https://partner.leadersystems.com.au/products.html?YCGmGhMvRdg=rkSt+tNGql+FNVRs3jCrqw==mfop2de0pflG/4no8Hbks+BCf2Bt6gk=",
+    "sku_type": "appliance",
+    "subscription_type": null,
+    "term_years": null
+  },
+  "subscriptions": [
+    {
+      "id": 3364,
+      "sku_code": "WGT470071",
+      "full_sku": "NWG-WGT470071",
+      "name": "WatchGuard Basic Security Suite for Firebox T45-PoE - 1-Year",
+      "msrp": 785,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?wFvxXS3ZGS8=ysHnvVItuoVWXc4H+zi0Ag==QBh/dYL0jxxTvvph92kPY+KhQET4",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Suite",
+      "term_years": 1
+    },
+    {
+      "id": 3365,
+      "sku_code": "WGT470073",
+      "full_sku": "NWG-WGT470073",
+      "name": "WatchGuard Basic Security Suite for Firebox T45-PoE - 3-Year",
+      "msrp": 1683,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?Mq6Mgfxk0f0=UZ06uTLt0yrekWszPqvBdg==nCQoNb+R6iMjalRvVwN4eavRjaOY",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Suite",
+      "term_years": 3
+    },
+    {
+      "id": 3366,
+      "sku_code": "WGT470075",
+      "full_sku": "NWG-WGT470075",
+      "name": "WatchGuard Basic Security Suite for Firebox T45-PoE - 5-Year",
+      "msrp": 2980,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?lrw1vMmLEPs=gY5LHS/4EdQv/sfCEu5B0w==8NInVdYYjdLgFgYOgVigB2tGW820",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Suite",
+      "term_years": 5
+    },
+    {
+      "id": 3361,
+      "sku_code": "WGT470061",
+      "full_sku": "NWG-WGT470061",
+      "name": "WatchGuard Standard Support for Firebox T45-PoE - 1-Year",
+      "msrp": 514,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?QWpILFlbwfU=SCRcWtZaKbtWjRuMm/3ppA==CMOwqSlHS3m5ogZb446QFZ2ZiW0G",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support",
+      "term_years": 1
+    },
+    {
+      "id": 3362,
+      "sku_code": "WGT470063",
+      "full_sku": "NWG-WGT470063",
+      "name": "WatchGuard Standard Support for Firebox T45-PoE - 3-Year",
+      "msrp": 840,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?H3ugXDtn+/Q=VrDo81maExyqq/MHlj5CZg==qQgq0qhEhV53r28qXVzKviY/b2xm",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support",
+      "term_years": 3
+    },
+    {
+      "id": 3363,
+      "sku_code": "WGT470065",
+      "full_sku": "NWG-WGT470065",
+      "name": "WatchGuard Standard Support for Firebox T45-PoE - 5-Year",
+      "msrp": 1314,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?K1J5x7Ug04A=pvR9wdiI1NvMbFTdx63RPg==G8l7E1CZSE+VSHPx2flf6Eg0OJwI",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support",
+      "term_years": 5
+    },
+    {
+      "id": 3367,
+      "sku_code": "WGT470081",
+      "full_sku": "NWG-WGT470081",
+      "name": "WatchGuard Total Security Suite for Firebox T45-PoE - 1-Year",
+      "msrp": 1387,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?gbGORCiYZyA=T937Un19J8P3QFL11Y3EmA==+J+c1Y4A0IQXu4kLXc9Fb5XdhwEv",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Suite",
+      "term_years": 1
+    },
+    {
+      "id": 3368,
+      "sku_code": "WGT470083",
+      "full_sku": "NWG-WGT470083",
+      "name": "WatchGuard Total Security Suite for Firebox T45-PoE - 3-Year",
+      "msrp": 3140,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?nmNqz5cPm8U=HJT/0WrSESzDJ5nxhZxisA==B+z16w545B3qrkOZPLAl5QTBSzUI",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Suite",
+      "term_years": 3
+    },
+    {
+      "id": 3369,
+      "sku_code": "WGT470085",
+      "full_sku": "NWG-WGT470085",
+      "name": "WatchGuard Total Security Suite for Firebox T45-PoE - 5-Year",
+      "msrp": 5821,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?3CwQtw+qgYY=mBIMkC8yaYkh/WPR2p2elg==Flri0BSL1mtd5Wy3Ci/JFGMys4fn",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Suite",
+      "term_years": 5
+    }
+  ],
+  "tradeUps": [
+    {
+      "id": 3372,
+      "sku_code": "WGT470211",
+      "full_sku": "NWG-WGT470211",
+      "name": "Trade Up to WatchGuard Total Security Suite for Firebox T45-PoE - 1-Year",
+      "msrp": 853,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?K7G/2gVi79U=i7NQji9ZLZURCcRm+NrTpA==daCeSpKsX1nmgjZtANSkugcsjsGJ",
+      "sku_type": "trade_up",
+      "subscription_type": "Total Security Suite",
+      "term_years": 1
+    }
+  ],
+  "highAvailability": [],
+  "activationBundles": [],
+  "specSections": [
+    {
+      "title": "OVERVIEW",
+      "rows": [
+        {
+          "label": "Ideal For",
+          "key": "idealFor"
+        }
+      ]
+    },
+    {
+      "title": "PERFORMANCE",
+      "rows": [
+        {
+          "label": "UTM (Full Scan)",
+          "key": "utmFullScan"
+        },
+        {
+          "label": "Firewall (UDP 1518)",
+          "key": "firewallUdp"
+        },
+        {
+          "label": "VPN (UDP 1518)",
+          "key": "vpnUdp"
+        },
+        {
+          "label": "VPN (IMIX)",
+          "key": "vpnImix"
+        },
+        {
+          "label": "AntiVirus",
+          "key": "antivirus"
+        },
+        {
+          "label": "IPS (Full Scan)",
+          "key": "ipsFullScan"
+        },
+        {
+          "label": "HTTPS (Full Scan)",
+          "key": "httpsFullScan"
+        }
+      ]
+    },
+    {
+      "title": "VPN TUNNELS",
+      "rows": [
+        {
+          "label": "Branch Office VPN Tunnels",
+          "key": "branchVpn"
+        },
+        {
+          "label": "Mobile VPN",
+          "key": "mobileVpn"
+        }
+      ]
+    },
+    {
+      "title": "HARDWARE",
+      "rows": [
+        {
+          "label": "Interfaces & Modules",
+          "key": "interfaces"
+        },
+        {
+          "label": "Wireless Models",
+          "key": "wirelessModels"
+        }
+      ]
+    },
+    {
+      "title": "NETWORKING FEATURES",
+      "rows": [
+        {
+          "label": "VLAN",
+          "key": "vlan"
+        },
+        {
+          "label": "SD-WAN Dynamic Path Selection",
+          "key": "sdwan"
+        }
+      ]
+    }
+  ],
+  "features": {
+    "OVERVIEW": [
+      {
+        "name": "Ideal For",
+        "value": "Small offices, branch offices, retail environments"
+      }
+    ],
+    "PERFORMANCE": [
+      {
+        "name": "UTM (Full Scan)",
+        "value": "557 Mbps"
+      },
+      {
+        "name": "Firewall (UDP 1518)",
+        "value": "3.94 Gbps"
+      },
+      {
+        "name": "VPN (UDP 1518)",
+        "value": "1.58 Gbps"
+      },
+      {
+        "name": "VPN (IMIX)",
+        "value": "460 Mbps"
+      },
+      {
+        "name": "AntiVirus",
+        "value": "874 Mbps"
+      },
+      {
+        "name": "IPS (Full Scan)",
+        "value": "716 Mbps"
+      },
+      {
+        "name": "HTTPS (Full Scan)",
+        "value": "301 Mbps"
+      }
+    ],
+    "VPN TUNNELS": [
+      {
+        "name": "Branch Office VPN Tunnels",
+        "value": "30"
+      },
+      {
+        "name": "Mobile VPN",
+        "value": "30"
+      }
+    ],
+    "HARDWARE": [
+      {
+        "name": "Interfaces & Modules",
+        "value": "5 x 1Gb Ethernet, 1 x PoE+ port"
+      },
+      {
+        "name": "Wireless Models",
+        "value": "N/A"
+      }
+    ],
+    "NETWORKING FEATURES": [
+      {
+        "name": "VLAN",
+        "value": "30"
+      },
+      {
+        "name": "SD-WAN Dynamic Path Selection",
+        "value": "✓"
+      }
+    ]
+  }
+}

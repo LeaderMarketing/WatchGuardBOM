@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <script>
+    // GitHub Pages SPA redirect: stores the real path then redirects to index
+    sessionStorage.redirect = location.href;
+    var base = '/WatchGuardBOM/';
+    location.replace(location.origin + base);
+  </script>
+</head>
+<body></body>
+</html>

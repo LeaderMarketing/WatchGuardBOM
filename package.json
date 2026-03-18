@@ -9,8 +9,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "seed": "node server/seed.js",
+    "export-data": "node scripts/export-static-data.cjs",
     "start": "node server/index.js",
-    "deploy": "npm run build && npx gh-pages -d dist"
+    "deploy": "npm run export-data && npm run build && npx gh-pages -d dist"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.7",
