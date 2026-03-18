@@ -1,0 +1,285 @@
+{
+  "id": 277,
+  "slug": "T125-W",
+  "name": "Firebox T125-W",
+  "family": "T-Series",
+  "category": "tabletop",
+  "description": "Compact UTM appliance with built-in Wi-Fi 7 antennas",
+  "image_file": "T125-W.jpg",
+  "appliance": {
+    "id": 3266,
+    "sku_code": "WGT126000",
+    "full_sku": "NWG-WGT126000",
+    "name": "WatchGuard Firebox T125-W Appliance Only",
+    "msrp": 369,
+    "delivery_method": "Physical",
+    "url": "https://partner.leadersystems.com.au/products.html?SdLcAVG/IYw=sUlrEpBkC2u6sBJSRtIfPQ==r34O4D2tYHsakngY+Dsr4fVUa4r3",
+    "sku_type": "appliance",
+    "subscription_type": null,
+    "term_years": null
+  },
+  "subscriptions": [
+    {
+      "id": 3270,
+      "sku_code": "WGT1260071",
+      "full_sku": "NWG-WGT1260071",
+      "name": "WatchGuard Basic Security Suite for Firebox T125-W - 1-Year",
+      "msrp": 799,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?jxSRiK5ieDE=b30GQIPUZDF4l7LK2Iyd2Q==L0IdFwZWn3/Mw1+8MARh9ShWeHWpRg==",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Suite",
+      "term_years": 1
+    },
+    {
+      "id": 3271,
+      "sku_code": "WGT1260073",
+      "full_sku": "NWG-WGT1260073",
+      "name": "WatchGuard Basic Security Suite for Firebox T125-W - 3-Year",
+      "msrp": 1476,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?mv7jbuPoZ2Q=jRx8EG5LOQCgGZGP+rj5ew==R8xpt5YhhOJcmrsnf6/R27xj8EvJEw==",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Suite",
+      "term_years": 3
+    },
+    {
+      "id": 3272,
+      "sku_code": "WGT1260075",
+      "full_sku": "NWG-WGT1260075",
+      "name": "WatchGuard Basic Security Suite for Firebox T125-W - 5-Year",
+      "msrp": 2669,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?gVAot7MLQAY=9blqX2Vrup0Y8L4OIaq2XQ==Ju3+HrNTzll60SCSooTEX08xAmU3XA==",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Suite",
+      "term_years": 5
+    },
+    {
+      "id": 3267,
+      "sku_code": "WGT1260061",
+      "full_sku": "NWG-WGT1260061",
+      "name": "WatchGuard Standard Support for Firebox T125-W - 1-Year",
+      "msrp": 578,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?XrEljqQPHkg=ZoTjvpQE5ipFRPYNEamNEg==GFINflc/dF8ZjJVJ27Q53mUB2SMSuw==",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support",
+      "term_years": 1
+    },
+    {
+      "id": 3268,
+      "sku_code": "WGT1260063",
+      "full_sku": "NWG-WGT1260063",
+      "name": "WatchGuard Standard Support for Firebox T125-W - 3-Year",
+      "msrp": 1070,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?VI/6kgxeyKs=U62i48tFVJzM1WUipj8v1g==Vuy7BulcBw1XidvPaVJuCVNbWC2ClQ==",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support",
+      "term_years": 3
+    },
+    {
+      "id": 3269,
+      "sku_code": "WGT1260065",
+      "full_sku": "NWG-WGT1260065",
+      "name": "WatchGuard Standard Support for Firebox T125-W - 5-Year",
+      "msrp": 1562,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?lf1x3iDZAIw=CzDEelilO+ngOhYJzRhLzA==zCmJXXOOhnRItWgO3L+RUy24joht8Q==",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support",
+      "term_years": 5
+    },
+    {
+      "id": 3273,
+      "sku_code": "WGT1260081",
+      "full_sku": "NWG-WGT1260081",
+      "name": "WatchGuard Total Security Suite for Firebox T125-W - 1-Year",
+      "msrp": 1316,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?a1nDfD2PCVQ=RBi5P6qmLVze/HlB6Oy0Kg==l/EKvSBjJRUXIfrXikPDAY9rG0Fvdw==",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Suite",
+      "term_years": 1
+    },
+    {
+      "id": 3274,
+      "sku_code": "WGT1260083",
+      "full_sku": "NWG-WGT1260083",
+      "name": "WatchGuard Total Security Suite for Firebox T125-W - 3-Year",
+      "msrp": 2472,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?HZvdaAHISI0=91GxLw0nFSmh4CmMO8izZg==EBmPeX9S6JHH4ewf9OAKDSRRfNQ9xg==",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Suite",
+      "term_years": 3
+    },
+    {
+      "id": 3275,
+      "sku_code": "WGT1260085",
+      "full_sku": "NWG-WGT1260085",
+      "name": "WatchGuard Total Security Suite for Firebox T125-W - 5-Year",
+      "msrp": 4477,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?c8/9k1HR9xE=ieauQwh7o0Y/oaHiKSIeSw==T7DMbhNuyCpeEqBZ/PDG1s1rLA6EzQ==",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Suite",
+      "term_years": 5
+    }
+  ],
+  "tradeUps": [],
+  "highAvailability": [],
+  "activationBundles": [],
+  "specSections": [
+    {
+      "title": "OVERVIEW",
+      "rows": [
+        {
+          "label": "Ideal For",
+          "key": "idealFor"
+        }
+      ]
+    },
+    {
+      "title": "PERFORMANCE",
+      "rows": [
+        {
+          "label": "UTM (Full Scan)",
+          "key": "utmFullScan"
+        },
+        {
+          "label": "Firewall (UDP 1518)",
+          "key": "firewallUdp"
+        },
+        {
+          "label": "VPN (UDP 1518)",
+          "key": "vpnUdp"
+        },
+        {
+          "label": "VPN (IMIX)",
+          "key": "vpnImix"
+        },
+        {
+          "label": "AntiVirus",
+          "key": "antivirus"
+        },
+        {
+          "label": "IPS (Full Scan)",
+          "key": "ipsFullScan"
+        },
+        {
+          "label": "HTTPS (Full Scan)",
+          "key": "httpsFullScan"
+        }
+      ]
+    },
+    {
+      "title": "VPN TUNNELS",
+      "rows": [
+        {
+          "label": "Branch Office VPN Tunnels",
+          "key": "branchVpn"
+        },
+        {
+          "label": "Mobile VPN",
+          "key": "mobileVpn"
+        }
+      ]
+    },
+    {
+      "title": "HARDWARE",
+      "rows": [
+        {
+          "label": "Interfaces & Modules",
+          "key": "interfaces"
+        },
+        {
+          "label": "Wireless Models",
+          "key": "wirelessModels"
+        }
+      ]
+    },
+    {
+      "title": "NETWORKING FEATURES",
+      "rows": [
+        {
+          "label": "VLAN",
+          "key": "vlan"
+        },
+        {
+          "label": "SD-WAN Dynamic Path Selection",
+          "key": "sdwan"
+        }
+      ]
+    }
+  ],
+  "features": {
+    "OVERVIEW": [
+      {
+        "name": "Ideal For",
+        "value": "25 Users"
+      }
+    ],
+    "PERFORMANCE": [
+      {
+        "name": "UTM (Full Scan)",
+        "value": "510 Mbps"
+      },
+      {
+        "name": "Firewall (UDP 1518)",
+        "value": "2.28 Gbps"
+      },
+      {
+        "name": "VPN (UDP 1518)",
+        "value": "1.44 Gbps"
+      },
+      {
+        "name": "VPN (IMIX)",
+        "value": "480 Mbps"
+      },
+      {
+        "name": "AntiVirus",
+        "value": "880 Mbps"
+      },
+      {
+        "name": "IPS (Full Scan)",
+        "value": "725 Mbps"
+      },
+      {
+        "name": "HTTPS (Full Scan)",
+        "value": "270 Mbps"
+      }
+    ],
+    "VPN TUNNELS": [
+      {
+        "name": "Branch Office VPN Tunnels",
+        "value": "10"
+      },
+      {
+        "name": "Mobile VPN",
+        "value": "10"
+      }
+    ],
+    "HARDWARE": [
+      {
+        "name": "Interfaces & Modules",
+        "value": "1 x 2.5 Gb, 4 x 1 Gb"
+      },
+      {
+        "name": "Wireless Models",
+        "value": "Built-in Wi-Fi 7"
+      }
+    ],
+    "NETWORKING FEATURES": [
+      {
+        "name": "VLAN",
+        "value": "Unrestricted"
+      },
+      {
+        "name": "SD-WAN Dynamic Path Selection",
+        "value": "✓"
+      }
+    ]
+  }
+}

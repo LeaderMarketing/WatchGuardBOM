@@ -1,0 +1,266 @@
+{
+  "id": 264,
+  "slug": "M295",
+  "name": "Firebox M295",
+  "family": "M-Series",
+  "category": "mseries",
+  "description": "Rackmount UTM for medium-sized businesses",
+  "image_file": "m295.jpg",
+  "appliance": {
+    "id": 3112,
+    "sku_code": "WGM295000",
+    "full_sku": "NWG-WGM295000",
+    "name": "WatchGuard Firebox M295 Appliance Only",
+    "msrp": 1280,
+    "delivery_method": "Physical",
+    "url": "https://partner.leadersystems.com.au/products.html?f+P56YCTCy8=S9Ja6Q+3mbBtIKJiOv9/7A==VLEGFj8wa3DfDltzpR7HX7bGItBC",
+    "sku_type": "appliance",
+    "subscription_type": null,
+    "term_years": null
+  },
+  "subscriptions": [
+    {
+      "id": 3115,
+      "sku_code": "WGM2950071",
+      "full_sku": "NWG-WGM2950071",
+      "name": "WatchGuard Basic Security Suite for Firebox M295 - 1-Year",
+      "msrp": 2940,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?vBMFR4Zb45c=7Ka4xDDVOJVAG00WEQix0g==IVFIHBPKhK+WxTHip05zxuDRxVN9yA==",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Suite",
+      "term_years": 1
+    },
+    {
+      "id": 3116,
+      "sku_code": "WGM2950073",
+      "full_sku": "NWG-WGM2950073",
+      "name": "WatchGuard Basic Security Suite for Firebox M295 - 3-Year",
+      "msrp": 5461,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?ostYhHXTzEA=9vP/Hl8Il1Ix0tzo1VHSMw==c9ueWq0L4D/WFQy0hUHDL1YneakgpQ==",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Suite",
+      "term_years": 3
+    },
+    {
+      "id": 3113,
+      "sku_code": "WGM2950061",
+      "full_sku": "NWG-WGM2950061",
+      "name": "WatchGuard Standard Support for Firebox M295 - 1-Year",
+      "msrp": 2202,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?Z2GSzt1Dq+8=rrtL3MNdziKbOKhCScRYxg==+FP+2dmJ1+ms4IWRd88TjKVDPk8LsA==",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support",
+      "term_years": 1
+    },
+    {
+      "id": 3114,
+      "sku_code": "WGM2950063",
+      "full_sku": "NWG-WGM2950063",
+      "name": "WatchGuard Standard Support for Firebox M295 - 3-Year",
+      "msrp": 3862,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?FcZzvlv4V8o=95M4P3UaUahuSHVmdk271A==BZSm65HCBQAOr/weojKUEiUU6uxJcg==",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support",
+      "term_years": 3
+    },
+    {
+      "id": 3117,
+      "sku_code": "WGM2950081",
+      "full_sku": "NWG-WGM2950081",
+      "name": "WatchGuard Total Security Suite for Firebox M295 - 1-Year",
+      "msrp": 4637,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?4AJvzSqbDgk=LnmYAN4lds+z1Y9kd2MbCw==nsgpw6RCo4K1yZy3+r8Ii9T6zHch8w==",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Suite",
+      "term_years": 1
+    },
+    {
+      "id": 3118,
+      "sku_code": "WGM2950083",
+      "full_sku": "NWG-WGM2950083",
+      "name": "WatchGuard Total Security Suite for Firebox M295 - 3-Year",
+      "msrp": 9458,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?ehsyrzMm3yA=gfXsMYdzkHod/QyTSDvN2g==H2birTR8PrSYyxTikucLiMbnlYdH9A==",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Suite",
+      "term_years": 3
+    }
+  ],
+  "tradeUps": [],
+  "highAvailability": [
+    {
+      "id": 3122,
+      "sku_code": "WGM2951601",
+      "full_sku": "NWG-WGM2951601",
+      "name": "WatchGuard  Standard Support for Firebox M295 High Availability - 1-Year",
+      "msrp": 492,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?zfmqiYkfkXg=OOdxQ8jXsl0knZ93lCVgDw==Q5elwQkaEBKukgoVjJh5bvVVsCvdCg==",
+      "sku_type": "high_availability",
+      "subscription_type": "High Availability",
+      "term_years": 1
+    },
+    {
+      "id": 3123,
+      "sku_code": "WGM2951603",
+      "full_sku": "NWG-WGM2951603",
+      "name": "WatchGuard  Standard Support for Firebox M295 High Availability - 3-Year",
+      "msrp": 1833,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?c643RGO4Bm4=R847niX7Kb3uB1B706r+uQ==/hvlA44p3LLVFsvcKyX0d1FTEa8x3A==",
+      "sku_type": "high_availability",
+      "subscription_type": "High Availability",
+      "term_years": 3
+    }
+  ],
+  "activationBundles": [],
+  "specSections": [
+    {
+      "title": "OVERVIEW",
+      "rows": [
+        {
+          "label": "Ideal For",
+          "key": "idealFor"
+        }
+      ]
+    },
+    {
+      "title": "PERFORMANCE",
+      "rows": [
+        {
+          "label": "UTM (Full Scan)",
+          "key": "utmFullScan"
+        },
+        {
+          "label": "Firewall (UDP 1518)",
+          "key": "firewallUdp"
+        },
+        {
+          "label": "VPN (UDP 1518)",
+          "key": "vpnUdp"
+        },
+        {
+          "label": "VPN (IMIX)",
+          "key": "vpnImix"
+        },
+        {
+          "label": "AntiVirus",
+          "key": "antivirus"
+        },
+        {
+          "label": "IPS (Full Scan)",
+          "key": "ipsFullScan"
+        },
+        {
+          "label": "HTTPS (Full Scan)",
+          "key": "httpsFullScan"
+        }
+      ]
+    },
+    {
+      "title": "VPN TUNNELS",
+      "rows": [
+        {
+          "label": "Branch Office VPN Tunnels",
+          "key": "branchVpn"
+        },
+        {
+          "label": "Mobile VPN",
+          "key": "mobileVpn"
+        }
+      ]
+    },
+    {
+      "title": "HARDWARE",
+      "rows": [
+        {
+          "label": "Interfaces & Modules",
+          "key": "interfaces"
+        }
+      ]
+    },
+    {
+      "title": "NETWORKING FEATURES",
+      "rows": [
+        {
+          "label": "VLAN",
+          "key": "vlan"
+        },
+        {
+          "label": "SD-WAN Dynamic Path Selection",
+          "key": "sdwan"
+        }
+      ]
+    }
+  ],
+  "features": {
+    "OVERVIEW": [
+      {
+        "name": "Ideal For",
+        "value": "100 Users"
+      }
+    ],
+    "PERFORMANCE": [
+      {
+        "name": "UTM (Full Scan)",
+        "value": "1.85 Gbps"
+      },
+      {
+        "name": "Firewall (UDP 1518)",
+        "value": "7.9 Gbps"
+      },
+      {
+        "name": "VPN (UDP 1518)",
+        "value": "5.8 Gbps"
+      },
+      {
+        "name": "VPN (IMIX)",
+        "value": "1.8 Gbps"
+      },
+      {
+        "name": "AntiVirus",
+        "value": "3 Gbps"
+      },
+      {
+        "name": "IPS (Full Scan)",
+        "value": "2.41 Gbps"
+      },
+      {
+        "name": "HTTPS (Full Scan)",
+        "value": "1.12 Gbps"
+      }
+    ],
+    "VPN TUNNELS": [
+      {
+        "name": "Branch Office VPN Tunnels",
+        "value": "100"
+      },
+      {
+        "name": "Mobile VPN",
+        "value": "100"
+      }
+    ],
+    "HARDWARE": [
+      {
+        "name": "Interfaces & Modules",
+        "value": "4x2.5Gb, 4x1Gb, 2xSFP+"
+      }
+    ],
+    "NETWORKING FEATURES": [
+      {
+        "name": "VLAN",
+        "value": "Unrestricted"
+      },
+      {
+        "name": "SD-WAN Dynamic Path Selection",
+        "value": "✓"
+      }
+    ]
+  }
+}

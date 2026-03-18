@@ -1,0 +1,201 @@
+{
+  "id": 260,
+  "slug": "AP430CR",
+  "name": "WatchGuard AP430CR",
+  "family": "Access Points",
+  "category": "wifi",
+  "description": "High-density outdoor AP for stadiums and campuses",
+  "image_file": "AP430CR.jpg",
+  "appliance": {
+    "id": 3084,
+    "sku_code": "WGA430000",
+    "full_sku": "NWG-WGA430000",
+    "name": "WatchGuard AP430CR Appliance Only",
+    "msrp": 1674,
+    "delivery_method": "Physical",
+    "url": "https://partner.leadersystems.com.au/products.html?fc5j5BkoWHY=oNv0mHAddQeDw/dCwXNbvg==5XjaTqBzOetV4MRYYamtZoZOl10d",
+    "sku_type": "appliance",
+    "subscription_type": null,
+    "term_years": null
+  },
+  "subscriptions": [
+    {
+      "id": 3089,
+      "sku_code": "WGA43022101",
+      "full_sku": "NWG-WGA43022101",
+      "name": "Standard Wi-Fi Management for WatchGuard AP430CR - 1-year",
+      "msrp": 92,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?pnSCkNSRkuw=ubx8ANb1ETL0Yg8UR4O+CQ==wIMnEoDrznB8xnT0ipyffUsQAST2NUw=",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Wi-Fi",
+      "term_years": 1
+    },
+    {
+      "id": 3090,
+      "sku_code": "WGA43022103",
+      "full_sku": "NWG-WGA43022103",
+      "name": "Standard Wi-Fi Management for WatchGuard AP430CR - 3-year",
+      "msrp": 183,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?F4c17fvfk2U=BBXz7c9PQ0TthpIQXTtQUg==TBohlrC2dMGIkznZQG66FQ6KQ7IIcSk=",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Wi-Fi",
+      "term_years": 3
+    },
+    {
+      "id": 3091,
+      "sku_code": "WGA43022105",
+      "full_sku": "NWG-WGA43022105",
+      "name": "Standard Wi-Fi Management for WatchGuard AP430CR - 5-year",
+      "msrp": 275,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?gQBCcJFzZrE=E4YpOFE129pyOXLTC+SHtQ==ORan3c4o/ViQq31M5rOMiGp/Uzl3zQo=",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Wi-Fi",
+      "term_years": 5
+    },
+    {
+      "id": 3086,
+      "sku_code": "WGA43022001",
+      "full_sku": "NWG-WGA43022001",
+      "name": "USP Wi-Fi Management for WatchGuard AP430CR - 1-year",
+      "msrp": 153,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?kL+jpgvn55E=zinYUhICQxo5S8viTyV2rA==NNGVT9TnYKxKDVdI6V1UYfe0HvZE6yA=",
+      "sku_type": "subscription",
+      "subscription_type": "USP Wi-Fi",
+      "term_years": 1
+    },
+    {
+      "id": 3087,
+      "sku_code": "WGA43022003",
+      "full_sku": "NWG-WGA43022003",
+      "name": "USP Wi-Fi Management for WatchGuard AP430CR - 3-year",
+      "msrp": 306,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?PzlTA+VKqvs=K2PvC5e5wv7yuQBCjOWErQ==aZHx0OQqSTuSRCy61zLdhIND+5sdits=",
+      "sku_type": "subscription",
+      "subscription_type": "USP Wi-Fi",
+      "term_years": 3
+    },
+    {
+      "id": 3088,
+      "sku_code": "WGA43022005",
+      "full_sku": "NWG-WGA43022005",
+      "name": "USP Wi-Fi Management for WatchGuard AP430CR - 5-year",
+      "msrp": 458,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?yFiv+IuNBm8=FqdqAv/wrZnWClE3ZMHVig==XgTDPnDuH2fm+NpJYh7ff/VMqtxh5zc=",
+      "sku_type": "subscription",
+      "subscription_type": "USP Wi-Fi",
+      "term_years": 5
+    }
+  ],
+  "tradeUps": [],
+  "highAvailability": [],
+  "activationBundles": [
+    {
+      "id": 3085,
+      "sku_code": "WGA43003309",
+      "full_sku": "NWG-WGA43003309",
+      "name": "Points Activation Bundle for WatchGuard AP430CR",
+      "msrp": 176,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?y9S3lTUQK4o=JZBoEO/wxTWvNlPhJ6J3aA==vzrSgdyr78KaswDws+LWary8fO1VS1A=",
+      "sku_type": "activation_bundle",
+      "subscription_type": null,
+      "term_years": null
+    }
+  ],
+  "specSections": [
+    {
+      "title": "OVERVIEW",
+      "rows": [
+        {
+          "label": "Recommended Use Cases",
+          "key": "idealFor"
+        },
+        {
+          "label": "Environment",
+          "key": "environment"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SPECS",
+      "rows": [
+        {
+          "label": "Radios & Streams",
+          "key": "radiosStreams"
+        },
+        {
+          "label": "Number of Antennas",
+          "key": "numAntennas"
+        },
+        {
+          "label": "Maximum Data Rate",
+          "key": "maxDataRate"
+        },
+        {
+          "label": "Ports",
+          "key": "ports"
+        },
+        {
+          "label": "Power Consumption",
+          "key": "powerConsumption"
+        },
+        {
+          "label": "Mounting Options (Included)",
+          "key": "mountingOptions"
+        },
+        {
+          "label": "Optional Accessories",
+          "key": "optionalAccessories"
+        }
+      ]
+    }
+  ],
+  "features": {
+    "OVERVIEW": [
+      {
+        "name": "Recommended Use Cases",
+        "value": "High-density rugged or outdoor environments such as campuses, manufacturing, stadiums, and hospital facilities"
+      },
+      {
+        "name": "Environment",
+        "value": "Outdoor / Rugged"
+      }
+    ],
+    "TECHNICAL SPECS": [
+      {
+        "name": "Radios & Streams",
+        "value": "Wi‑Fi 6 4x4 with 2x2 dedicated scanning security radio"
+      },
+      {
+        "name": "Number of Antennas",
+        "value": "6 external N-Type connectors (antennas sold separately)"
+      },
+      {
+        "name": "Maximum Data Rate",
+        "value": "2402 Mbps (4x4) / 574 Mbps (2x2)"
+      },
+      {
+        "name": "Ports",
+        "value": "1 x 5Gbps (PoE+), 1 x 1Gbps"
+      },
+      {
+        "name": "Power Consumption",
+        "value": "Peak 21.3W / Average 16W"
+      },
+      {
+        "name": "Mounting Options (Included)",
+        "value": "Flat surface mount, pole mount"
+      },
+      {
+        "name": "Optional Accessories",
+        "value": "802.3at PoE+ injector"
+      }
+    ]
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "id": 280,
+  "slug": "T185",
+  "name": "Firebox T185",
+  "family": "T-Series",
+  "category": "tabletop",
+  "description": "High-performance tabletop for growing businesses",
+  "image_file": "T185.jpg",
+  "appliance": {
+    "id": 3311,
+    "sku_code": "WGT185000",
+    "full_sku": "NWG-WGT185000",
+    "name": "WatchGuard Firebox T185 Appliance Only",
+    "msrp": 959,
+    "delivery_method": "Physical",
+    "url": "https://partner.leadersystems.com.au/products.html?XgJTyGqWKSs=RI6mkbQaSNgdTWuw9JoArA==qKuTcjzxDMLaqqxm0jCFk5EK47bQ",
+    "sku_type": "appliance",
+    "subscription_type": null,
+    "term_years": null
+  },
+  "subscriptions": [
+    {
+      "id": 3315,
+      "sku_code": "WGT1850071",
+      "full_sku": "NWG-WGT1850071",
+      "name": "WatchGuard Basic Security Suite for Firebox T185 - 1-Year",
+      "msrp": 2239,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?aXp33ZbZDuk=ZEjqmtLumV0npaDg9PrShw==SyQ3utm04G1W2J00yl80fTgMjJqtlw==",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Suite",
+      "term_years": 1
+    },
+    {
+      "id": 3316,
+      "sku_code": "WGT1850073",
+      "full_sku": "NWG-WGT1850073",
+      "name": "WatchGuard Basic Security Suite for Firebox T185 - 3-Year",
+      "msrp": 4157,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?OBMP6GTdnKs=uL5EDaeOq/WQ9BsPXUQq+A==ZWqWnm+le6j/gex5dLebLyEkp4cGag==",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Suite",
+      "term_years": 3
+    },
+    {
+      "id": 3317,
+      "sku_code": "WGT1850075",
+      "full_sku": "NWG-WGT1850075",
+      "name": "WatchGuard Basic Security Suite for Firebox T185 - 5-Year",
+      "msrp": 7515,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?sAkoEsw9j8M=VWfs+TbOgYfcvFZ9WNDi6A==V/+7BZTq+EY6hiWXEwos7cfnhTi4uQ==",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Suite",
+      "term_years": 5
+    },
+    {
+      "id": 3312,
+      "sku_code": "WGT1850061",
+      "full_sku": "NWG-WGT1850061",
+      "name": "WatchGuard Standard Support for Firebox T185 - 1-Year",
+      "msrp": 1679,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?EULQuvqf0WA=5+/Of3IuC9tVqDimOlhclg==TqE5QZaGP2UfxOQ2TYrQlebTPG4oGg==",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support",
+      "term_years": 1
+    },
+    {
+      "id": 3313,
+      "sku_code": "WGT1850063",
+      "full_sku": "NWG-WGT1850063",
+      "name": "WatchGuard Standard Support for Firebox T185 - 3-Year",
+      "msrp": 3001,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?kWLQD/ycQiw=C8XTpv/CuEScTcgNw92BUQ==NonEgILrE+arwE05gH8QLh+lCsMVSQ==",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support",
+      "term_years": 3
+    },
+    {
+      "id": 3314,
+      "sku_code": "WGT1850065",
+      "full_sku": "NWG-WGT1850065",
+      "name": "WatchGuard Standard Support for Firebox T185 - 5-Year",
+      "msrp": 5375,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?aohDRJuO6Tc=/CQoaIDwsd93BKaZxiPTfA==LFg/YZ7kmHzrc78zqHW8Pj6Au0zlKw==",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support",
+      "term_years": 5
+    },
+    {
+      "id": 3318,
+      "sku_code": "WGT1850081",
+      "full_sku": "NWG-WGT1850081",
+      "name": "WatchGuard Total Security Suite for Firebox T185 - 1-Year",
+      "msrp": 3751,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?UASpLHW2HPg=4UGtO0ThS9gKAAdujtp22w==VhQEWSpiSrGrUDp4PDZ9cjGipj8EFA==",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Suite",
+      "term_years": 1
+    },
+    {
+      "id": 3319,
+      "sku_code": "WGT1850083",
+      "full_sku": "NWG-WGT1850083",
+      "name": "WatchGuard Total Security Suite for Firebox T185 - 3-Year",
+      "msrp": 7023,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?tKhMsK729i8=gCBVswBAQaI82qb9QVDjOw==pMi6R5nPZPSelxedGNQIOb78quHGAA==",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Suite",
+      "term_years": 3
+    },
+    {
+      "id": 3320,
+      "sku_code": "WGT1850085",
+      "full_sku": "NWG-WGT1850085",
+      "name": "WatchGuard Total Security Suite for Firebox T185 - 5-Year",
+      "msrp": 12761,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?i94oEVVKjKg=lo81lKQFn7od1+z4BQ5reQ==5N4+10DvfJ3oBoDVc+6e5mvvDZh5wg==",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Suite",
+      "term_years": 5
+    }
+  ],
+  "tradeUps": [],
+  "highAvailability": [
+    {
+      "id": 3321,
+      "sku_code": "WGT18501601",
+      "full_sku": "NWG-WGT18501601",
+      "name": "WatchGuard  Standard Support for Firebox T185 High Availability - 1-Year",
+      "msrp": 627,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?z0oNz6dUarg=sSKqsxpRdZnIyzQc14hHng==R63zSMQnM4Jx4zzkFvXF3vZZc5k13NI=",
+      "sku_type": "high_availability",
+      "subscription_type": "High Availability",
+      "term_years": 1
+    },
+    {
+      "id": 3322,
+      "sku_code": "WGT18501603",
+      "full_sku": "NWG-WGT18501603",
+      "name": "WatchGuard  Standard Support for Firebox T185 High Availability - 3-Year",
+      "msrp": 1421,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?RapMXRmSsd8=AHnReaXQ9uO/jMolLKvM3A==kQ+rugl3UufjrS1AcvedI6bxGVP+8tk=",
+      "sku_type": "high_availability",
+      "subscription_type": "High Availability",
+      "term_years": 3
+    },
+    {
+      "id": 3323,
+      "sku_code": "WGT18501605",
+      "full_sku": "NWG-WGT18501605",
+      "name": "WatchGuard  Standard Support for Firebox T185 High Availability - 5-Year",
+      "msrp": 2853,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?LwAgbvWHlaE=M9GBLGMCUbHTzQHKRISWow==mGXu8LDttsWK2C7hhZmb6L0sfuntH10=",
+      "sku_type": "high_availability",
+      "subscription_type": "High Availability",
+      "term_years": 5
+    }
+  ],
+  "activationBundles": [],
+  "specSections": [
+    {
+      "title": "OVERVIEW",
+      "rows": [
+        {
+          "label": "Ideal For",
+          "key": "idealFor"
+        }
+      ]
+    },
+    {
+      "title": "PERFORMANCE",
+      "rows": [
+        {
+          "label": "UTM (Full Scan)",
+          "key": "utmFullScan"
+        },
+        {
+          "label": "Firewall (UDP 1518)",
+          "key": "firewallUdp"
+        },
+        {
+          "label": "VPN (UDP 1518)",
+          "key": "vpnUdp"
+        },
+        {
+          "label": "VPN (IMIX)",
+          "key": "vpnImix"
+        },
+        {
+          "label": "AntiVirus",
+          "key": "antivirus"
+        },
+        {
+          "label": "IPS (Full Scan)",
+          "key": "ipsFullScan"
+        },
+        {
+          "label": "HTTPS (Full Scan)",
+          "key": "httpsFullScan"
+        }
+      ]
+    },
+    {
+      "title": "VPN TUNNELS",
+      "rows": [
+        {
+          "label": "Branch Office VPN Tunnels",
+          "key": "branchVpn"
+        },
+        {
+          "label": "Mobile VPN",
+          "key": "mobileVpn"
+        }
+      ]
+    },
+    {
+      "title": "HARDWARE",
+      "rows": [
+        {
+          "label": "Interfaces & Modules",
+          "key": "interfaces"
+        },
+        {
+          "label": "Wireless Models",
+          "key": "wirelessModels"
+        }
+      ]
+    },
+    {
+      "title": "NETWORKING FEATURES",
+      "rows": [
+        {
+          "label": "VLAN",
+          "key": "vlan"
+        },
+        {
+          "label": "SD-WAN Dynamic Path Selection",
+          "key": "sdwan"
+        }
+      ]
+    }
+  ],
+  "features": {
+    "OVERVIEW": [
+      {
+        "name": "Ideal For",
+        "value": "100 Users"
+      }
+    ],
+    "PERFORMANCE": [
+      {
+        "name": "UTM (Full Scan)",
+        "value": "1.83 Gbps"
+      },
+      {
+        "name": "Firewall (UDP 1518)",
+        "value": "7.9 Gbps"
+      },
+      {
+        "name": "VPN (UDP 1518)",
+        "value": "5.8 Gbps"
+      },
+      {
+        "name": "VPN (IMIX)",
+        "value": "1.14 Gbps"
+      },
+      {
+        "name": "AntiVirus",
+        "value": "3 Gbps"
+      },
+      {
+        "name": "IPS (Full Scan)",
+        "value": "2.41 Gbps"
+      },
+      {
+        "name": "HTTPS (Full Scan)",
+        "value": "1 Gbps"
+      }
+    ],
+    "VPN TUNNELS": [
+      {
+        "name": "Branch Office VPN Tunnels",
+        "value": "100"
+      },
+      {
+        "name": "Mobile VPN",
+        "value": "100"
+      }
+    ],
+    "HARDWARE": [
+      {
+        "name": "Interfaces & Modules",
+        "value": "4 x 1 Gb, 4 x 2.5 Gbps, 1 x SFP/SFP+"
+      },
+      {
+        "name": "Wireless Models",
+        "value": "N/A"
+      }
+    ],
+    "NETWORKING FEATURES": [
+      {
+        "name": "VLAN",
+        "value": "Unrestricted"
+      },
+      {
+        "name": "SD-WAN Dynamic Path Selection",
+        "value": "✓"
+      }
+    ]
+  }
+}
