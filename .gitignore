@@ -10,3 +10,4 @@ server/products.db-wal
 server/products.db-shm
 .playwright-mcp/
 .gstack/
+.worktrees/
