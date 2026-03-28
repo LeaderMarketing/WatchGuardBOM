@@ -3,7 +3,7 @@
     "label": "Firebox Tabletop (T-Series)",
     "products": [
       {
-        "id": 274,
+        "id": 332,
         "slug": "T115-W",
         "name": "Firebox T115-W",
         "family": "T-Series",
@@ -14,12 +14,12 @@
           "sku_code": "WGT116000",
           "full_sku": "NWG-WGT116000",
           "name": "WatchGuard Firebox T115-W Appliance Only",
-          "msrp": 271,
+          "msrp": 346,
           "url": "https://partner.leadersystems.com.au/products.html?+i6HO7kKXsI=bcqpDp2O5kUC0433hv2qvg==0iZad6QcJowHs9kG2PvwRLyJulsl"
         }
       },
       {
-        "id": 276,
+        "id": 334,
         "slug": "T125",
         "name": "Firebox T125",
         "family": "T-Series",
@@ -30,12 +30,12 @@
           "sku_code": "WGT125000",
           "full_sku": "NWG-WGT125000",
           "name": "WatchGuard Firebox T125 Appliance Only",
-          "msrp": 320,
+          "msrp": 409,
           "url": "https://partner.leadersystems.com.au/products.html?6eWCO27Ee4o=9Lof2Sw9i+1b11c13Zn2Iw==JNCR50rfWpB7Z3FqVThNGmztr9qy"
         }
       },
       {
-        "id": 277,
+        "id": 335,
         "slug": "T125-W",
         "name": "Firebox T125-W",
         "family": "T-Series",
@@ -46,12 +46,12 @@
           "sku_code": "WGT126000",
           "full_sku": "NWG-WGT126000",
           "name": "WatchGuard Firebox T125-W Appliance Only",
-          "msrp": 369,
+          "msrp": 472,
           "url": "https://partner.leadersystems.com.au/products.html?SdLcAVG/IYw=sUlrEpBkC2u6sBJSRtIfPQ==r34O4D2tYHsakngY+Dsr4fVUa4r3"
         }
       },
       {
-        "id": 278,
+        "id": 336,
         "slug": "T145",
         "name": "Firebox T145",
         "family": "T-Series",
@@ -62,12 +62,12 @@
           "sku_code": "WGT145000",
           "full_sku": "NWG-WGT145000",
           "name": "WatchGuard Firebox T145 Appliance Only",
-          "msrp": 486,
+          "msrp": 621,
           "url": "https://partner.leadersystems.com.au/products.html?PZFtf5v+W2U=XcnwhxE9RNTwfmsBZseWTQ==dr9PBwbcTUKTNCHMWCKS7FcYiIKe"
         }
       },
       {
-        "id": 279,
+        "id": 337,
         "slug": "T145-W",
         "name": "Firebox T145-W",
         "family": "T-Series",
@@ -78,12 +78,12 @@
           "sku_code": "WGT146000",
           "full_sku": "NWG-WGT146000",
           "name": "WatchGuard Firebox T145-W Appliance Only",
-          "msrp": 541,
+          "msrp": 692,
           "url": "https://partner.leadersystems.com.au/products.html?YAJDGj0WfNU=i6GQ54/SlH6vcw811EOWmA==So59XbGcwSifxziR3nUuBZHmBo8e"
         }
       },
       {
-        "id": 280,
+        "id": 338,
         "slug": "T185",
         "name": "Firebox T185",
         "family": "T-Series",
@@ -94,12 +94,12 @@
           "sku_code": "WGT185000",
           "full_sku": "NWG-WGT185000",
           "name": "WatchGuard Firebox T185 Appliance Only",
-          "msrp": 959,
+          "msrp": 1226,
           "url": "https://partner.leadersystems.com.au/products.html?XgJTyGqWKSs=RI6mkbQaSNgdTWuw9JoArA==qKuTcjzxDMLaqqxm0jCFk5EK47bQ"
         }
       },
       {
-        "id": 281,
+        "id": 339,
         "slug": "T25-W",
         "name": "Firebox T25-W",
         "family": "T-Series",
@@ -110,12 +110,12 @@
           "sku_code": "WGT26000",
           "full_sku": "NWG-WGT26000",
           "name": "WatchGuard Firebox T25-W Appliance Only",
-          "msrp": 510,
+          "msrp": 653,
           "url": "https://partner.leadersystems.com.au/products.html?Mt6+n+1vrzc=STF9BMD3mOECNm+oPeNxUA==wKevsv3Ya7YGKg1zHbwOgwn+UaI="
         }
       },
       {
-        "id": 282,
+        "id": 340,
         "slug": "T45-CW",
         "name": "Firebox T45-CW",
         "family": "T-Series",
@@ -126,12 +126,12 @@
           "sku_code": "WGT49000-AU",
           "full_sku": "NWG-WGT49000-AU",
           "name": "WatchGuard Firebox T45-CW  Appliance Only (AU)",
-          "msrp": 1093,
+          "msrp": 1397,
           "url": "https://partner.leadersystems.com.au/products.html?o0Bh/WpKcog=habsB3qdV54BegP1Hg7y1A==kSbd5xz14Xbl9ZoMlRkh4IN6Qx5MR90="
         }
       },
       {
-        "id": 283,
+        "id": 341,
         "slug": "T45-PoE",
         "name": "Firebox T45-PoE",
         "family": "T-Series",
@@ -142,12 +142,12 @@
           "sku_code": "WGT47000-AU",
           "full_sku": "NWG-WGT47000-AU",
           "name": "WatchGuard Firebox T45-PoE  Appliance Only (AU)",
-          "msrp": 734,
+          "msrp": 939,
           "url": "https://partner.leadersystems.com.au/products.html?YCGmGhMvRdg=rkSt+tNGql+FNVRs3jCrqw==mfop2de0pflG/4no8Hbks+BCf2Bt6gk="
         }
       },
       {
-        "id": 284,
+        "id": 342,
         "slug": "T45-W-PoE",
         "name": "Firebox T45-W-PoE",
         "family": "T-Series",
@@ -158,7 +158,7 @@
           "sku_code": "WGT48000-AU",
           "full_sku": "NWG-WGT48000-AU",
           "name": "WatchGuard Firebox T45-W-PoE  Appliance Only (AU)",
-          "msrp": 954,
+          "msrp": 1220,
           "url": "https://partner.leadersystems.com.au/products.html?J/MKJxRJ5FE=mHMqDkcdrw6rz01E5XBDeg==l6OjGbHKZHnUozC4ol8rzFg+6c8OhDQ="
         }
       }
@@ -168,7 +168,7 @@
     "label": "Firebox Rackmount (M-Series)",
     "products": [
       {
-        "id": 262,
+        "id": 320,
         "slug": "M290",
         "name": "Firebox M290",
         "family": "M-Series",
@@ -179,12 +179,12 @@
           "sku_code": "WGM290000",
           "full_sku": "NWG-WGM290000",
           "name": "WatchGuard Firebox M290 Appliance Only",
-          "msrp": 1771,
+          "msrp": 2263,
           "url": "https://partner.leadersystems.com.au/products.html?25G8t4aw4dk=eLXsKS+pQmY6ZLS6bool5A==Fy85f2ZnRBWu+yGIHkHx220yMHGk"
         }
       },
       {
-        "id": 264,
+        "id": 322,
         "slug": "M295",
         "name": "Firebox M295",
         "family": "M-Series",
@@ -195,12 +195,12 @@
           "sku_code": "WGM295000",
           "full_sku": "NWG-WGM295000",
           "name": "WatchGuard Firebox M295 Appliance Only",
-          "msrp": 1280,
+          "msrp": 1572,
           "url": "https://partner.leadersystems.com.au/products.html?f+P56YCTCy8=S9Ja6Q+3mbBtIKJiOv9/7A==VLEGFj8wa3DfDltzpR7HX7bGItBC"
         }
       },
       {
-        "id": 265,
+        "id": 323,
         "slug": "M390",
         "name": "Firebox M390",
         "family": "M-Series",
@@ -211,12 +211,12 @@
           "sku_code": "WGM390000",
           "full_sku": "NWG-WGM390000",
           "name": "WatchGuard Firebox M390 Appliance Only",
-          "msrp": 2663,
+          "msrp": 3403,
           "url": "https://partner.leadersystems.com.au/products.html?u7QSJo/m1dQ=fPftxpm3ioTnoJbumNEmyQ==9+g+0OOyqe9UtGXYaFT6DOubNLdU"
         }
       },
       {
-        "id": 266,
+        "id": 324,
         "slug": "M395",
         "name": "Firebox M395",
         "family": "M-Series",
@@ -227,12 +227,12 @@
           "sku_code": "WGM395000",
           "full_sku": "NWG-WGM395000",
           "name": "WatchGuard Firebox M395 Appliance Only",
-          "msrp": 1968,
+          "msrp": 2515,
           "url": "https://partner.leadersystems.com.au/products.html?u75GJ2OEi3Q=DsEtdQQ+T/Ak2abaBogj7Q==cZWQ2ztjvR0ABpLKZ14V2V0gbrPs"
         }
       },
       {
-        "id": 267,
+        "id": 325,
         "slug": "M4800",
         "name": "Firebox M4800",
         "family": "M-Series",
@@ -243,12 +243,12 @@
           "sku_code": "WGM48000",
           "full_sku": "NWG-WGM48000",
           "name": "WatchGuard Firebox M4800 Appliance Only",
-          "msrp": 8671,
+          "msrp": 11079,
           "url": "https://partner.leadersystems.com.au/products.html?BLOjs3SE31U=qzsmbnPndWeC0nNFCt47XQ==gMK+0fFwLdxlH3O3SHqVNZizS5k="
         }
       },
       {
-        "id": 268,
+        "id": 326,
         "slug": "M495",
         "name": "Firebox M495",
         "family": "M-Series",
@@ -259,12 +259,12 @@
           "sku_code": "WGM495000",
           "full_sku": "NWG-WGM495000",
           "name": "WatchGuard Firebox M495 Appliance Only",
-          "msrp": 2952,
+          "msrp": 3772,
           "url": "https://partner.leadersystems.com.au/products.html?9K7ePLksUz8=z5frc+wZO/nAeDjgi8wesg==hN7KDPfkKS9ww0jo1xoIfgBOHD2G"
         }
       },
       {
-        "id": 269,
+        "id": 327,
         "slug": "M5800",
         "name": "Firebox M5800",
         "family": "M-Series",
@@ -275,12 +275,12 @@
           "sku_code": "WGM58000",
           "full_sku": "NWG-WGM58000",
           "name": "WatchGuard Firebox M5800 Appliance Only",
-          "msrp": 11561,
+          "msrp": 14772,
           "url": "https://partner.leadersystems.com.au/products.html?IQc4mjiUZSc=IEMrZIGuyGP1MV7M7UmwUg==qc3GWcH5YEgrRvIBswT4yTD3exY="
         }
       },
       {
-        "id": 270,
+        "id": 328,
         "slug": "M590",
         "name": "Firebox M590",
         "family": "M-Series",
@@ -291,12 +291,12 @@
           "sku_code": "WGM590000",
           "full_sku": "NWG-WGM590000",
           "name": "WatchGuard Firebox M590 Appliance Only",
-          "msrp": 5289,
+          "msrp": 6758,
           "url": "https://partner.leadersystems.com.au/products.html?C55s6H/nLX8=T121u4M04MH9dDK0mxfEnw==lz0ZD5+qhT7OmLknFZNmQjYlaeSO"
         }
       },
       {
-        "id": 271,
+        "id": 329,
         "slug": "M595",
         "name": "Firebox M595",
         "family": "M-Series",
@@ -307,12 +307,12 @@
           "sku_code": "WGM595000",
           "full_sku": "NWG-WGM595000",
           "name": "WatchGuard Firebox M595 Appliance Only",
-          "msrp": 3936,
+          "msrp": 5029,
           "url": "https://partner.leadersystems.com.au/products.html?FG2/9d1bwx8=imU52ROCT3CK/AvyrrFUug==l0Bdq8vVdts0m+Tkm4ThwbcOKUed"
         }
       },
       {
-        "id": 272,
+        "id": 330,
         "slug": "M690",
         "name": "Firebox M690",
         "family": "M-Series",
@@ -323,12 +323,12 @@
           "sku_code": "WGM690000",
           "full_sku": "NWG-WGM690000",
           "name": "WatchGuard Firebox M690 Appliance Only",
-          "msrp": 7337,
+          "msrp": 9374,
           "url": "https://partner.leadersystems.com.au/products.html?sgdg0DBNHxM=pPpXkdn4azUBJbqXbYa71Q==v+AFbExpN5GrWKNA8JG44EPWWbUy"
         }
       },
       {
-        "id": 273,
+        "id": 331,
         "slug": "M695",
         "name": "Firebox M695",
         "family": "M-Series",
@@ -339,7 +339,7 @@
           "sku_code": "WGM695000",
           "full_sku": "NWG-WGM695000",
           "name": "WatchGuard Firebox M695 Appliance Only",
-          "msrp": 5412,
+          "msrp": 6915,
           "url": "https://partner.leadersystems.com.au/products.html?K7jy+DvBHgc=3VijDG9OPg48Mm8t0qME7w==vxJvfRTsFWKV7azd4pJj2RRpCM1J"
         }
       }
@@ -349,7 +349,7 @@
     "label": "Wi-Fi 6 Access Points",
     "products": [
       {
-        "id": 256,
+        "id": 314,
         "slug": "AP130",
         "name": "WatchGuard AP130",
         "family": "Access Points",
@@ -360,12 +360,12 @@
           "sku_code": "WGA130000",
           "full_sku": "NWG-WGA130000",
           "name": "WatchGuard AP130 Appliance Only",
-          "msrp": 428,
+          "msrp": 550,
           "url": "https://partner.leadersystems.com.au/products.html?6EVpuIu6FoM=c/1I+JS+hHPXuIbDqHRnKA==S/EIT5FjrgNA/g+xAdkFN4e2/9DB"
         }
       },
       {
-        "id": 257,
+        "id": 315,
         "slug": "AP230W",
         "name": "WatchGuard AP230W",
         "family": "Access Points",
@@ -376,12 +376,12 @@
           "sku_code": "WGA230000",
           "full_sku": "NWG-WGA230000",
           "name": "WatchGuard AP230W Appliance Only",
-          "msrp": 623,
+          "msrp": 802,
           "url": "https://partner.leadersystems.com.au/products.html?+hOXrde1yiM=WC55myYIzjlg0eaWGvZ8sw==/l2iKm/jCydEbz4Mjz4xm3FenpL7"
         }
       },
       {
-        "id": 258,
+        "id": 316,
         "slug": "AP330",
         "name": "WatchGuard AP330",
         "family": "Access Points",
@@ -392,12 +392,12 @@
           "sku_code": "WGA330000",
           "full_sku": "NWG-WGA330000",
           "name": "WatchGuard AP330 Appliance Only",
-          "msrp": 754,
+          "msrp": 970,
           "url": "https://partner.leadersystems.com.au/products.html?wbhF3IUL39w=NEiDZH5ln1m5MCxAexi2Ww==0jAB01qHFIiot3aQ7PJzmikIUJEs"
         }
       },
       {
-        "id": 259,
+        "id": 317,
         "slug": "AP332CR",
         "name": "WatchGuard AP332CR",
         "family": "Access Points",
@@ -408,12 +408,12 @@
           "sku_code": "WGA332000",
           "full_sku": "NWG-WGA332000",
           "name": "WatchGuard AP332CR Appliance Only",
-          "msrp": 900,
+          "msrp": 1157,
           "url": "https://partner.leadersystems.com.au/products.html?evx8XDgtEQA=zaPfBa5+Vsc87bckzCYYcQ==n05Q3FvbgQ3SuKNp3M/GaWKTv9D+"
         }
       },
       {
-        "id": 260,
+        "id": 318,
         "slug": "AP430CR",
         "name": "WatchGuard AP430CR",
         "family": "Access Points",
@@ -424,12 +424,12 @@
           "sku_code": "WGA430000",
           "full_sku": "NWG-WGA430000",
           "name": "WatchGuard AP430CR Appliance Only",
-          "msrp": 1674,
+          "msrp": 2152,
           "url": "https://partner.leadersystems.com.au/products.html?fc5j5BkoWHY=oNv0mHAddQeDw/dCwXNbvg==5XjaTqBzOetV4MRYYamtZoZOl10d"
         }
       },
       {
-        "id": 261,
+        "id": 319,
         "slug": "AP432",
         "name": "WatchGuard AP432",
         "family": "Access Points",
@@ -440,7 +440,7 @@
           "sku_code": "WGA432000",
           "full_sku": "NWG-WGA432000",
           "name": "WatchGuard AP432 Appliance Only",
-          "msrp": 923,
+          "msrp": 1187,
           "url": "https://partner.leadersystems.com.au/products.html?A1sbM3vwCRI=P6L9Q8/KWjlyeRgiimFJEw==g4exg6byYSIJs6kPb7QH7d0qs0tl"
         }
       }

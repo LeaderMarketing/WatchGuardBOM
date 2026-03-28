@@ -1,5 +1,5 @@
 {
-  "id": 259,
+  "id": 317,
   "slug": "AP332CR",
   "name": "WatchGuard AP332CR",
   "family": "Access Points",
@@ -7,11 +7,11 @@
   "description": "Rugged outdoor AP for retail and manufacturing",
   "image_file": "AP332CER.jpg",
   "appliance": {
-    "id": 3076,
+    "id": 3754,
     "sku_code": "WGA332000",
     "full_sku": "NWG-WGA332000",
     "name": "WatchGuard AP332CR Appliance Only",
-    "msrp": 900,
+    "msrp": 1157,
     "delivery_method": "Physical",
     "url": "https://partner.leadersystems.com.au/products.html?evx8XDgtEQA=zaPfBa5+Vsc87bckzCYYcQ==n05Q3FvbgQ3SuKNp3M/GaWKTv9D+",
     "sku_type": "appliance",
@@ -20,11 +20,11 @@
   },
   "subscriptions": [
     {
-      "id": 3081,
+      "id": 3759,
       "sku_code": "WGA33222101",
       "full_sku": "NWG-WGA33222101",
       "name": "Standard Wi-Fi Management for WatchGuard AP332CR - 1-year",
-      "msrp": 92,
+      "msrp": 118,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?DrdvNbxql+M=SU6txkFLaXB++uEaLIVOCQ==T4bi4NP1oZNvfg3hplJG55DK0we0bMY=",
       "sku_type": "subscription",
@@ -32,11 +32,11 @@
       "term_years": 1
     },
     {
-      "id": 3082,
+      "id": 3760,
       "sku_code": "WGA33222103",
       "full_sku": "NWG-WGA33222103",
       "name": "Standard Wi-Fi Management for WatchGuard AP332CR - 3-year",
-      "msrp": 183,
+      "msrp": 236,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?IqKa5CwlrRw=tSMWYz+ihZLixx69xZ8NnA==AVCC2wY8eI9A5l1lqg1LV9rjegjC1cM=",
       "sku_type": "subscription",
@@ -44,11 +44,11 @@
       "term_years": 3
     },
     {
-      "id": 3083,
+      "id": 3761,
       "sku_code": "WGA33222105",
       "full_sku": "NWG-WGA33222105",
       "name": "Standard Wi-Fi Management for WatchGuard AP332CR - 5-year",
-      "msrp": 275,
+      "msrp": 354,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?44VUANMHdTA=MBExkB27M0ZQ5mvQD6lX9g==YJ0cg7jlVreU0i9+zVcrhTSeSH7mvfE=",
       "sku_type": "subscription",
@@ -56,11 +56,11 @@
       "term_years": 5
     },
     {
-      "id": 3078,
+      "id": 3756,
       "sku_code": "WGA33222001",
       "full_sku": "NWG-WGA33222001",
       "name": "USP Wi-Fi Management for WatchGuard AP332CR - 1-year",
-      "msrp": 153,
+      "msrp": 197,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?lD45D1CM5n8=yGE4sxKFkcGbpnfS2sZXxQ==E6ZruLgnAKShwV2c54rMVIXertREnqQ=",
       "sku_type": "subscription",
@@ -68,11 +68,11 @@
       "term_years": 1
     },
     {
-      "id": 3079,
+      "id": 3757,
       "sku_code": "WGA33222003",
       "full_sku": "NWG-WGA33222003",
       "name": "USP Wi-Fi Management for WatchGuard AP332CR - 3-year",
-      "msrp": 306,
+      "msrp": 393,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?4XWp5t4pJAM=e1CXIHrzvWDdiMz3h0f4Hg==MazLmeutLNEvpXTU2bgiXg4FS5yysCE=",
       "sku_type": "subscription",
@@ -80,11 +80,11 @@
       "term_years": 3
     },
     {
-      "id": 3080,
+      "id": 3758,
       "sku_code": "WGA33222005",
       "full_sku": "NWG-WGA33222005",
       "name": "USP Wi-Fi Management for WatchGuard AP332CR - 5-year",
-      "msrp": 458,
+      "msrp": 590,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?zeND1G+EPCc=bN3v8e4O4PpR1ODWPkkJbw==x36KKYIhzc5MJleeE46lvJBlpAm6nSs=",
       "sku_type": "subscription",
@@ -96,11 +96,11 @@
   "highAvailability": [],
   "activationBundles": [
     {
-      "id": 3077,
+      "id": 3755,
       "sku_code": "WGA33203309",
       "full_sku": "NWG-WGA33203309",
       "name": "Points Activation Bundle for WatchGuard AP332CR",
-      "msrp": 96,
+      "msrp": 0,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?vwwkyjxjGuc=D8/p1diPfhFIG63OO9roag==xMCzHgWIjyqcJDG/vFhBeI/x9vc3jvk=",
       "sku_type": "activation_bundle",

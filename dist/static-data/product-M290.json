@@ -1,5 +1,5 @@
 {
-  "id": 262,
+  "id": 320,
   "slug": "M290",
   "name": "Firebox M290",
   "family": "M-Series",
@@ -7,11 +7,11 @@
   "description": "Rackmount UTM for small-medium businesses",
   "image_file": "m295.jpg",
   "appliance": {
-    "id": 3101,
+    "id": 3779,
     "sku_code": "WGM290000",
     "full_sku": "NWG-WGM290000",
     "name": "WatchGuard Firebox M290 Appliance Only",
-    "msrp": 1771,
+    "msrp": 2263,
     "delivery_method": "Physical",
     "url": "https://partner.leadersystems.com.au/products.html?25G8t4aw4dk=eLXsKS+pQmY6ZLS6bool5A==Fy85f2ZnRBWu+yGIHkHx220yMHGk",
     "sku_type": "appliance",
@@ -20,11 +20,11 @@
   },
   "subscriptions": [
     {
-      "id": 3104,
+      "id": 3782,
       "sku_code": "WGM2900071",
       "full_sku": "NWG-WGM2900071",
       "name": "WatchGuard Basic Security Suite for Firebox M290 - 1-Year",
-      "msrp": 1519,
+      "msrp": 1941,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?FXaXDtieTHw=T4bxoa8qkfQXP6x+rEth6g==OMsL+g4nxn526UKgCoK1NgrdhD6kxA==",
       "sku_type": "subscription",
@@ -32,11 +32,11 @@
       "term_years": 1
     },
     {
-      "id": 3105,
+      "id": 3783,
       "sku_code": "WGM2900073",
       "full_sku": "NWG-WGM2900073",
       "name": "WatchGuard Basic Security Suite for Firebox M290 - 3-Year",
-      "msrp": 3505,
+      "msrp": 4479,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?xIi2+tA0i+0=l/xf+VrdxVW9hAxWI0y+Vw==bfPHN73f2UQAGQVorWlDDCSI0RqFWA==",
       "sku_type": "subscription",
@@ -44,11 +44,11 @@
       "term_years": 3
     },
     {
-      "id": 3102,
+      "id": 3780,
       "sku_code": "WGM2900061",
       "full_sku": "NWG-WGM2900061",
       "name": "WatchGuard Standard Support for Firebox M290 - 1-Year",
-      "msrp": 935,
+      "msrp": 1195,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?m31kv0y9B4o=78GiH3/+wSZuYedJObgmhA==FKLGdaKEJITCgHoRESaeLc7l+ML7Nw==",
       "sku_type": "subscription",
@@ -56,11 +56,11 @@
       "term_years": 1
     },
     {
-      "id": 3103,
+      "id": 3781,
       "sku_code": "WGM2900063",
       "full_sku": "NWG-WGM2900063",
       "name": "WatchGuard Standard Support for Firebox M290 - 3-Year",
-      "msrp": 1654,
+      "msrp": 2114,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?lxR2FLeMZ3Q=KJrsUAb336PSyIi13EiQrA==lSKXCziKc981hinX6nO667McbmWwDg==",
       "sku_type": "subscription",
@@ -68,11 +68,11 @@
       "term_years": 3
     },
     {
-      "id": 3106,
+      "id": 3784,
       "sku_code": "WGM2900081",
       "full_sku": "NWG-WGM2900081",
       "name": "WatchGuard Total Security Suite for Firebox M290 - 1-Year",
-      "msrp": 2853,
+      "msrp": 3646,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?Wz8DnYeN5vM=x8u7GMR/rRUU4HFeVKqGsg==lAYS64HjprbgC8X6G/fHhheJtFnglA==",
       "sku_type": "subscription",
@@ -80,11 +80,11 @@
       "term_years": 1
     },
     {
-      "id": 3107,
+      "id": 3785,
       "sku_code": "WGM2900083",
       "full_sku": "NWG-WGM2900083",
       "name": "WatchGuard Total Security Suite for Firebox M290 - 3-Year",
-      "msrp": 6672,
+      "msrp": 8525,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?RcdUTkcftXs=adLimlKMq9WlKU4Tb8mH+Q==1hhRvwVU3iopTpPvgeC8IefK18EbJg==",
       "sku_type": "subscription",
@@ -95,11 +95,11 @@
   "tradeUps": [],
   "highAvailability": [
     {
-      "id": 3111,
+      "id": 3789,
       "sku_code": "WGM2901601",
       "full_sku": "NWG-WGM2901601",
       "name": "WatchGuard High Availability for M290 - 1-Year",
-      "msrp": 122,
+      "msrp": 156,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?/2WXfRqbvys=gUlbaRrEEyBkOwrDYbSaUA==aPpM8d11jidBG730qFE7e1xa8srdWw==",
       "sku_type": "high_availability",
@@ -107,11 +107,11 @@
       "term_years": 1
     },
     {
-      "id": 3100,
+      "id": 3778,
       "sku_code": "WGM2901603",
       "full_sku": "NWG-WGM2901603",
       "name": "WatchGuard High Availability for M290 - 3-Year",
-      "msrp": 292,
+      "msrp": 374,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?XAX71uoJKMk=oMplUt+YQFtc+rYhHJANqw==RfKG5jqRIUvvaioVSOX/geNdscvZ5Q==",
       "sku_type": "high_availability",

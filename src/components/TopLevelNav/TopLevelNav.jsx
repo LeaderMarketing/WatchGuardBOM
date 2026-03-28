@@ -5,10 +5,10 @@ import styles from './TopLevelNav.module.css';
 const NAV_ITEMS = [
   { path: '/', label: 'Security Appliances' },
   { path: '/virtual', label: 'Virtual' },
+  { path: '/cloud', label: 'Cloud' },
   { path: '/renewals', label: 'Renewals/Upgrades' },
-  { path: '/mdr-xdr', label: 'MDR & XDR' },
+  { path: '/mdr-ndr', label: 'MDR & NDR' },
   { path: '/endpoint', label: 'Endpoint & Mobile' },
-  { path: '/cloud', label: 'Cloud & Server' },
   { path: '/identity', label: 'Identity & Access' },
   { path: '/email', label: 'Email Security' },
 ];

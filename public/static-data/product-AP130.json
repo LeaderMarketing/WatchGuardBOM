@@ -1,5 +1,5 @@
 {
-  "id": 256,
+  "id": 314,
   "slug": "AP130",
   "name": "WatchGuard AP130",
   "family": "Access Points",
@@ -7,11 +7,11 @@
   "description": "Entry-level Wi-Fi 6 for small offices and remote workers",
   "image_file": "AP130.jpg",
   "appliance": {
-    "id": 3052,
+    "id": 3730,
     "sku_code": "WGA130000",
     "full_sku": "NWG-WGA130000",
     "name": "WatchGuard AP130 Appliance Only",
-    "msrp": 428,
+    "msrp": 550,
     "delivery_method": "Physical",
     "url": "https://partner.leadersystems.com.au/products.html?6EVpuIu6FoM=c/1I+JS+hHPXuIbDqHRnKA==S/EIT5FjrgNA/g+xAdkFN4e2/9DB",
     "sku_type": "appliance",
@@ -20,11 +20,11 @@
   },
   "subscriptions": [
     {
-      "id": 3057,
+      "id": 3735,
       "sku_code": "WGA13022101",
       "full_sku": "NWG-WGA13022101",
       "name": "Standard Wi-Fi Management for WatchGuard AP130 - 1-year",
-      "msrp": 92,
+      "msrp": 118,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?ZpBbzuuqUjw=I48J6YiYTqIFTe6m2WzXaQ==Z7CEBZkEEi2s9VhA62F91xcB29+dJqw=",
       "sku_type": "subscription",
@@ -32,11 +32,11 @@
       "term_years": 1
     },
     {
-      "id": 3058,
+      "id": 3736,
       "sku_code": "WGA13022103",
       "full_sku": "NWG-WGA13022103",
       "name": "Standard Wi-Fi Management for WatchGuard AP130 - 3-year",
-      "msrp": 183,
+      "msrp": 236,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?L8qp9tbwA8I=Gs/zPdzuYNMjRr6c33qbtA==HkBWdXQkwor9G/mx29ZeKX5Xl502c10=",
       "sku_type": "subscription",
@@ -44,11 +44,11 @@
       "term_years": 3
     },
     {
-      "id": 3059,
+      "id": 3737,
       "sku_code": "WGA13022105",
       "full_sku": "NWG-WGA13022105",
       "name": "Standard Wi-Fi Management for WatchGuard AP130 - 5-year",
-      "msrp": 275,
+      "msrp": 354,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?i/fSLK/L3q4=eQPzehxEClHcK5M7vXOE8w==YmrqrgWjpYMz908IgMlAO0uqW64yXGA=",
       "sku_type": "subscription",
@@ -56,11 +56,11 @@
       "term_years": 5
     },
     {
-      "id": 3054,
+      "id": 3732,
       "sku_code": "WGA13022001",
       "full_sku": "NWG-WGA13022001",
       "name": "USP Wi-Fi Management for WatchGuard AP130 - 1-year",
-      "msrp": 153,
+      "msrp": 197,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?05CIyAlPwgo=L4jjdA+tOUXFIUa5PMLmCg==pyhK1GTyQfETiwSSk/4JMaU6g1E2gM4=",
       "sku_type": "subscription",
@@ -68,11 +68,11 @@
       "term_years": 1
     },
     {
-      "id": 3055,
+      "id": 3733,
       "sku_code": "WGA13022003",
       "full_sku": "NWG-WGA13022003",
       "name": "USP Wi-Fi Management for WatchGuard AP130 - 3-year",
-      "msrp": 306,
+      "msrp": 393,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?S3cQyhteXgA=2gAKUjos+znskMYpO15UAA==nUsluvX6B6kQY10YTz7UUe4H9JAlCEk=",
       "sku_type": "subscription",
@@ -80,11 +80,11 @@
       "term_years": 3
     },
     {
-      "id": 3056,
+      "id": 3734,
       "sku_code": "WGA13022005",
       "full_sku": "NWG-WGA13022005",
       "name": "USP Wi-Fi Management for WatchGuard AP130 - 5-year",
-      "msrp": 458,
+      "msrp": 590,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?uZBEMS3R/K8=wZIHpi7ZbJha7MXUa7ZSnw==s/16nR1vIqM2CT3k32/EDUZqkFElOfQ=",
       "sku_type": "subscription",
@@ -96,11 +96,11 @@
   "highAvailability": [],
   "activationBundles": [
     {
-      "id": 3053,
+      "id": 3731,
       "sku_code": "WGA13003309",
       "full_sku": "NWG-WGA13003309",
       "name": "Points Activation Bundle for WatchGuard AP130",
-      "msrp": 65,
+      "msrp": 0,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?yAzYavclIqk=lzwCaxrwcwXdfCgC7ZPmPA==b1DwcVrr6RrpknTCLgvZ5V+Rq2YGye4=",
       "sku_type": "activation_bundle",

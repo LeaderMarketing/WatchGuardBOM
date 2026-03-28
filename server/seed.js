@@ -1,14 +1,21 @@
-// Seed the database from WG Hardware SKUS_full.csv
-// Prices come from the DBP_ex_GST column in the CSV
-// Run: node server/seed.js
+// Seed the database from product-catalog.csv (structure) + WGdata_*.csv (prices)
+//
+// Product structure (groups, URLs, delivery method) comes from:
+//   server/data/product-catalog.csv          — rarely changes, only when adding new products
+//
+// Prices come from:
+//   src/data/WGdata_YYYYMMDD_HHMMSS.csv      — the single source of truth for all pricing
+//
+// To update prices: drop a new WGdata CSV into src/data/ and restart the dev server.
+// Run manually: node server/seed.js
 
 const fs = require('fs');
 const path = require('path');
 const { initDb, DB_PATH } = require('./db');
 const { buildFeatureRecords } = require('../src/data/featureSpecs.shared.cjs');
 
-const CSV_PATH = path.join(__dirname, 'data', 'WG Hardware SKUS_full.csv');
-const DATA_DIR = path.join(__dirname, 'data');
+const CATALOG_CSV_PATH = path.join(__dirname, 'data', 'product-catalog.csv');
+const WGDATA_DIR = path.join(__dirname, '..', 'src', 'data');
 const FEATURE_SPECS_PATH = path.join(__dirname, '..', 'src', 'data', 'featureSpecs.shared.cjs');
 
 // ── Parse CSV (handles quoted fields with commas) ─────────
@@ -31,59 +38,53 @@ function parseCsvLine(line) {
   return fields;
 }
 
-function parseMsrp(raw) {
+function parsePrice(raw) {
   if (!raw) return 0;
   const cleaned = raw.replace(/[$,\s]/g, '');
   const val = parseFloat(cleaned);
   return isNaN(val) ? 0 : val;
 }
 
-function findLatestLeaderPriceCsv() {
+// ── WGdata price loader ───────────────────────────────────
+// Finds the latest WGdata_*.csv in src/data/ and reads the RRP column
+// Format: STOCK CODE, SUBCATEGORY NAME, SHORT DESCRIPTION, IMAGE, MANUFACTURER, MFR SKU, DBP, RRP
+function findLatestWGDataCsv() {
   const files = fs
-    .readdirSync(DATA_DIR)
-    .filter((file) => /^leader_dbp_prices_\d{4}-\d{2}-\d{2}\.csv$/i.test(file))
+    .readdirSync(WGDATA_DIR)
+    .filter((file) => /^WGdata_.*\.csv$/i.test(file))
     .sort();
 
   if (files.length === 0) return null;
-  return path.join(DATA_DIR, files[files.length - 1]);
+  return path.join(WGDATA_DIR, files[files.length - 1]);
 }
 
-function loadLeaderPriceMap() {
-  const latestPriceCsv = findLatestLeaderPriceCsv();
-  if (!latestPriceCsv) {
+function loadPriceMap() {
+  const latestCsv = findLatestWGDataCsv();
+  if (!latestCsv) {
     return { priceMap: new Map(), source: null };
   }
 
-  const raw = fs.readFileSync(latestPriceCsv, 'utf-8');
+  const raw = fs.readFileSync(latestCsv, 'utf-8');
   const lines = raw.split(/\r?\n/).filter((line) => line.trim());
-  const rows = lines.slice(1);
   const priceMap = new Map();
 
-  for (const line of rows) {
+  for (const line of lines.slice(1)) {
     const fields = parseCsvLine(line);
-    if (fields.length < 13) continue;
+    if (fields.length < 8) continue;
 
-    const [skuInput, partNum, _productName, dbpExGst, _dbpIncGst, _rrpExGst, _rrpIncGst, _syd, _mel, _brs, _adl, _wa, status] = fields;
-    const sku = (partNum || skuInput || '').trim();
-    const normalizedStatus = (status || '').trim().toUpperCase();
-
-    if (!sku || normalizedStatus === 'NOT FOUND') continue;
-
-    const price = parseMsrp(dbpExGst);
-    if (price > 0) {
-      priceMap.set(sku, price);
+    const fullSku = fields[0].trim();
+    const rrp = parsePrice(fields[7]);
+    if (fullSku && rrp > 0) {
+      priceMap.set(fullSku, Math.round(rrp));
     }
   }
 
-  return {
-    priceMap,
-    source: path.basename(latestPriceCsv),
-  };
+  return { priceMap, source: path.basename(latestCsv) };
 }
 
 function getSeedSourceFiles() {
-  const latestLeaderPriceCsv = findLatestLeaderPriceCsv();
-  return [CSV_PATH, latestLeaderPriceCsv, FEATURE_SPECS_PATH].filter(Boolean);
+  const latestWGDataCsv = findLatestWGDataCsv();
+  return [CATALOG_CSV_PATH, latestWGDataCsv, FEATURE_SPECS_PATH].filter(Boolean);
 }
 
 // ── Classify SKU type from name ───────────────────────────
@@ -92,7 +93,6 @@ function classifySku(name, deliveryMethod) {
   const lower = name.toLowerCase();
   if (lower.includes('points activation bundle')) return { type: 'activation_bundle', subType: null };
   if (lower.includes('trade up')) {
-    // Detect the underlying subscription type  
     if (lower.includes('total security'))       return { type: 'trade_up', subType: 'Total Security Suite' };
     if (lower.includes('basic security'))       return { type: 'trade_up', subType: 'Basic Security Suite' };
     return { type: 'trade_up', subType: null };
@@ -110,7 +110,7 @@ function classifySku(name, deliveryMethod) {
 function extractTerm(name) {
   const m = name.match(/(\d+)[- ](?:year|yr)/i);
   if (m) return parseInt(m[1], 10);
-  if (/1-month/i.test(name)) return 0; // Monthly subscription
+  if (/1-month/i.test(name)) return 0;
   return null;
 }
 
@@ -130,27 +130,27 @@ const IMAGE_MAP = {
   'AP332CR': 'AP332CER.jpg',
   'AP430CR': 'AP430CR.jpg',
   'AP432':   'AP432.jpg',
-  'M290':    'm295.jpg',     // share image with M295 for now
+  'M290':    'm295.jpg',
   'M295':    'm295.jpg',
-  'M390':    'm395.jpg',     // share image with M395 for now  
+  'M390':    'm395.jpg',
   'M395':    'm395.jpg',
   'M4800':   'm4800.jpg',
   'M495':    'm495.jpg',
   'M5800':   'm5800.jpg',
-  'M590':    'm595.jpg',     // share image with M595 for now
+  'M590':    'm595.jpg',
   'M595':    'm595.jpg',
-  'M690':    'm695.jpg',     // share image with M695 for now
+  'M690':    'm695.jpg',
   'M695':    'm695.jpg',
   'T115-W':  'T115-W.jpg',
   'T125':    'T125.jpg',
   'T125-W':  'T125-W.jpg',
   'T145':    'T145.jpg',
-  'T145-W':  'T145.jpg',    // share image with T145 for now
+  'T145-W':  'T145.jpg',
   'T185':    'T185.jpg',
-  'T25-W':   'T115-W.jpg',  // share image for now
-  'T45-CW':  'T145.jpg',    // share image for now
-  'T45-PoE': 'T145.jpg',    // share image for now
-  'T45-W-PoE': 'T145.jpg',  // share image for now
+  'T25-W':   'T115-W.jpg',
+  'T45-CW':  'T145.jpg',
+  'T45-PoE': 'T145.jpg',
+  'T45-W-PoE': 'T145.jpg',
 };
 
 // ── Map Product Group to friendly display name ────────────
@@ -161,7 +161,7 @@ function groupToDisplayName(slug, family) {
   return slug;
 }
 
-// ── Short descriptions (from existing productData.js) ─────
+// ── Short descriptions ───────────────────────────────────
 const DESCRIPTIONS = {
   'AP130':   'Entry-level Wi-Fi 6 for small offices and remote workers',
   'AP230W':  'Wall-plate AP with built-in switch for hospitality',
@@ -212,10 +212,12 @@ function seedFeatures(db, groupId, slug, category) {
 
 // ── MAIN ──────────────────────────────────────────────────
 function seed() {
-  const raw = fs.readFileSync(CSV_PATH, 'utf-8');
+  const raw = fs.readFileSync(CATALOG_CSV_PATH, 'utf-8');
   const lines = raw.split(/\r?\n/).filter(l => l.trim());
   const rows = lines.slice(1);
-  const { priceMap, source: leaderPriceSource } = loadLeaderPriceMap();
+
+  // Load prices from the WGdata CSV (single source of truth)
+  const { priceMap, source: priceSource } = loadPriceMap();
 
   const db = initDb();
 
@@ -232,9 +234,8 @@ function seed() {
     const fields = parseCsvLine(line);
     if (fields.length < 7) continue;
 
-    const [fullSku, name, priceRaw, deliveryMethod, family, group, url] = fields;
-    const csvPrice = parseMsrp(priceRaw);
-    const price = priceMap.get(fullSku) ?? csvPrice;
+    const [fullSku, name, _catalogPrice, deliveryMethod, family, group, url] = fields;
+    const price = priceMap.get(fullSku) ?? 0;
     const skuCode = fullSku.replace(/^NWG-/, '');
     const { type, subType } = classifySku(name, deliveryMethod);
     const term = extractTerm(name);
@@ -283,15 +284,16 @@ function seed() {
   const groupCount = db.prepare('SELECT COUNT(*) as c FROM product_groups').get().c;
   const skuCount = db.prepare('SELECT COUNT(*) as c FROM skus').get().c;
   const featureCount = db.prepare('SELECT COUNT(*) as c FROM product_features').get().c;
+  const pricedCount = db.prepare('SELECT COUNT(*) as c FROM skus WHERE msrp > 0').get().c;
 
   console.log(`Seeded successfully:`);
   console.log(`  ${groupCount} product groups`);
-  console.log(`  ${skuCount} SKUs`);
+  console.log(`  ${skuCount} SKUs (${pricedCount} with prices, ${skuCount - pricedCount} showing TBC)`);
   console.log(`  ${featureCount} feature entries`);
-  if (leaderPriceSource) {
-    console.log(`  pricing source override: ${leaderPriceSource}`);
+  if (priceSource) {
+    console.log(`  pricing source: ${priceSource}`);
   } else {
-    console.log('  pricing source override: none (using WG Hardware SKUS_full.csv prices)');
+    console.log('  WARNING: No WGdata_*.csv found in src/data/ — all prices will show TBC');
   }
 
   db.close();

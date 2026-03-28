@@ -5,6 +5,8 @@ import styles from './App.module.css';
 import TopLevelNav from './components/TopLevelNav/TopLevelNav.jsx';
 import ProductCatalog from './components/ProductCatalog/ProductCatalog.jsx';
 import VirtualCatalog from './components/VirtualCatalog/VirtualCatalog.jsx';
+import CloudCatalog from './components/CloudCatalog/CloudCatalog.jsx';
+import MdrNdrCatalog from './components/MdrNdrCatalog/MdrNdrCatalog.jsx';
 import QuoteCartPanel from './components/QuoteCartPanel/QuoteCartPanel.jsx';
 import { useQuote } from './context/QuoteContext.jsx';
 
@@ -32,9 +34,9 @@ function App() {
           <Route path="/" element={<ProductCatalog />} />
           <Route path="/virtual" element={<VirtualCatalog />} />
           <Route path="/renewals" element={<ComingSoon title="Renewals/Upgrades" />} />
-          <Route path="/mdr-xdr" element={<ComingSoon title="MDR & XDR" />} />
+          <Route path="/mdr-ndr" element={<MdrNdrCatalog />} />
           <Route path="/endpoint" element={<ComingSoon title="Endpoint & Mobile" />} />
-          <Route path="/cloud" element={<ComingSoon title="Cloud & Server" />} />
+          <Route path="/cloud" element={<CloudCatalog />} />
           <Route path="/identity" element={<ComingSoon title="Identity & Access" />} />
           <Route path="/email" element={<ComingSoon title="Email Security" />} />
         </Routes>

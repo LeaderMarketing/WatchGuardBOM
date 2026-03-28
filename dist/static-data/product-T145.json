@@ -1,5 +1,5 @@
 {
-  "id": 278,
+  "id": 336,
   "slug": "T145",
   "name": "Firebox T145",
   "family": "T-Series",
@@ -7,11 +7,11 @@
   "description": "Mid-range tabletop firewall with SFP+ connectivity",
   "image_file": "T145.jpg",
   "appliance": {
-    "id": 3281,
+    "id": 3959,
     "sku_code": "WGT145000",
     "full_sku": "NWG-WGT145000",
     "name": "WatchGuard Firebox T145 Appliance Only",
-    "msrp": 486,
+    "msrp": 621,
     "delivery_method": "Physical",
     "url": "https://partner.leadersystems.com.au/products.html?PZFtf5v+W2U=XcnwhxE9RNTwfmsBZseWTQ==dr9PBwbcTUKTNCHMWCKS7FcYiIKe",
     "sku_type": "appliance",
@@ -20,11 +20,11 @@
   },
   "subscriptions": [
     {
-      "id": 3285,
+      "id": 3963,
       "sku_code": "WGT1450071",
       "full_sku": "NWG-WGT1450071",
       "name": "WatchGuard Basic Security Suite for Firebox T145 - 1-Year",
-      "msrp": 1113,
+      "msrp": 1423,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?4Jm+CeV8iaI=ojq0zXMVLJxvBOJGQV+uvg==hFlLUBecFqgKxHd7i2lx2Te/T9THpg==",
       "sku_type": "subscription",
@@ -32,11 +32,11 @@
       "term_years": 1
     },
     {
-      "id": 3286,
+      "id": 3964,
       "sku_code": "WGT1450073",
       "full_sku": "NWG-WGT1450073",
       "name": "WatchGuard Basic Security Suite for Firebox T145 - 3-Year",
-      "msrp": 2060,
+      "msrp": 2633,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?hWyfcOdfR1Q=eYwb7rePiHWaZEVWExu+lw==xJrX6mJaKdhJsJWXft47CNOWBzBdBw==",
       "sku_type": "subscription",
@@ -44,11 +44,11 @@
       "term_years": 3
     },
     {
-      "id": 3287,
+      "id": 3965,
       "sku_code": "WGT1450075",
       "full_sku": "NWG-WGT1450075",
       "name": "WatchGuard Basic Security Suite for Firebox T145 - 5-Year",
-      "msrp": 3727,
+      "msrp": 4762,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?kPzfHXUkO9A=Pa4lCrneNw8uoo5v4G8xkA==+K02JPGJmLSXhQGEDZTejwrtQQQ6gQ==",
       "sku_type": "subscription",
@@ -56,11 +56,11 @@
       "term_years": 5
     },
     {
-      "id": 3282,
+      "id": 3960,
       "sku_code": "WGT1450061",
       "full_sku": "NWG-WGT1450061",
       "name": "WatchGuard Standard Support for Firebox T145 - 1-Year",
-      "msrp": 830,
+      "msrp": 1061,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?ZAXxCdvmH1U=ew3Zo8v5P17f+YM0sa4ubg==N7/2H67YEaikZegSujLxGKwKHgMrOA==",
       "sku_type": "subscription",
@@ -68,11 +68,11 @@
       "term_years": 1
     },
     {
-      "id": 3283,
+      "id": 3961,
       "sku_code": "WGT1450063",
       "full_sku": "NWG-WGT1450063",
       "name": "WatchGuard Standard Support for Firebox T145 - 3-Year",
-      "msrp": 1476,
+      "msrp": 1886,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?PtGkANxv2dU=qfhIZOpjp2+/CASDjB+NdQ==cjCtQqiTtlckrZK5ZkbDIRSjsRQ1wA==",
       "sku_type": "subscription",
@@ -80,11 +80,11 @@
       "term_years": 3
     },
     {
-      "id": 3284,
+      "id": 3962,
       "sku_code": "WGT1450065",
       "full_sku": "NWG-WGT1450065",
       "name": "WatchGuard Standard Support for Firebox T145 - 5-Year",
-      "msrp": 2208,
+      "msrp": 2821,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?19f3Guxfhuw=YxIJ6gCVF7nPdxOzPRlmnQ==M2wdkq0I573nAfa1iUJ1zscJ50p2zA==",
       "sku_type": "subscription",
@@ -92,11 +92,11 @@
       "term_years": 5
     },
     {
-      "id": 3288,
+      "id": 3966,
       "sku_code": "WGT1450081",
       "full_sku": "NWG-WGT1450081",
       "name": "WatchGuard Total Security Suite for Firebox T145 - 1-Year",
-      "msrp": 1747,
+      "msrp": 2232,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?a5kXN0CX1Vc=UJ29tyQr6qBWoQ7aFpTBbQ==iB5UbekuYkEYXJXg8YRVThZAFT5Zow==",
       "sku_type": "subscription",
@@ -104,11 +104,11 @@
       "term_years": 1
     },
     {
-      "id": 3289,
+      "id": 3967,
       "sku_code": "WGT1450083",
       "full_sku": "NWG-WGT1450083",
       "name": "WatchGuard Total Security Suite for Firebox T145 - 3-Year",
-      "msrp": 3481,
+      "msrp": 4448,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?QC5c7CkyJOA=IK26srw1kJlIBxJ8l19ffA==FjwnMZ0zLB/pl0OibrHL+E0uXxD1dQ==",
       "sku_type": "subscription",
@@ -116,11 +116,11 @@
       "term_years": 3
     },
     {
-      "id": 3290,
+      "id": 3968,
       "sku_code": "WGT1450085",
       "full_sku": "NWG-WGT1450085",
       "name": "WatchGuard Total Security Suite for Firebox T145 - 5-Year",
-      "msrp": 6334,
+      "msrp": 8093,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?FgYzhuDWnz0=ZBj4J05AA2/ROWUV9pX8iA==P1rvgPA//D6xfrjDOYANDPpCqoq3yA==",
       "sku_type": "subscription",

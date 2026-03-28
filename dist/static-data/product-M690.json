@@ -1,5 +1,5 @@
 {
-  "id": 272,
+  "id": 330,
   "slug": "M690",
   "name": "Firebox M690",
   "family": "M-Series",
@@ -7,11 +7,11 @@
   "description": "High-capacity firewall for enterprise campuses",
   "image_file": "m695.jpg",
   "appliance": {
-    "id": 3213,
+    "id": 3891,
     "sku_code": "WGM690000",
     "full_sku": "NWG-WGM690000",
     "name": "WatchGuard Firebox M690 Appliance Only",
-    "msrp": 7337,
+    "msrp": 9374,
     "delivery_method": "Physical",
     "url": "https://partner.leadersystems.com.au/products.html?sgdg0DBNHxM=pPpXkdn4azUBJbqXbYa71Q==v+AFbExpN5GrWKNA8JG44EPWWbUy",
     "sku_type": "appliance",
@@ -20,11 +20,11 @@
   },
   "subscriptions": [
     {
-      "id": 3216,
+      "id": 3894,
       "sku_code": "WGM6900071",
       "full_sku": "NWG-WGM6900071",
       "name": "WatchGuard Basic Security Suite for Firebox M690 - 1-Year",
-      "msrp": 6334,
+      "msrp": 8093,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?DZ7o0KMnrQY=wSAag9uNr1AvLBgrgfSQWA==OkZQi/OIALaWu8DQh0yct6g0OWu4bw==",
       "sku_type": "subscription",
@@ -32,11 +32,11 @@
       "term_years": 1
     },
     {
-      "id": 3217,
+      "id": 3895,
       "sku_code": "WGM6900073",
       "full_sku": "NWG-WGM6900073",
       "name": "WatchGuard Basic Security Suite for Firebox M690 - 3-Year",
-      "msrp": 14575,
+      "msrp": 18622,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?1ZpxRjOI2C8=q6Opjnp7Kq5GS0dRp5PQRQ==dV/oXcIRawBNx2Abr6uAX0YIsUx1jg==",
       "sku_type": "subscription",
@@ -44,11 +44,11 @@
       "term_years": 3
     },
     {
-      "id": 3214,
+      "id": 3892,
       "sku_code": "WGM6900061",
       "full_sku": "NWG-WGM6900061",
       "name": "WatchGuard Standard Support for Firebox M690 - 1-Year",
-      "msrp": 3905,
+      "msrp": 4990,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?Nf4N0ckH9Ww=b+2NMOIdR7hvG74Y2GV4Yw==9rIU3ffTQ3jPo3C40+pqVmaudXKUNQ==",
       "sku_type": "subscription",
@@ -56,11 +56,11 @@
       "term_years": 1
     },
     {
-      "id": 3215,
+      "id": 3893,
       "sku_code": "WGM6900063",
       "full_sku": "NWG-WGM6900063",
       "name": "WatchGuard Standard Support for Firebox M690 - 3-Year",
-      "msrp": 6912,
+      "msrp": 8832,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?y6z5SQ3ybiQ=jUeuf5QmnjvSAjxxsiwzdg==shZZ9Gl4H4IYO5ywciWz8drvDZv5lw==",
       "sku_type": "subscription",
@@ -68,11 +68,11 @@
       "term_years": 3
     },
     {
-      "id": 3218,
+      "id": 3896,
       "sku_code": "WGM6900081",
       "full_sku": "NWG-WGM6900081",
       "name": "WatchGuard Total Security Suite for Firebox M690 - 1-Year",
-      "msrp": 11875,
+      "msrp": 15173,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?cn/fSH6vt9k=FqXe9jOV7XPnermXuKTkJg==q6bq3Tn0uBwQnwsV1ge7WTo27ae+hQ==",
       "sku_type": "subscription",
@@ -80,11 +80,11 @@
       "term_years": 1
     },
     {
-      "id": 3219,
+      "id": 3897,
       "sku_code": "WGM6900083",
       "full_sku": "NWG-WGM6900083",
       "name": "WatchGuard Total Security Suite for Firebox M690 - 3-Year",
-      "msrp": 27723,
+      "msrp": 35420,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?guIp6TLlUC8=osAuCymJ7JbqjaJiVF8Tpg==xlaoaenBzFEjjFIFxcHjMrW8+TlUZQ==",
       "sku_type": "subscription",
@@ -95,11 +95,11 @@
   "tradeUps": [],
   "highAvailability": [
     {
-      "id": 3223,
+      "id": 3901,
       "sku_code": "WGM6901601",
       "full_sku": "NWG-WGM6901601",
       "name": "WatchGuard High Availability for M690 - 1-Year",
-      "msrp": 122,
+      "msrp": 156,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?0ZoqTVoCXdY=ujQ5OH0Y/Yf/I2+96Adc6Q==enotJd3FTvUVeVMvN6a218In5QbVdQ==",
       "sku_type": "high_availability",
@@ -107,11 +107,11 @@
       "term_years": 1
     },
     {
-      "id": 3212,
+      "id": 3890,
       "sku_code": "WGM6901603",
       "full_sku": "NWG-WGM6901603",
       "name": "WatchGuard High Availability for M690 - 3-Year",
-      "msrp": 292,
+      "msrp": 374,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?xfxFHJE9Vmo=Ioto/3SzINvgQbzoRqD/bQ==F6C6N3HYaXrWCkhquPNxHkoz5RJeNw==",
       "sku_type": "high_availability",

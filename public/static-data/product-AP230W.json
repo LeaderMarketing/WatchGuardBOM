@@ -1,5 +1,5 @@
 {
-  "id": 257,
+  "id": 315,
   "slug": "AP230W",
   "name": "WatchGuard AP230W",
   "family": "Access Points",
@@ -7,11 +7,11 @@
   "description": "Wall-plate AP with built-in switch for hospitality",
   "image_file": "AP230W.jpg",
   "appliance": {
-    "id": 3060,
+    "id": 3738,
     "sku_code": "WGA230000",
     "full_sku": "NWG-WGA230000",
     "name": "WatchGuard AP230W Appliance Only",
-    "msrp": 623,
+    "msrp": 802,
     "delivery_method": "Physical",
     "url": "https://partner.leadersystems.com.au/products.html?+hOXrde1yiM=WC55myYIzjlg0eaWGvZ8sw==/l2iKm/jCydEbz4Mjz4xm3FenpL7",
     "sku_type": "appliance",
@@ -20,11 +20,11 @@
   },
   "subscriptions": [
     {
-      "id": 3065,
+      "id": 3743,
       "sku_code": "WGA23022101",
       "full_sku": "NWG-WGA23022101",
       "name": "Standard Wi-Fi Management for WatchGuard AP230W - 1-year",
-      "msrp": 92,
+      "msrp": 118,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?h78nCOJiUck=GA65zycrZAZgi2EiBBw9ow==Ie+R2sKT1OoF0/8vCx3ZAFtCBHCnR1E=",
       "sku_type": "subscription",
@@ -32,11 +32,11 @@
       "term_years": 1
     },
     {
-      "id": 3066,
+      "id": 3744,
       "sku_code": "WGA23022103",
       "full_sku": "NWG-WGA23022103",
       "name": "Standard Wi-Fi Management for WatchGuard AP230W - 3-year",
-      "msrp": 183,
+      "msrp": 236,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?guotr2Kwm/w=RWKOOng+WW03jBVnO4YkNQ==YT8VAAd/Uoyx/eW3uBg+Y6RukH7PL0c=",
       "sku_type": "subscription",
@@ -44,11 +44,11 @@
       "term_years": 3
     },
     {
-      "id": 3067,
+      "id": 3745,
       "sku_code": "WGA23022105",
       "full_sku": "NWG-WGA23022105",
       "name": "Standard Wi-Fi Management for WatchGuard AP230W - 5-year",
-      "msrp": 275,
+      "msrp": 354,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?39AYrgMvTbg=Mjud9yPNeSrWVsdCOnP4cQ==vx2CWpEmzcqVQ7hjPGUb39pbS+nLyKQ=",
       "sku_type": "subscription",
@@ -56,11 +56,11 @@
       "term_years": 5
     },
     {
-      "id": 3062,
+      "id": 3740,
       "sku_code": "WGA23022001",
       "full_sku": "NWG-WGA23022001",
       "name": "USP Wi-Fi Management for WatchGuard AP230W - 1-year",
-      "msrp": 153,
+      "msrp": 197,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?7WwUGd6Ictw=QW6rLQ1LZ+SYs4uIzqSsNA==y2gyOhztuKqpwafQjWZMAeIT3knhM5E=",
       "sku_type": "subscription",
@@ -68,11 +68,11 @@
       "term_years": 1
     },
     {
-      "id": 3063,
+      "id": 3741,
       "sku_code": "WGA23022003",
       "full_sku": "NWG-WGA23022003",
       "name": "USP Wi-Fi Management for WatchGuard AP230W - 3-year",
-      "msrp": 306,
+      "msrp": 393,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?szs59hoV2UM=Nx7R4lIk/yN9DYwjJHos7w==KlBi+eV1b54OR1MLYQVbdNKN9l3bnyg=",
       "sku_type": "subscription",
@@ -80,11 +80,11 @@
       "term_years": 3
     },
     {
-      "id": 3064,
+      "id": 3742,
       "sku_code": "WGA23022005",
       "full_sku": "NWG-WGA23022005",
       "name": "USP Wi-Fi Management for WatchGuard AP230W - 5-year",
-      "msrp": 458,
+      "msrp": 590,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?Nt2y8PK0Plg=YjyQyLSs/mZrOs/m/wUhuA==9m2HMbz50Owk1UsDSplJzhOKOp8mkU4=",
       "sku_type": "subscription",
@@ -96,11 +96,11 @@
   "highAvailability": [],
   "activationBundles": [
     {
-      "id": 3061,
+      "id": 3739,
       "sku_code": "WGA23003309",
       "full_sku": "NWG-WGA23003309",
       "name": "Points Activation Bundle for WatchGuard AP230W",
-      "msrp": 86,
+      "msrp": 0,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?sO/btSyWcnI=+rmtfw6/cRKMD2eFCVJ9ZQ==oQieSOQjkhOoPJdBgrV/jn2/zVMV1ME=",
       "sku_type": "activation_bundle",

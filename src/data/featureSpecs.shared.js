@@ -110,6 +110,30 @@ const SECTION_DEFS = {
     },
   ],
 
+  fireboxCloud: [
+    {
+      title: 'CAPACITY',
+      rows: [
+        { label: 'CPU Core Limit', key: 'cpuCores' },
+        { label: 'User Count', key: 'userCount' },
+        { label: 'EDR Core Licenses', key: 'edrLicenses' },
+      ],
+    },
+    {
+      title: 'PERFORMANCE',
+      rows: [
+        { label: 'Firewall Throughput', key: 'firewallThroughput' },
+        { label: 'VPN Throughput', key: 'vpnThroughput' },
+      ],
+    },
+    {
+      title: 'NETWORKING',
+      rows: [
+        { label: 'BOVPN Tunnels', key: 'bovpnTunnels' },
+      ],
+    },
+  ],
+
   fireboxV: [
     {
       title: 'CAPACITY',
@@ -527,6 +551,38 @@ const PRODUCT_SPECS = {
     powerConsumption: 'Peak 19.5W / Average 11.65W',
     mountingOptions: 'T-Bar ceiling, flat surface mount',
     optionalAccessories: 'Universal standing bracket, 802.3at PoE+ injector',
+  },
+  'FireboxCloud-Small': {
+    cpuCores: '2',
+    userCount: '50',
+    edrLicenses: '50',
+    firewallThroughput: '2 Gbps',
+    vpnThroughput: '0.4 Gbps',
+    bovpnTunnels: '50',
+  },
+  'FireboxCloud-Medium': {
+    cpuCores: '4',
+    userCount: '250',
+    edrLicenses: '150',
+    firewallThroughput: '4 Gbps',
+    vpnThroughput: '1.5 Gbps',
+    bovpnTunnels: '600',
+  },
+  'FireboxCloud-Large': {
+    cpuCores: '8',
+    userCount: '750',
+    edrLicenses: '250',
+    firewallThroughput: '8 Gbps',
+    vpnThroughput: '3.0 Gbps',
+    bovpnTunnels: '6,000',
+  },
+  'FireboxCloud-XLarge': {
+    cpuCores: '16',
+    userCount: '1,500',
+    edrLicenses: '250',
+    firewallThroughput: 'Unrestricted',
+    vpnThroughput: 'Unrestricted',
+    bovpnTunnels: '10,000',
   },
   'FireboxV-Small': {
     cpuCores: '2',

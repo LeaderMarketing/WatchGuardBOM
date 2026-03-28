@@ -1,12 +1,9 @@
+// Price lookups for Virtual / Cloud tabs
+// Single source of truth: the latest WGdata_*.csv in this directory (RRP column)
+
 import { getSkuCode } from './productSkus.js';
 
-const leaderPriceFiles = import.meta.glob('../../server/data/leader_dbp_prices_*.csv', {
-  eager: true,
-  import: 'default',
-  query: '?raw',
-});
-
-const wgDataFiles = import.meta.glob('../../WGdata_*.csv', {
+const wgDataFiles = import.meta.glob('./WGdata_*.csv', {
   eager: true,
   import: 'default',
   query: '?raw',
@@ -42,57 +39,27 @@ function parsePrice(rawValue) {
   return Number.isFinite(numeric) && numeric > 0 ? numeric : null;
 }
 
-function getLatestLeaderPriceFile() {
-  const entries = Object.entries(leaderPriceFiles).sort(([leftPath], [rightPath]) =>
-    leftPath.localeCompare(rightPath),
-  );
-
-  if (entries.length === 0) return null;
-  return entries[entries.length - 1];
-}
-
 function buildPriceLookup() {
   const pricesBySku = new Map();
   let sourceFile = null;
 
-  // Parse leader CSV (13-column format) — use RRP_ex_GST (col 5)
-  const latestFile = getLatestLeaderPriceFile();
-  if (latestFile) {
-    const [leaderSource, csvRaw] = latestFile;
-    sourceFile = leaderSource;
-    const lines = csvRaw.split(/\r?\n/).filter((line) => line.trim());
-
-  for (const line of lines.slice(1)) {
-    const fields = parseCsvLine(line);
-    if (fields.length < 13) continue;
-
-    const [skuInput, partNum, _productName, _dbpExGst, _dbpIncGst, rrpExGst, _rrpIncGst, _syd, _mel, _brs, _adl, _wa, status] = fields;
-    const sku = (partNum || skuInput || '').trim();
-    const normalizedStatus = (status || '').trim().toUpperCase();
-    const price = parsePrice(rrpExGst);
-
-    if (!sku || normalizedStatus === 'NOT FOUND' || price === null) continue;
-    pricesBySku.set(sku, price);
-  }
-  }
-
-  // Parse WGdata CSV (8-column format: STOCK CODE,SUBCATEGORY,DESC,IMAGE,MFR,MFR SKU,DBP,RRP)
-  for (const [, wgCsvRaw] of Object.entries(wgDataFiles)) {
-    const wgLines = wgCsvRaw.split(/\r?\n/).filter((l) => l.trim());
-    for (const wgLine of wgLines.slice(1)) {
-      const wgFields = parseCsvLine(wgLine);
-      if (wgFields.length < 8) continue;
-      const wgSku = wgFields[0].trim();
-      const wgRrp = parsePrice(wgFields[7]);
-      if (!wgSku || wgRrp === null) continue;
-      pricesBySku.set(wgSku, wgRrp);
+  // Parse WGdata CSV — format: STOCK CODE, SUBCATEGORY, DESC, IMAGE, MFR, MFR SKU, DBP, RRP
+  // Uses RRP (column 7) as the price
+  const entries = Object.entries(wgDataFiles).sort(([a], [b]) => a.localeCompare(b));
+  for (const [filePath, csvRaw] of entries) {
+    sourceFile = filePath;
+    const lines = csvRaw.split(/\r?\n/).filter((l) => l.trim());
+    for (const line of lines.slice(1)) {
+      const fields = parseCsvLine(line);
+      if (fields.length < 8) continue;
+      const sku = fields[0].trim();
+      const rrp = parsePrice(fields[7]);
+      if (!sku || rrp === null) continue;
+      pricesBySku.set(sku, rrp);
     }
   }
 
-  return {
-    sourceFile,
-    pricesBySku,
-  };
+  return { sourceFile, pricesBySku };
 }
 
 const { sourceFile, pricesBySku } = buildPriceLookup();

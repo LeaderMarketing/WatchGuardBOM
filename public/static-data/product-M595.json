@@ -1,5 +1,5 @@
 {
-  "id": 271,
+  "id": 329,
   "slug": "M595",
   "name": "Firebox M595",
   "family": "M-Series",
@@ -7,11 +7,11 @@
   "description": "Advanced threat protection for large organizations",
   "image_file": "m595.jpg",
   "appliance": {
-    "id": 3200,
+    "id": 3878,
     "sku_code": "WGM595000",
     "full_sku": "NWG-WGM595000",
     "name": "WatchGuard Firebox M595 Appliance Only",
-    "msrp": 3936,
+    "msrp": 5029,
     "delivery_method": "Physical",
     "url": "https://partner.leadersystems.com.au/products.html?FG2/9d1bwx8=imU52ROCT3CK/AvyrrFUug==l0Bdq8vVdts0m+Tkm4ThwbcOKUed",
     "sku_type": "appliance",
@@ -20,11 +20,11 @@
   },
   "subscriptions": [
     {
-      "id": 3203,
+      "id": 3881,
       "sku_code": "WGM5950071",
       "full_sku": "NWG-WGM5950071",
       "name": "WatchGuard Basic Security Suite for Firebox M595 - 1-Year",
-      "msrp": 13370,
+      "msrp": 17082,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?RaI9q4KaQvo=yam8m7ITPd3TwctWyoM75w==3wNtm3cYLPZiaMAiq17htaLFcahE4g==",
       "sku_type": "subscription",
@@ -32,11 +32,11 @@
       "term_years": 1
     },
     {
-      "id": 3204,
+      "id": 3882,
       "sku_code": "WGM5950073",
       "full_sku": "NWG-WGM5950073",
       "name": "WatchGuard Basic Security Suite for Firebox M595 - 3-Year",
-      "msrp": 23787,
+      "msrp": 30392,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?6talRtuivEE=Dmh/qheINDlzwobWDnqC7A==8fGcmS/rex8sa6y13en1iyHM5w2M+A==",
       "sku_type": "subscription",
@@ -44,11 +44,11 @@
       "term_years": 3
     },
     {
-      "id": 3201,
+      "id": 3879,
       "sku_code": "WGM5950061",
       "full_sku": "NWG-WGM5950061",
       "name": "WatchGuard Standard Support for Firebox M595 - 1-Year",
-      "msrp": 10307,
+      "msrp": 13169,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?h2ITLs8vIgg=QQgpSrDKYpjLasP4HatJPQ==Xm15E4IfxlbWB1YsvWyC+yLFqfjo+w==",
       "sku_type": "subscription",
@@ -56,11 +56,11 @@
       "term_years": 1
     },
     {
-      "id": 3202,
+      "id": 3880,
       "sku_code": "WGM5950063",
       "full_sku": "NWG-WGM5950063",
       "name": "WatchGuard Standard Support for Firebox M595 - 3-Year",
-      "msrp": 16789,
+      "msrp": 21450,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?hcFg7YvTGNw=u/E7EC3MwZ1YHjOD98aAGg==3bFESNwNus4XVLdOuF5TfpyqsnFn8w==",
       "sku_type": "subscription",
@@ -68,11 +68,11 @@
       "term_years": 3
     },
     {
-      "id": 3205,
+      "id": 3883,
       "sku_code": "WGM5950081",
       "full_sku": "NWG-WGM5950081",
       "name": "WatchGuard Total Security Suite for Firebox M595 - 1-Year",
-      "msrp": 20380,
+      "msrp": 26039,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?YIIcfeklFvQ=ar8aewU+P95Qzj7ly7gWXA==iM6KtJNlqycp/HZSW/BgvxvJzVOJtg==",
       "sku_type": "subscription",
@@ -80,11 +80,11 @@
       "term_years": 1
     },
     {
-      "id": 3206,
+      "id": 3884,
       "sku_code": "WGM5950083",
       "full_sku": "NWG-WGM5950083",
       "name": "WatchGuard Total Security Suite for Firebox M595 - 3-Year",
-      "msrp": 40428,
+      "msrp": 53017,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?dC1dGlsMmfo=d9Wq+KxtlzbRaYPjKPjGag==Nb4mmlNGaeZOkSnvdaKWi5dj53bBww==",
       "sku_type": "subscription",
@@ -95,11 +95,11 @@
   "tradeUps": [],
   "highAvailability": [
     {
-      "id": 3210,
+      "id": 3888,
       "sku_code": "WGM5951601",
       "full_sku": "NWG-WGM5951601",
       "name": "WatchGuard High Availability for M595 - 1-Year",
-      "msrp": 3186,
+      "msrp": 4070,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?CiQzCSO0CyU=6j/A7sUrcJ0dDKm4JqwH/g==q1EwEe/McQJo0BC9IOGvGdgZRyahNw==",
       "sku_type": "high_availability",
@@ -107,11 +107,11 @@
       "term_years": 1
     },
     {
-      "id": 3211,
+      "id": 3889,
       "sku_code": "WGM5951603",
       "full_sku": "NWG-WGM5951603",
       "name": "WatchGuard High Availability for M595 - 3-Year",
-      "msrp": 8499,
+      "msrp": 10859,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?6nzyBzFgtRY=5uSH6chuUj9IVzTR3YACjg==tBXmNfeP91FjCabaHiujZFWYx6Iz2g==",
       "sku_type": "high_availability",

@@ -1,5 +1,5 @@
 {
-  "id": 265,
+  "id": 323,
   "slug": "M390",
   "name": "Firebox M390",
   "family": "M-Series",
@@ -7,11 +7,11 @@
   "description": "Mid-range rackmount firewall for growing networks",
   "image_file": "m395.jpg",
   "appliance": {
-    "id": 3125,
+    "id": 3803,
     "sku_code": "WGM390000",
     "full_sku": "NWG-WGM390000",
     "name": "WatchGuard Firebox M390 Appliance Only",
-    "msrp": 2663,
+    "msrp": 3403,
     "delivery_method": "Physical",
     "url": "https://partner.leadersystems.com.au/products.html?u7QSJo/m1dQ=fPftxpm3ioTnoJbumNEmyQ==9+g+0OOyqe9UtGXYaFT6DOubNLdU",
     "sku_type": "appliance",
@@ -20,11 +20,11 @@
   },
   "subscriptions": [
     {
-      "id": 3128,
+      "id": 3806,
       "sku_code": "WGM3900071",
       "full_sku": "NWG-WGM3900071",
       "name": "WatchGuard Basic Security Suite for Firebox M390 - 1-Year",
-      "msrp": 2294,
+      "msrp": 2931,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?ohwTjpMbn3s=X1ITlg+Ps4JIkV/1TosW4Q==9n0SnI2IRIJ1hFa3pDszJg9lTf2H1Q==",
       "sku_type": "subscription",
@@ -32,11 +32,11 @@
       "term_years": 1
     },
     {
-      "id": 3129,
+      "id": 3807,
       "sku_code": "WGM3900073",
       "full_sku": "NWG-WGM3900073",
       "name": "WatchGuard Basic Security Suite for Firebox M390 - 3-Year",
-      "msrp": 5276,
+      "msrp": 6742,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?/DC32XansXQ=5ZnJ6Zr5JVnPA7EU3x4p3w==51Ww2gbAD/wKq5vMDQ3s3sPMFnOHcg==",
       "sku_type": "subscription",
@@ -44,11 +44,11 @@
       "term_years": 3
     },
     {
-      "id": 3126,
+      "id": 3804,
       "sku_code": "WGM3900061",
       "full_sku": "NWG-WGM3900061",
       "name": "WatchGuard Standard Support for Firebox M390 - 1-Year",
-      "msrp": 1408,
+      "msrp": 1800,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?xRIAqGhxE2c=tq2cp1BTwTVYo6wHoPma0g==24ONbyl2sGK6nNGTbLT23elvWp3Y7g==",
       "sku_type": "subscription",
@@ -56,11 +56,11 @@
       "term_years": 1
     },
     {
-      "id": 3127,
+      "id": 3805,
       "sku_code": "WGM3900063",
       "full_sku": "NWG-WGM3900063",
       "name": "WatchGuard Standard Support for Firebox M390 - 3-Year",
-      "msrp": 2503,
+      "msrp": 3198,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?yH5279uS+/E=tfgQqzIsrZQ+NFQ6Es87gQ==iiOOeM5niIo/eL1uH5Fa9vG3Ahsuqw==",
       "sku_type": "subscription",
@@ -68,11 +68,11 @@
       "term_years": 3
     },
     {
-      "id": 3130,
+      "id": 3808,
       "sku_code": "WGM3900081",
       "full_sku": "NWG-WGM3900081",
       "name": "WatchGuard Total Security Suite for Firebox M390 - 1-Year",
-      "msrp": 4299,
+      "msrp": 5493,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?GqrbhUf5eMg=19JdvlWfQXwQ6V6Xs1fDRg==JlV9Pz3hXzHMwAIFVuXUqmzKZJVOYA==",
       "sku_type": "subscription",
@@ -80,11 +80,11 @@
       "term_years": 1
     },
     {
-      "id": 3131,
+      "id": 3809,
       "sku_code": "WGM3900083",
       "full_sku": "NWG-WGM3900083",
       "name": "WatchGuard Total Security Suite for Firebox M390 - 3-Year",
-      "msrp": 10043,
+      "msrp": 12831,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?G4eyZcDwrmk=SAO585rpPu09U20mtDHFGQ==tMoHD9207QMUUW6uh2J6WE1tiATiLg==",
       "sku_type": "subscription",
@@ -95,11 +95,11 @@
   "tradeUps": [],
   "highAvailability": [
     {
-      "id": 3135,
+      "id": 3813,
       "sku_code": "WGM3901601",
       "full_sku": "NWG-WGM3901601",
       "name": "WatchGuard High Availability for M390 - 1-Year",
-      "msrp": 122,
+      "msrp": 156,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?7l9nS7LrSy0=1KAfIB9nA5qHC5q35/jJEw==NRJps12E2QAQWLXq+ndyqKOpK0GsEQ==",
       "sku_type": "high_availability",
@@ -107,11 +107,11 @@
       "term_years": 1
     },
     {
-      "id": 3124,
+      "id": 3802,
       "sku_code": "WGM3901603",
       "full_sku": "NWG-WGM3901603",
       "name": "WatchGuard High Availability for M390 - 3-Year",
-      "msrp": 292,
+      "msrp": 374,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?KevlVK0iEe8=gBZEAw/Tz42zWRF2LuhcRg==DBur/91XsHuArdbAPe8qLluQvxXEYg==",
       "sku_type": "high_availability",

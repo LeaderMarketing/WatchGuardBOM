@@ -1,5 +1,5 @@
 {
-  "id": 267,
+  "id": 325,
   "slug": "M4800",
   "name": "Firebox M4800",
   "family": "M-Series",
@@ -7,11 +7,11 @@
   "description": "Data center firewall with 40Gb fiber options",
   "image_file": "m4800.jpg",
   "appliance": {
-    "id": 3150,
+    "id": 3828,
     "sku_code": "WGM48000",
     "full_sku": "NWG-WGM48000",
     "name": "WatchGuard Firebox M4800 Appliance Only",
-    "msrp": 8671,
+    "msrp": 11079,
     "delivery_method": "Physical",
     "url": "https://partner.leadersystems.com.au/products.html?BLOjs3SE31U=qzsmbnPndWeC0nNFCt47XQ==gMK+0fFwLdxlH3O3SHqVNZizS5k=",
     "sku_type": "appliance",
@@ -20,11 +20,11 @@
   },
   "subscriptions": [
     {
-      "id": 3153,
+      "id": 3831,
       "sku_code": "WGM48000071",
       "full_sku": "NWG-WGM48000071",
       "name": "WatchGuard Basic Security Suite for Firebox M4800 - 1-Year",
-      "msrp": 15663,
+      "msrp": 20013,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?z6v7qT6JPlM=Ok7KobM/3CBy6wguM0Ek7A==AbzX5Tdtm9asfgOH+7E2GfNKPe0Tb6w=",
       "sku_type": "subscription",
@@ -32,11 +32,11 @@
       "term_years": 1
     },
     {
-      "id": 3154,
+      "id": 3832,
       "sku_code": "WGM48000073",
       "full_sku": "NWG-WGM48000073",
       "name": "WatchGuard Basic Security Suite for Firebox M4800 - 3-Year",
-      "msrp": 30330,
+      "msrp": 38752,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?Id4Paj+XZDI=gv6EMDhE7GP3s0yWyqDsAA==C+gK+2msn52koencFvbe6gUpxMa4WjE=",
       "sku_type": "subscription",
@@ -44,11 +44,11 @@
       "term_years": 3
     },
     {
-      "id": 3151,
+      "id": 3829,
       "sku_code": "WGM48000061",
       "full_sku": "NWG-WGM48000061",
       "name": "WatchGuard Standard Support for Firebox M4800 - 1-Year",
-      "msrp": 11334,
+      "msrp": 14481,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?oYPUzrACxds=Pju9lV5uT0yDerLSLB6l1A==cqIPf2i4HT5h0FRZGIHpAGmgzjVRels=",
       "sku_type": "subscription",
@@ -56,11 +56,11 @@
       "term_years": 1
     },
     {
-      "id": 3152,
+      "id": 3830,
       "sku_code": "WGM48000063",
       "full_sku": "NWG-WGM48000063",
       "name": "WatchGuard Standard Support for Firebox M4800 - 3-Year",
-      "msrp": 16678,
+      "msrp": 21309,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?oNUBMDEs4zg=/nBMAx53U13Fj7TV7SA7Dg==FaWXIvk9GnTnl7hJHJPr79KNSW9pwjs=",
       "sku_type": "subscription",
@@ -68,11 +68,11 @@
       "term_years": 3
     },
     {
-      "id": 3155,
+      "id": 3833,
       "sku_code": "WGM48000081",
       "full_sku": "NWG-WGM48000081",
       "name": "WatchGuard Total Security Suite for Firebox M4800 - 1-Year",
-      "msrp": 25528,
+      "msrp": 32615,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?JMpxHy5I1bw=bvP99gMhwpAMsev7KBB/3g==o35A4WspyE5jvZJxYP1GB7O+LxWN+j0=",
       "sku_type": "subscription",
@@ -80,11 +80,11 @@
       "term_years": 1
     },
     {
-      "id": 3156,
+      "id": 3834,
       "sku_code": "WGM48000083",
       "full_sku": "NWG-WGM48000083",
       "name": "WatchGuard Total Security Suite for Firebox M4800 - 3-Year",
-      "msrp": 65140,
+      "msrp": 94539,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?yCSMvxtxcd8=sNoG/vX7u8CRLGrwcHKwFA==l843Rx/1WNRvWx24f7bWHApdNw2IHUE=",
       "sku_type": "subscription",
@@ -95,11 +95,11 @@
   "tradeUps": [],
   "highAvailability": [
     {
-      "id": 3149,
+      "id": 3827,
       "sku_code": "WGM480001620",
       "full_sku": "NWG-WGM480001620",
       "name": "WatchGuard High Availability for M4800 - 1-Month Subscription",
-      "msrp": 9.23,
+      "msrp": 0,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?oyZT1WcmRpg=0T2R+Kt+qZhF5D6N0z+zZQ==lhoXQ3jMJX0qEg48yvids9NxfLMroCUP",
       "sku_type": "high_availability",
@@ -107,11 +107,11 @@
       "term_years": 0
     },
     {
-      "id": 3157,
+      "id": 3835,
       "sku_code": "WGM480001601",
       "full_sku": "NWG-WGM480001601",
       "name": "WatchGuard High Availability for M4800 - 1-Year",
-      "msrp": 122,
+      "msrp": 156,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?AyTAQaEQQ3c=kPKFnLJfnyfdlbbsYe9F/w==mMCtpwuzAdo1rmIv/JNekZ/dd9ajr6Xo",
       "sku_type": "high_availability",
@@ -119,11 +119,11 @@
       "term_years": 1
     },
     {
-      "id": 3148,
+      "id": 3826,
       "sku_code": "WGM480001603",
       "full_sku": "NWG-WGM480001603",
       "name": "WatchGuard High Availability for M4800 - 3-Year",
-      "msrp": 292,
+      "msrp": 374,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?UIEBWiZwCsY=I9FIYyCy5+U40fU4nbYUPQ==WEnrw9cNDA7HKaPXFo3c11FSaVd6vQvm",
       "sku_type": "high_availability",

@@ -1,5 +1,5 @@
 {
-  "id": 270,
+  "id": 328,
   "slug": "M590",
   "name": "Firebox M590",
   "family": "M-Series",
@@ -7,11 +7,11 @@
   "description": "High-performance rackmount for large organizations",
   "image_file": "m595.jpg",
   "appliance": {
-    "id": 3189,
+    "id": 3867,
     "sku_code": "WGM590000",
     "full_sku": "NWG-WGM590000",
     "name": "WatchGuard Firebox M590 Appliance Only",
-    "msrp": 5289,
+    "msrp": 6758,
     "delivery_method": "Physical",
     "url": "https://partner.leadersystems.com.au/products.html?C55s6H/nLX8=T121u4M04MH9dDK0mxfEnw==lz0ZD5+qhT7OmLknFZNmQjYlaeSO",
     "sku_type": "appliance",
@@ -20,11 +20,11 @@
   },
   "subscriptions": [
     {
-      "id": 3192,
+      "id": 3870,
       "sku_code": "WGM5900071",
       "full_sku": "NWG-WGM5900071",
       "name": "WatchGuard Basic Security Suite for Firebox M590 - 1-Year",
-      "msrp": 4563,
+      "msrp": 5830,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?jnS2xhVu5Ps=PU3iqby58+UKKXFi2+TSIQ==9pEUCvOaMl/5tjYcjDgOB9NqfR9FDA==",
       "sku_type": "subscription",
@@ -32,11 +32,11 @@
       "term_years": 1
     },
     {
-      "id": 3193,
+      "id": 3871,
       "sku_code": "WGM5900073",
       "full_sku": "NWG-WGM5900073",
       "name": "WatchGuard Basic Security Suite for Firebox M590 - 3-Year",
-      "msrp": 10498,
+      "msrp": 13413,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?aKKVYQV1cTQ=oKpXU9OQ1baRmiQ1JfIKTg==GM1MuMBHA7FjtlVLqBX5EZKypP5rBA==",
       "sku_type": "subscription",
@@ -44,11 +44,11 @@
       "term_years": 3
     },
     {
-      "id": 3190,
+      "id": 3868,
       "sku_code": "WGM5900061",
       "full_sku": "NWG-WGM5900061",
       "name": "WatchGuard Standard Support for Firebox M590 - 1-Year",
-      "msrp": 2804,
+      "msrp": 3583,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?jMuf2ame8MI=pJPA7pLkCqYUz8+uh9VKsA==tQjxi6a4YUut8ukplPhJ+VjMz2ABqQ==",
       "sku_type": "subscription",
@@ -56,11 +56,11 @@
       "term_years": 1
     },
     {
-      "id": 3191,
+      "id": 3869,
       "sku_code": "WGM5900063",
       "full_sku": "NWG-WGM5900063",
       "name": "WatchGuard Standard Support for Firebox M590 - 3-Year",
-      "msrp": 4969,
+      "msrp": 6349,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?6p6IxDTIRHQ=AhR1mU8ML9CrYmTKyFHRjQ==OzNQXzvG0/WyVduqW63p8MHQYZwvgw==",
       "sku_type": "subscription",
@@ -68,11 +68,11 @@
       "term_years": 3
     },
     {
-      "id": 3194,
+      "id": 3872,
       "sku_code": "WGM5900081",
       "full_sku": "NWG-WGM5900081",
       "name": "WatchGuard Total Security Suite for Firebox M590 - 1-Year",
-      "msrp": 8548,
+      "msrp": 10922,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?srBFOwURqYY=uJXo5hVYuyD909KazPZbqQ==8Jo3HiYy8epZdTWWOU5G5VNVcjzB+Q==",
       "sku_type": "subscription",
@@ -80,11 +80,11 @@
       "term_years": 1
     },
     {
-      "id": 3195,
+      "id": 3873,
       "sku_code": "WGM5900083",
       "full_sku": "NWG-WGM5900083",
       "name": "WatchGuard Total Security Suite for Firebox M590 - 3-Year",
-      "msrp": 19968,
+      "msrp": 25513,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?8tRCszfyyd4=IuJCeo1a1OFxke5hW0zmlg==m3MfCqR3ivUCd8Lep0j0F+R6R9y2gA==",
       "sku_type": "subscription",
@@ -95,11 +95,11 @@
   "tradeUps": [],
   "highAvailability": [
     {
-      "id": 3199,
+      "id": 3877,
       "sku_code": "WGM5901601",
       "full_sku": "NWG-WGM5901601",
       "name": "WatchGuard High Availability for M590 - 1-Year",
-      "msrp": 122,
+      "msrp": 156,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?zDbOnrIeBSg=AroDXST96NlZghi43RqTyA==H2aCiTIUDdgtfF2FEwoLKxkA353+bw==",
       "sku_type": "high_availability",
@@ -107,11 +107,11 @@
       "term_years": 1
     },
     {
-      "id": 3188,
+      "id": 3866,
       "sku_code": "WGM5901603",
       "full_sku": "NWG-WGM5901603",
       "name": "WatchGuard High Availability for M590 - 3-Year",
-      "msrp": 292,
+      "msrp": 374,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?VIGKxdpVWYo=8foQUqc3TU3/t32onw2UYw==vR/ACBwG9QEkAGhyMF8S8SV2y6iOAw==",
       "sku_type": "high_availability",

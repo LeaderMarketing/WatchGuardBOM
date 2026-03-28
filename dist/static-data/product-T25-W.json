@@ -1,5 +1,5 @@
 {
-  "id": 281,
+  "id": 339,
   "slug": "T25-W",
   "name": "Firebox T25-W",
   "family": "T-Series",
@@ -7,11 +7,11 @@
   "description": "Entry-level firewall with Wi-Fi for home offices",
   "image_file": "T115-W.jpg",
   "appliance": {
-    "id": 3329,
+    "id": 4007,
     "sku_code": "WGT26000",
     "full_sku": "NWG-WGT26000",
     "name": "WatchGuard Firebox T25-W Appliance Only",
-    "msrp": 510,
+    "msrp": 653,
     "delivery_method": "Physical",
     "url": "https://partner.leadersystems.com.au/products.html?Mt6+n+1vrzc=STF9BMD3mOECNm+oPeNxUA==wKevsv3Ya7YGKg1zHbwOgwn+UaI=",
     "sku_type": "appliance",
@@ -20,11 +20,11 @@
   },
   "subscriptions": [
     {
-      "id": 3333,
+      "id": 4011,
       "sku_code": "WGT260071",
       "full_sku": "NWG-WGT260071",
       "name": "WatchGuard Basic Security Suite for Firebox T25-W - 1-Year",
-      "msrp": 520,
+      "msrp": 665,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?yjBy27V4xQg=lQQFnLuLT6g5Qrxvl43qrQ==XPNLmEQeYKYD6B44c/iqSpX1D3AX",
       "sku_type": "subscription",
@@ -32,11 +32,11 @@
       "term_years": 1
     },
     {
-      "id": 3334,
+      "id": 4012,
       "sku_code": "WGT260073",
       "full_sku": "NWG-WGT260073",
       "name": "WatchGuard Basic Security Suite for Firebox T25-W - 3-Year",
-      "msrp": 1156,
+      "msrp": 1478,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?x2e8WXjnRjM=shf18o1ooq5X/pRgq8sNJw==nmA6ypKrUP4HtYNpjtpvzn1UD69i",
       "sku_type": "subscription",
@@ -44,11 +44,11 @@
       "term_years": 3
     },
     {
-      "id": 3335,
+      "id": 4013,
       "sku_code": "WGT260075",
       "full_sku": "NWG-WGT260075",
       "name": "WatchGuard Basic Security Suite for Firebox T25-W - 5-Year",
-      "msrp": 2036,
+      "msrp": 2601,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?afX0Gg6gVoU=DYiiXAPsPhsCahiaJqqAGg==5RERztuGYzbYxe83vCVs5hSXobII",
       "sku_type": "subscription",
@@ -56,11 +56,11 @@
       "term_years": 5
     },
     {
-      "id": 3330,
+      "id": 4008,
       "sku_code": "WGT260061",
       "full_sku": "NWG-WGT260061",
       "name": "WatchGuard Standard Support for Firebox T25-W - 1-Year",
-      "msrp": 344,
+      "msrp": 440,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?P4U6Ut4DfQI=WnnJYca/bIUgph9bstIeuw==VSHThiEiCZVLxVKy1Sf0NI5djlBt",
       "sku_type": "subscription",
@@ -68,11 +68,11 @@
       "term_years": 1
     },
     {
-      "id": 3331,
+      "id": 4009,
       "sku_code": "WGT260063",
       "full_sku": "NWG-WGT260063",
       "name": "WatchGuard Standard Support for Firebox T25-W - 3-Year",
-      "msrp": 572,
+      "msrp": 731,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?BDkIiYfKMXo=nliamk+Z7NG1glS/C775KQ==Gn9evGQ/C0el3DD7IR652lZj30Rx",
       "sku_type": "subscription",
@@ -80,11 +80,11 @@
       "term_years": 3
     },
     {
-      "id": 3332,
+      "id": 4010,
       "sku_code": "WGT260065",
       "full_sku": "NWG-WGT260065",
       "name": "WatchGuard Standard Support for Firebox T25-W - 5-Year",
-      "msrp": 898,
+      "msrp": 1148,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?CALoT+LYyjw=JzzlXZ0FRUtzz3GVe/x1rg==aaXef0YtWgmdk372+4MYkY0tJl/C",
       "sku_type": "subscription",
@@ -92,11 +92,11 @@
       "term_years": 5
     },
     {
-      "id": 3336,
+      "id": 4014,
       "sku_code": "WGT260081",
       "full_sku": "NWG-WGT260081",
       "name": "WatchGuard Total Security Suite for Firebox T25-W - 1-Year",
-      "msrp": 1015,
+      "msrp": 1297,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?vrdUxe+IJ5s=Cp8NpR6WqFdFamodhsFQeg==iQOI0SN2JVG2Hi+qVAdZpIQUtWGU",
       "sku_type": "subscription",
@@ -104,11 +104,11 @@
       "term_years": 1
     },
     {
-      "id": 3337,
+      "id": 4015,
       "sku_code": "WGT260083",
       "full_sku": "NWG-WGT260083",
       "name": "WatchGuard Total Security Suite for Firebox T25-W - 3-Year",
-      "msrp": 2275,
+      "msrp": 2908,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?OoPcs8hjbyk=9pMSm+B6no8TBrP4o/8LSw==xK5DhzDcGB9HymGT6f2q0nUIHlDa",
       "sku_type": "subscription",
@@ -116,11 +116,11 @@
       "term_years": 3
     },
     {
-      "id": 3338,
+      "id": 4016,
       "sku_code": "WGT260085",
       "full_sku": "NWG-WGT260085",
       "name": "WatchGuard Total Security Suite for Firebox T25-W - 5-Year",
-      "msrp": 4065,
+      "msrp": 5194,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?2oinkr9wrIs=laf+m9e6XSPoy0M5JbnVhg==cSSHJQu5osu/g1/tFXjOMiA1zoR9",
       "sku_type": "subscription",
@@ -130,11 +130,11 @@
   ],
   "tradeUps": [
     {
-      "id": 3339,
+      "id": 4017,
       "sku_code": "WGT260203",
       "full_sku": "NWG-WGT260203",
       "name": "Trade Up to WatchGuard Basic Security Suite for Firebox T25-W - 3-Year",
-      "msrp": 765,
+      "msrp": 1203,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?z+Bs7+tQOKY=cSBBUEHI0hGg7Mvim/OGzw==gDBWrSVloORF0ZtR1A/eHwuJAg21",
       "sku_type": "trade_up",
@@ -142,11 +142,11 @@
       "term_years": 3
     },
     {
-      "id": 3341,
+      "id": 4019,
       "sku_code": "WGT260211",
       "full_sku": "NWG-WGT260211",
       "name": "Trade Up to WatchGuard Total Security Suite for Firebox T25-W - 1-Year",
-      "msrp": 645,
+      "msrp": 1014,
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?lhjlx96jiGE=rfCL/T4ZeR5QBrZx/HkaUQ==oshL5zOFDxIwdSL188V2HCv9/IfI",
       "sku_type": "trade_up",
