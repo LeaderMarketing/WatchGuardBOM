@@ -21,6 +21,10 @@ import {
   Shuffle,
   CloudArrowUp,
   MagnifyingGlass,
+  ShieldWarning,
+  ArrowsOutCardinal,
+  Cloud,
+  Desktop,
 } from '@phosphor-icons/react';
 import styles from './MdrNdrCatalog.module.css';
 import { useMdrNdrData } from './hooks/useMdrNdrData.js';
@@ -53,9 +57,9 @@ const TAB_CONTENT = {
       'WatchGuard MDR is a fully managed 24/7 service that doesn\'t just alert you to threats – we act on them. Cutting through the noise, our team helps you focus on what matters, and respond fast to threats across your laptops, servers, user identities, network, and cloud.',
   },
   ndr: {
-    headline: 'AI-Powered Network Visibility and Threat Detection',
+    headline: 'AI-Powered Network Detection and Response',
     description:
-      'WatchGuard ThreatSync+ NDR uses AI-driven analysis to detect threats hiding in network traffic that endpoint solutions alone might miss. Gain deep visibility across your entire network, detect lateral movement, and respond to threats automatically.',
+      'Gain complete visibility across your network — from Firebox appliances to third-party infrastructure and cloud workloads. WatchGuard NDR uses multi-layer neural networks and flow-based ML to detect threats like lateral movement, ransomware, and command-and-control traffic — no SOC required.',
   },
 };
 
@@ -213,7 +217,7 @@ function MdrNdrBanner({ activeTab, setActiveTab }) {
 /* ═══════════════════════════════════════════════════════════
    Category Tabs (MDR / NDR)
    ═══════════════════════════════════════════════════════════ */
-function CategoryTabs({ activeTab, setActiveTab, productCounts }) {
+function CategoryTabs({ activeTab, setActiveTab }) {
   return (
     <div className={styles.tabBar}>
       {TAB_ORDER.map((key) => {
@@ -226,9 +230,6 @@ function CategoryTabs({ activeTab, setActiveTab, productCounts }) {
           >
             <Icon size={16} weight={activeTab === key ? 'fill' : 'duotone'} />
             {TAB_LABELS[key]}
-            {productCounts?.[key] != null && (
-              <span className={styles.tabCount}>{productCounts[key]}</span>
-            )}
           </button>
         );
       })}
@@ -545,15 +546,162 @@ function MetricsBar() {
 }
 
 /* ═══════════════════════════════════════════════════════════
-   NDR Placeholder Content
+   NDR Comparison Table
    ═══════════════════════════════════════════════════════════ */
-function NdrContent() {
+function NdrComparisonTable() {
   return (
-    <div className={styles.ndrPlaceholder}>
-      <p className={styles.ndrPlaceholderText}>
-        More NDR content coming soon. Check back for detailed feature comparisons,
-        capabilities, and deployment guides for ThreatSync+ NDR, Total NDR, and ThreatSync+ SaaS.
+    <section className={styles.comparisonSection}>
+      <h2 className={styles.comparisonHeadline}>Which NDR Solution Is Right for You?</h2>
+      <p className={styles.comparisonDesc}>
+        From SaaS application monitoring to full-spectrum network detection with compliance reporting.
       </p>
+      <div className={styles.tableWrap}>
+        <table className={styles.comparisonTable}>
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>ThreatSync+ SaaS</th>
+              <th>ThreatSync+ NDR</th>
+              <th>Total NDR</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Ideal for:</strong></td>
+              <td>Office 365 &amp; SaaS monitoring</td>
+              <td>Full network &amp; cloud visibility</td>
+              <td>Network visibility + compliance</td>
+            </tr>
+            <tr>
+              <td><strong>Firebox Network Activity</strong> (incl. VPN, DHCP)</td>
+              <td><NoCheck /></td>
+              <td><Check /></td>
+              <td><Check /></td>
+            </tr>
+            <tr>
+              <td><strong>NetFlow/Flow Logs</strong> (any switch, router, firewall)</td>
+              <td><NoCheck /></td>
+              <td><Check /></td>
+              <td><Check /></td>
+            </tr>
+            <tr>
+              <td><strong>DHCP Logs from Active Directory</strong></td>
+              <td><NoCheck /></td>
+              <td><Check /></td>
+              <td><Check /></td>
+            </tr>
+            <tr>
+              <td><strong>Cloud Workload Flow Logs</strong> (Azure, AWS, IONOS)</td>
+              <td><NoCheck /></td>
+              <td><Check /></td>
+              <td><Check /></td>
+            </tr>
+            <tr>
+              <td><strong>Office 365 Application Logs</strong></td>
+              <td><Check /></td>
+              <td><NoCheck /></td>
+              <td><NoCheck /></td>
+            </tr>
+            <tr>
+              <td><strong>Block IP on Firebox</strong></td>
+              <td><NoCheck /></td>
+              <td><Check /></td>
+              <td><Check /></td>
+            </tr>
+            <tr>
+              <td><strong>Block Device via WatchGuard EPDR</strong></td>
+              <td><Check /></td>
+              <td><Check /></td>
+              <td><Check /></td>
+            </tr>
+            <tr>
+              <td><strong>Disable Users via AD or AuthPoint</strong></td>
+              <td><Check /></td>
+              <td><Check /></td>
+              <td><Check /></td>
+            </tr>
+            <tr>
+              <td><strong>Executive Summary Report</strong></td>
+              <td><Check /></td>
+              <td><Check /></td>
+              <td><Check /></td>
+            </tr>
+            <tr>
+              <td><strong>Ransomware Prevention Report</strong></td>
+              <td><NoCheck /></td>
+              <td><Check /></td>
+              <td><Check /></td>
+            </tr>
+            <tr>
+              <td><strong>Defense Goal Reports</strong></td>
+              <td><NoCheck /></td>
+              <td><Check /></td>
+              <td><Check /></td>
+            </tr>
+            <tr>
+              <td><strong>Compliance Reports</strong></td>
+              <td><NoCheck /></td>
+              <td><NoCheck /></td>
+              <td><Check /></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   NDR Key Capabilities
+   ═══════════════════════════════════════════════════════════ */
+const NDR_CAPABILITIES = [
+  { icon: MagnifyingGlass, title: 'AI-Driven Threat Detection', desc: 'Multi-layer neural networks analyze network flows to catch threats that signature-based tools miss.' },
+  { icon: ShieldWarning, title: 'Ransomware Prevention', desc: 'Early-stage detection of ransomware behaviours with guided remediation before encryption begins.' },
+  { icon: ArrowsOutCardinal, title: 'Lateral Movement Detection', desc: 'Spot attackers moving between systems — even across network segments and VPN tunnels.' },
+  { icon: Cloud, title: 'Cloud Workload Monitoring', desc: 'Monitor flow logs from Azure, AWS, and IONOS alongside on-premises network traffic.' },
+  { icon: Desktop, title: 'Rogue Device Discovery', desc: 'Identify unmanaged and unauthorised devices on your network with continuous visibility.' },
+  { icon: Lightning, title: 'Automated Response', desc: 'Integrated with ThreatSync XDR to block IPs, isolate devices, and disable compromised users.' },
+];
+
+function NdrCapabilities() {
+  return (
+    <section className={styles.capabilitiesSection}>
+      <h2 className={styles.sectionHeadline}>Key Capabilities</h2>
+      <div className={styles.capabilitiesGrid}>
+        {NDR_CAPABILITIES.map((cap, i) => (
+          <div key={i} className={styles.capabilityCard}>
+            <cap.icon size={28} weight="duotone" className={styles.capabilityIcon} />
+            <h4 className={styles.capabilityTitle}>{cap.title}</h4>
+            <p className={styles.capabilityDesc}>{cap.desc}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   NDR Metrics Bar
+   ═══════════════════════════════════════════════════════════ */
+function NdrMetricsBar() {
+  return (
+    <div className={styles.metricsBar}>
+      <div className={styles.metric}>
+        <span className={styles.metricValue}>100%</span>
+        <span className={styles.metricLabel}>Cloud-Native</span>
+      </div>
+      <div className={styles.metric}>
+        <span className={styles.metricValue}>Weeks → Hours</span>
+        <span className={styles.metricLabel}>Threat response time</span>
+      </div>
+      <div className={styles.metric}>
+        <span className={styles.metricValue}>Zero</span>
+        <span className={styles.metricLabel}>On-prem hardware required</span>
+      </div>
+      <div className={styles.metric}>
+        <span className={styles.metricValue}>Full Stack</span>
+        <span className={styles.metricLabel}>Network + Cloud + SaaS visibility</span>
+      </div>
     </div>
   );
 }
@@ -571,12 +719,6 @@ export default function MdrNdrCatalog() {
   const mdrProducts = products.filter((p) => p.group === 'mdr');
   const ndrProducts = products.filter((p) => p.group === 'ndr');
   const activeProducts = activeTab === 'mdr' ? mdrProducts : ndrProducts;
-  const content = TAB_CONTENT[activeTab];
-
-  const productCounts = {
-    mdr: mdrProducts.length,
-    ndr: ndrProducts.length,
-  };
 
   return (
     <div className={styles.catalog}>
@@ -587,7 +729,6 @@ export default function MdrNdrCatalog() {
       <CategoryTabs
         activeTab={activeTab}
         setActiveTab={setActiveTab}
-        productCounts={productCounts}
       />
 
       {/* ─── Product Cards (3-column) ─── */}
@@ -609,7 +750,13 @@ export default function MdrNdrCatalog() {
         </>
       )}
 
-      {activeTab === 'ndr' && <NdrContent />}
+      {activeTab === 'ndr' && (
+        <>
+          <NdrComparisonTable />
+          <NdrMetricsBar />
+          <NdrCapabilities />
+        </>
+      )}
     </div>
   );
 }

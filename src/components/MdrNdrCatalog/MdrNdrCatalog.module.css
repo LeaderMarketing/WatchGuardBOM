@@ -839,17 +839,6 @@
 /* ═══════════════════════════════════════════════════════════
    NDR PLACEHOLDER
    ═══════════════════════════════════════════════════════════ */
-.ndrPlaceholder {
-  text-align: center;
-  padding: 40px 20px;
-  color: #888;
-}
-
-.ndrPlaceholderText {
-  font-size: 0.9rem;
-  max-width: 500px;
-  margin: 0 auto;
-}
 
 /* ═══════════════════════════════════════════════════════════
    RESPONSIVE

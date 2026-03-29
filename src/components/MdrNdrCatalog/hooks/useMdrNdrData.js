@@ -23,24 +23,24 @@ const PRODUCTS = [
     tiers: ['1-50', '51-100', '101-250', '251-500', '501-1000', '1001-5000', '5001+'],
   },
   {
+    key: 'ThreatSync+ SaaS',
+    label: 'WatchGuard ThreatSync+ SaaS',
+    group: 'ndr',
+    description: 'Cloud application monitoring and threat detection for SaaS environments like Office 365',
+    tiers: ['1-50', '51-100', '101-250', '251+'],
+  },
+  {
     key: 'ThreatSync+ NDR',
     label: 'WatchGuard ThreatSync+ NDR',
     group: 'ndr',
-    description: 'AI-driven network detection and response for deep visibility across network traffic',
+    description: 'AI-driven network detection and response with deep visibility across network, cloud, and on-prem traffic',
     tiers: ['1-50', '51-100', '101-250', '251-500'],
   },
   {
     key: 'Total NDR',
     label: 'WatchGuard Total NDR',
     group: 'ndr',
-    description: 'Complete network detection and response with advanced analytics and automated remediation',
-    tiers: ['1-50', '51-100', '101-250', '251+'],
-  },
-  {
-    key: 'ThreatSync+ SaaS',
-    label: 'WatchGuard ThreatSync+ SaaS',
-    group: 'ndr',
-    description: 'Cloud application monitoring and threat detection for SaaS environments',
+    description: 'Complete network detection and response with advanced analytics, automated remediation, and compliance reporting',
     tiers: ['1-50', '51-100', '101-250', '251+'],
   },
 ];
