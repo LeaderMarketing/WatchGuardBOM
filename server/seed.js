@@ -91,6 +91,10 @@ function getSeedSourceFiles() {
 function classifySku(name, deliveryMethod) {
   if (deliveryMethod === 'Physical') return { type: 'appliance', subType: null };
   const lower = name.toLowerCase();
+  // Per-user subscription products (Endpoint, Identity, Email, MDR/NDR)
+  if (/\d+[-\s]+(?:to\s+)?\d+\s+(?:users|licenses)|\d+\+?\s+(?:users|licenses)/i.test(name)) {
+    return { type: 'per_user_subscription', subType: null };
+  }
   if (lower.includes('points activation bundle')) return { type: 'activation_bundle', subType: null };
   if (lower.includes('trade up')) {
     if (lower.includes('total security'))       return { type: 'trade_up', subType: 'Total Security Suite' };
@@ -101,8 +105,19 @@ function classifySku(name, deliveryMethod) {
   if (lower.includes('total security'))         return { type: 'subscription', subType: 'Total Security Suite' };
   if (lower.includes('basic security'))         return { type: 'subscription', subType: 'Basic Security Suite' };
   if (lower.includes('standard support'))       return { type: 'subscription', subType: 'Standard Support' };
+  if (lower.includes('gold support'))           return { type: 'subscription', subType: 'Gold Support' };
   if (lower.includes('usp wi-fi'))              return { type: 'subscription', subType: 'USP Wi-Fi' };
   if (lower.includes('standard wi-fi'))         return { type: 'subscription', subType: 'Standard Wi-Fi' };
+  // Individual security service subscriptions
+  if (lower.includes('webblocker'))             return { type: 'subscription', subType: 'WebBlocker' };
+  if (lower.includes('spamblocker'))            return { type: 'subscription', subType: 'spamBlocker' };
+  if (lower.includes('gateway antivirus'))      return { type: 'subscription', subType: 'Gateway AntiVirus' };
+  if (lower.includes('intrusion prevention'))   return { type: 'subscription', subType: 'Intrusion Prevention Service' };
+  if (lower.includes('reputation enabled'))     return { type: 'subscription', subType: 'Reputation Enabled Defense' };
+  if (lower.includes('application control'))    return { type: 'subscription', subType: 'Application Control' };
+  if (lower.includes('apt blocker'))            return { type: 'subscription', subType: 'APT Blocker' };
+  if (lower.includes('network discovery'))      return { type: 'subscription', subType: 'Network Discovery' };
+  if (lower.includes('cloud') && lower.includes('data retention')) return { type: 'subscription', subType: 'Cloud Data Retention' };
   return { type: 'other', subType: null };
 }
 
@@ -114,12 +129,21 @@ function extractTerm(name) {
   return null;
 }
 
-// ── Map Product Group to category ─────────────────────────
+// ── Map Product Family to category ────────────────────────
 function familyToCategory(family) {
-  if (family === 'Access Points') return 'wifi';
-  if (family === 'M-Series')      return 'mseries';
-  if (family === 'T-Series')      return 'tabletop';
-  return 'other';
+  const map = {
+    'Access Points':     'wifi',
+    'M-Series':          'mseries',
+    'T-Series':          'tabletop',
+    'Virtual':           'virtual',
+    'Cloud':             'cloud',
+    'MDR & NDR':         'mdr_ndr',
+    'Endpoint & Mobile': 'endpoint',
+    'Identity & Access': 'identity',
+    'Email Security':    'email',
+    'Renewals':          'renewals',
+  };
+  return map[family] || 'other';
 }
 
 // ── Map product group slug to image file ──────────────────
@@ -158,6 +182,10 @@ function groupToDisplayName(slug, family) {
   if (family === 'Access Points') return `WatchGuard ${slug}`;
   if (family === 'M-Series')      return `Firebox ${slug}`;
   if (family === 'T-Series')      return `Firebox ${slug}`;
+  if (family === 'Virtual')       return slug;  // "FireboxV Small" etc.
+  if (family === 'Cloud')         return slug;  // "Firebox Cloud Small" etc.
+  if (family === 'Renewals')      return `Firebox ${slug}`;
+  // Per-user products keep their product name as-is
   return slug;
 }
 
@@ -190,6 +218,41 @@ const DESCRIPTIONS = {
   'T45-CW':  'Cellular WAN tabletop firewall with 5G/LTE',
   'T45-PoE': 'Tabletop firewall with Power over Ethernet ports',
   'T45-W-PoE': 'Tabletop firewall with Wi-Fi and PoE ports',
+  // Virtual appliances
+  'FireboxV Small':  'Virtual firewall for small cloud deployments',
+  'FireboxV Medium': 'Virtual firewall for medium cloud workloads',
+  'FireboxV Large':  'Virtual firewall for large cloud environments',
+  'FireboxV XLarge': 'Virtual firewall for enterprise cloud infrastructure',
+  // Cloud appliances
+  'Firebox Cloud Small':  'Cloud-native firewall for small AWS/Azure deployments',
+  'Firebox Cloud Medium': 'Cloud-native firewall for medium cloud workloads',
+  'Firebox Cloud Large':  'Cloud-native firewall for large cloud environments',
+  'Firebox Cloud XLarge': 'Cloud-native firewall for enterprise cloud infrastructure',
+  // MDR & NDR
+  'Core MDR':              'Managed detection and response for endpoints',
+  'Core MDR for Microsoft': 'MDR optimized for Microsoft 365 environments',
+  'Total MDR':             'Comprehensive managed detection and response',
+  'ThreatSync+ NDR':       'Network detection and response with AI correlation',
+  'Total NDR':             'Full-spectrum network detection and response',
+  'ThreatSync+ SaaS':      'SaaS application threat detection and response',
+  // Endpoint & Mobile
+  'EPP':                   'Endpoint Protection Platform — antivirus and threat prevention',
+  'EDR':                   'Endpoint Detection and Response — advanced threat hunting',
+  'EPDR':                  'Combined EPP + EDR for complete endpoint security',
+  'Advanced EPDR':         'EPDR with zero-trust application service and threat hunting',
+  'Full Encryption':       'Full disk encryption add-on for endpoint protection',
+  'Patch Management':      'Automated patch management for OS and third-party apps',
+  'Advanced Reporting Tool': 'Advanced security reporting and analytics',
+  'DNSWatchGO':            'DNS-level protection and content filtering for remote users',
+  'Passport':              'User security bundle: DNSWatchGO + AuthPoint + EPDR',
+  'Panda EPP+':            'Legacy Panda endpoint protection plus',
+  'Panda AD360':           'Legacy Panda full-spectrum endpoint security',
+  'Panda Patch Management': 'Legacy Panda automated patch management',
+  // Identity & Access
+  'AuthPoint':             'Cloud-based multi-factor authentication (MFA)',
+  'Total Identity Security': 'AuthPoint MFA + dark web monitoring + credentials manager',
+  // Email Security
+  'Panda Email Protection': 'Cloud email security with anti-spam and anti-phishing',
 };
 
 // ── Seed shared feature data ──────────────────────────────
@@ -234,7 +297,14 @@ function seed() {
     const fields = parseCsvLine(line);
     if (fields.length < 7) continue;
 
-    const [fullSku, name, _catalogPrice, deliveryMethod, family, group, url] = fields;
+    // Handle unquoted prices with commas (e.g. "$2,300.00" splits into extra fields).
+    // URL is always last, group second-to-last, etc. — parse from both ends.
+    const fullSku = fields[0];
+    const name = fields[1];
+    const url = fields[fields.length - 1];
+    const group = fields[fields.length - 2];
+    const family = fields[fields.length - 3];
+    const deliveryMethod = fields[fields.length - 4];
     const price = priceMap.get(fullSku) ?? 0;
     const skuCode = fullSku.replace(/^NWG-/, '');
     const { type, subType } = classifySku(name, deliveryMethod);
