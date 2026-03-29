@@ -14,8 +14,22 @@ app.use(express.json());
 seedIfNeeded();
 const db = initDb();
 
+// ── Category labels ───────────────────────────────────────
+const CATEGORY_LABELS = {
+  tabletop: 'Firebox Tabletop (T-Series)',
+  mseries:  'Firebox Rackmount (M-Series)',
+  wifi:     'Wi-Fi 6 Access Points',
+  virtual:  'FireboxV Virtual Appliances',
+  cloud:    'Firebox Cloud',
+  mdr_ndr:  'MDR & NDR',
+  endpoint: 'Endpoint & Mobile',
+  identity: 'Identity & Access',
+  email:    'Email Security',
+  renewals: 'Appliance Renewals',
+};
+
 // ── GET /api/categories ───────────────────────────────────
-// Returns the 3 product families with their product groups
+// Returns all product families with their product groups (dynamic)
 app.get('/api/categories', (_req, res) => {
   const groups = db.prepare(`
     SELECT id, slug, name, family, category, description, image_file
@@ -23,31 +37,54 @@ app.get('/api/categories', (_req, res) => {
     ORDER BY family, name
   `).all();
 
-  const categories = {
-    tabletop: { label: 'Firebox Tabletop (T-Series)', products: [] },
-    mseries:  { label: 'Firebox Rackmount (M-Series)', products: [] },
-    wifi:     { label: 'Wi-Fi 6 Access Points', products: [] },
-  };
+  const categories = {};
 
   for (const g of groups) {
-    // Attach the appliance SKU info
-    const appliance = db.prepare(`
+    if (!categories[g.category]) {
+      categories[g.category] = {
+        label: CATEGORY_LABELS[g.category] || g.family,
+        products: [],
+      };
+    }
+
+    // Attach a representative SKU (appliance or first per_user_subscription)
+    const representative = db.prepare(`
       SELECT sku_code, full_sku, name, msrp, url
       FROM skus
-      WHERE product_group_id = ? AND sku_type = 'appliance'
+      WHERE product_group_id = ? AND sku_type IN ('appliance', 'per_user_subscription')
+      ORDER BY sku_type, name
       LIMIT 1
     `).get(g.id);
 
-    const cat = categories[g.category];
-    if (cat) {
-      cat.products.push({
-        ...g,
-        appliance: appliance || null,
-      });
-    }
+    categories[g.category].products.push({
+      ...g,
+      appliance: representative || null,
+    });
   }
 
   res.json(categories);
+});
+
+// ── GET /api/categories/:category ─────────────────────────
+// Returns a single category with all product groups and ALL their SKUs
+app.get('/api/categories/:category', (req, res) => {
+  const groups = db.prepare(`
+    SELECT id, slug, name, family, category, description, image_file
+    FROM product_groups WHERE category = ? ORDER BY name
+  `).all(req.params.category);
+
+  if (!groups.length) return res.status(404).json({ error: 'Category not found' });
+
+  const result = groups.map(g => {
+    const skus = db.prepare(`
+      SELECT sku_code, full_sku, name, msrp, delivery_method, url,
+             sku_type, subscription_type, term_years
+      FROM skus WHERE product_group_id = ? ORDER BY name
+    `).all(g.id);
+    return { ...g, skus };
+  });
+
+  res.json({ label: CATEGORY_LABELS[req.params.category] || groups[0].family, products: result });
 });
 
 // ── GET /api/products/:slug ───────────────────────────────
