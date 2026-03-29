@@ -304,9 +304,8 @@ function seed() {
 
   for (const line of rows) {
     const fields = parseCsvLine(line);
-    if (fields.length < 7) continue;
+    if (fields.length < 6) continue;
 
-    // Handle unquoted prices with commas (e.g. "$2,300.00" splits into extra fields).
     // URL is always last, group second-to-last, etc. — parse from both ends.
     const fullSku = fields[0];
     const name = fields[1];

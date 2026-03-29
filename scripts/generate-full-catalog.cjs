@@ -436,7 +436,6 @@ function main() {
     [
       r.sku,
       csvField(r.name),
-      formatPrice(r.dbp),
       r.delivery,
       r.family,
       r.group,

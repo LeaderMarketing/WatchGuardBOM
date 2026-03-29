@@ -1,5 +1,5 @@
 {
-  "id": 217,
+  "id": 367,
   "slug": "T20",
   "name": "Firebox T20",
   "family": "Renewals",
@@ -9,7 +9,7 @@
   "appliance": null,
   "subscriptions": [
     {
-      "id": 3684,
+      "id": 6208,
       "sku_code": "WGT20171",
       "full_sku": "NWG-WGT20171",
       "name": "WatchGuard APT Blocker 1-yr for Firebox T20",
@@ -21,7 +21,7 @@
       "term_years": 1
     },
     {
-      "id": 3680,
+      "id": 6204,
       "sku_code": "WGT20341",
       "full_sku": "NWG-WGT20341",
       "name": "WatchGuard Basic Security Suite Renewal/Upgrade 1-yr for Firebox T20",
@@ -33,7 +33,7 @@
       "term_years": 1
     },
     {
-      "id": 3683,
+      "id": 6207,
       "sku_code": "WGT20261",
       "full_sku": "NWG-WGT20261",
       "name": "WatchGuard Gold Support Renewal/Upgrade 1-yr for Firebox T20",
@@ -45,7 +45,7 @@
       "term_years": 1
     },
     {
-      "id": 3682,
+      "id": 6206,
       "sku_code": "WGT20201",
       "full_sku": "NWG-WGT20201",
       "name": "WatchGuard Standard Support Renewal 1-yr for Firebox T20",
@@ -57,7 +57,7 @@
       "term_years": 1
     },
     {
-      "id": 3681,
+      "id": 6205,
       "sku_code": "WGT20351",
       "full_sku": "NWG-WGT20351",
       "name": "WatchGuard Total Security Suite Renewal/Upgrade 1-yr for Firebox T20",

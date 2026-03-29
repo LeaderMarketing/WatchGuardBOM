@@ -1,5 +1,5 @@
 {
-  "id": 168,
+  "id": 318,
   "slug": "T115-W",
   "name": "Firebox T115-W",
   "family": "T-Series",
@@ -7,7 +7,7 @@
   "description": "Entry-level firewall with built-in Wi-Fi 7 for small offices",
   "image_file": "T115-W.jpg",
   "appliance": {
-    "id": 2709,
+    "id": 5233,
     "sku_code": "WGT116000",
     "full_sku": "NWG-WGT116000",
     "name": "WatchGuard Firebox T115-W Appliance Only",
@@ -20,7 +20,7 @@
   },
   "subscriptions": [
     {
-      "id": 3587,
+      "id": 6111,
       "sku_code": "WGT116171",
       "full_sku": "NWG-WGT116171",
       "name": "WatchGuard APT Blocker 1-yr for Firebox T115-W",
@@ -32,7 +32,7 @@
       "term_years": 1
     },
     {
-      "id": 3588,
+      "id": 6112,
       "sku_code": "WGT116173",
       "full_sku": "NWG-WGT116173",
       "name": "WatchGuard APT Blocker 3-yr for Firebox T115-W",
@@ -44,7 +44,7 @@
       "term_years": 3
     },
     {
-      "id": 3589,
+      "id": 6113,
       "sku_code": "WGT116175",
       "full_sku": "NWG-WGT116175",
       "name": "WatchGuard APT Blocker 5-yr for Firebox T115-W",
@@ -56,7 +56,7 @@
       "term_years": 5
     },
     {
-      "id": 3579,
+      "id": 6103,
       "sku_code": "WGT116341",
       "full_sku": "NWG-WGT116341",
       "name": "WatchGuard Basic Security Suite Renewal/Upgrade 1-yr for Firebox T115-W",
@@ -68,7 +68,7 @@
       "term_years": 1
     },
     {
-      "id": 3580,
+      "id": 6104,
       "sku_code": "WGT116343",
       "full_sku": "NWG-WGT116343",
       "name": "WatchGuard Basic Security Suite Renewal/Upgrade 3-yr for Firebox T115-W",
@@ -80,7 +80,7 @@
       "term_years": 3
     },
     {
-      "id": 2713,
+      "id": 5237,
       "sku_code": "WGT1160071",
       "full_sku": "NWG-WGT1160071",
       "name": "WatchGuard Basic Security Suite for Firebox T115-W - 1-Year",
@@ -92,7 +92,7 @@
       "term_years": 1
     },
     {
-      "id": 2714,
+      "id": 5238,
       "sku_code": "WGT1160073",
       "full_sku": "NWG-WGT1160073",
       "name": "WatchGuard Basic Security Suite for Firebox T115-W - 3-Year",
@@ -104,7 +104,7 @@
       "term_years": 3
     },
     {
-      "id": 2715,
+      "id": 5239,
       "sku_code": "WGT1160075",
       "full_sku": "NWG-WGT1160075",
       "name": "WatchGuard Basic Security Suite for Firebox T115-W - 5-Year",
@@ -116,7 +116,7 @@
       "term_years": 5
     },
     {
-      "id": 3585,
+      "id": 6109,
       "sku_code": "WGT116261",
       "full_sku": "NWG-WGT116261",
       "name": "WatchGuard Gold Support Renewal/Upgrade 1-yr for Firebox T115-W",
@@ -128,7 +128,7 @@
       "term_years": 1
     },
     {
-      "id": 3586,
+      "id": 6110,
       "sku_code": "WGT116263",
       "full_sku": "NWG-WGT116263",
       "name": "WatchGuard Gold Support Renewal/Upgrade 3-yr for Firebox T115-W",
@@ -140,7 +140,7 @@
       "term_years": 3
     },
     {
-      "id": 2710,
+      "id": 5234,
       "sku_code": "WGT1160061",
       "full_sku": "NWG-WGT1160061",
       "name": "WatchGuard Standard Support for Firebox T115-W - 1-Year",
@@ -152,7 +152,7 @@
       "term_years": 1
     },
     {
-      "id": 2711,
+      "id": 5235,
       "sku_code": "WGT1160063",
       "full_sku": "NWG-WGT1160063",
       "name": "WatchGuard Standard Support for Firebox T115-W - 3-Year",
@@ -164,7 +164,7 @@
       "term_years": 3
     },
     {
-      "id": 2712,
+      "id": 5236,
       "sku_code": "WGT1160065",
       "full_sku": "NWG-WGT1160065",
       "name": "WatchGuard Standard Support for Firebox T115-W - 5-Year",
@@ -176,7 +176,7 @@
       "term_years": 5
     },
     {
-      "id": 3583,
+      "id": 6107,
       "sku_code": "WGT116201",
       "full_sku": "NWG-WGT116201",
       "name": "WatchGuard Standard Support Renewal 1-yr for Firebox T115-W",
@@ -188,7 +188,7 @@
       "term_years": 1
     },
     {
-      "id": 3584,
+      "id": 6108,
       "sku_code": "WGT116203",
       "full_sku": "NWG-WGT116203",
       "name": "WatchGuard Standard Support Renewal 3-yr for Firebox T115-W",
@@ -200,7 +200,7 @@
       "term_years": 3
     },
     {
-      "id": 3581,
+      "id": 6105,
       "sku_code": "WGT116351",
       "full_sku": "NWG-WGT116351",
       "name": "WatchGuard Total Security Suite Renewal/Upgrade 1-yr for Firebox T115-W",
@@ -212,7 +212,7 @@
       "term_years": 1
     },
     {
-      "id": 3582,
+      "id": 6106,
       "sku_code": "WGT116353",
       "full_sku": "NWG-WGT116353",
       "name": "WatchGuard Total Security Suite Renewal/Upgrade 3-yr for Firebox T115-W",
@@ -224,7 +224,7 @@
       "term_years": 3
     },
     {
-      "id": 2716,
+      "id": 5240,
       "sku_code": "WGT1160081",
       "full_sku": "NWG-WGT1160081",
       "name": "WatchGuard Total Security Suite for Firebox T115-W - 1-Year",
@@ -236,7 +236,7 @@
       "term_years": 1
     },
     {
-      "id": 2717,
+      "id": 5241,
       "sku_code": "WGT1160083",
       "full_sku": "NWG-WGT1160083",
       "name": "WatchGuard Total Security Suite for Firebox T115-W - 3-Year",
@@ -248,7 +248,7 @@
       "term_years": 3
     },
     {
-      "id": 2718,
+      "id": 5242,
       "sku_code": "WGT1160085",
       "full_sku": "NWG-WGT1160085",
       "name": "WatchGuard Total Security Suite for Firebox T115-W - 5-Year",
@@ -262,7 +262,7 @@
   ],
   "tradeUps": [
     {
-      "id": 2719,
+      "id": 5243,
       "sku_code": "WGT1160203",
       "full_sku": "NWG-WGT1160203",
       "name": "Trade Up to WatchGuard Basic Security Suite for Firebox T115-W - 3-Year",
@@ -274,7 +274,7 @@
       "term_years": 3
     },
     {
-      "id": 2720,
+      "id": 5244,
       "sku_code": "WGT1160205",
       "full_sku": "NWG-WGT1160205",
       "name": "Trade Up to WatchGuard Basic Security Suite for Firebox T115-W - 5-Year",
@@ -286,7 +286,7 @@
       "term_years": 5
     },
     {
-      "id": 2721,
+      "id": 5245,
       "sku_code": "WGT1160211",
       "full_sku": "NWG-WGT1160211",
       "name": "Trade Up to WatchGuard Total Security Suite for Firebox T115-W - 1-Year",
@@ -298,7 +298,7 @@
       "term_years": 1
     },
     {
-      "id": 2722,
+      "id": 5246,
       "sku_code": "WGT1160213",
       "full_sku": "NWG-WGT1160213",
       "name": "Trade Up to WatchGuard Total Security Suite for Firebox T115-W - 3-Year",
@@ -310,7 +310,7 @@
       "term_years": 3
     },
     {
-      "id": 2723,
+      "id": 5247,
       "sku_code": "WGT1160215",
       "full_sku": "NWG-WGT1160215",
       "name": "Trade Up to WatchGuard Total Security Suite for Firebox T115-W - 5-Year",

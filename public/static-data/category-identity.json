@@ -2,7 +2,7 @@
   "label": "Identity & Access",
   "products": [
     {
-      "id": 204,
+      "id": 354,
       "slug": "AuthPoint",
       "name": "AuthPoint",
       "family": "Identity & Access",
@@ -167,7 +167,7 @@
       ]
     },
     {
-      "id": 205,
+      "id": 355,
       "slug": "Total Identity Security",
       "name": "Total Identity Security",
       "family": "Identity & Access",

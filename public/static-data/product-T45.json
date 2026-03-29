@@ -1,5 +1,5 @@
 {
-  "id": 223,
+  "id": 373,
   "slug": "T45",
   "name": "Firebox T45",
   "family": "Renewals",
@@ -9,7 +9,7 @@
   "appliance": null,
   "subscriptions": [
     {
-      "id": 3734,
+      "id": 6258,
       "sku_code": "WGT45171",
       "full_sku": "NWG-WGT45171",
       "name": "WatchGuard APT Blocker 1-yr for Firebox T45",
@@ -21,7 +21,7 @@
       "term_years": 1
     },
     {
-      "id": 3735,
+      "id": 6259,
       "sku_code": "WGT45173",
       "full_sku": "NWG-WGT45173",
       "name": "WatchGuard APT Blocker 3-yr for Firebox T45",
@@ -33,7 +33,7 @@
       "term_years": 3
     },
     {
-      "id": 3736,
+      "id": 6260,
       "sku_code": "WGT45175",
       "full_sku": "NWG-WGT45175",
       "name": "WatchGuard APT Blocker 5-yr for Firebox T45",
@@ -45,7 +45,7 @@
       "term_years": 5
     },
     {
-      "id": 3732,
+      "id": 6256,
       "sku_code": "WGT45261",
       "full_sku": "NWG-WGT45261",
       "name": "WatchGuard Gold Support Renewal/Upgrade 1-yr for Firebox T45",
@@ -57,7 +57,7 @@
       "term_years": 1
     },
     {
-      "id": 3733,
+      "id": 6257,
       "sku_code": "WGT45263",
       "full_sku": "NWG-WGT45263",
       "name": "WatchGuard Gold Support Renewal/Upgrade 3-yr for Firebox T45",
@@ -69,7 +69,7 @@
       "term_years": 3
     },
     {
-      "id": 3730,
+      "id": 6254,
       "sku_code": "WGT45201",
       "full_sku": "NWG-WGT45201",
       "name": "WatchGuard Standard Support Renewal 1-yr for Firebox T45",
@@ -81,7 +81,7 @@
       "term_years": 1
     },
     {
-      "id": 3731,
+      "id": 6255,
       "sku_code": "WGT45203",
       "full_sku": "NWG-WGT45203",
       "name": "WatchGuard Standard Support Renewal 3-yr for Firebox T45",

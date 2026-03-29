@@ -2,7 +2,7 @@
   "label": "Firebox Rackmount (M-Series)",
   "products": [
     {
-      "id": 157,
+      "id": 307,
       "slug": "M290",
       "name": "Firebox M290",
       "family": "M-Series",
@@ -277,7 +277,7 @@
       ]
     },
     {
-      "id": 158,
+      "id": 308,
       "slug": "M295",
       "name": "Firebox M295",
       "family": "M-Series",
@@ -552,7 +552,7 @@
       ]
     },
     {
-      "id": 159,
+      "id": 309,
       "slug": "M390",
       "name": "Firebox M390",
       "family": "M-Series",
@@ -827,7 +827,7 @@
       ]
     },
     {
-      "id": 160,
+      "id": 310,
       "slug": "M395",
       "name": "Firebox M395",
       "family": "M-Series",
@@ -1102,7 +1102,7 @@
       ]
     },
     {
-      "id": 161,
+      "id": 311,
       "slug": "M4800",
       "name": "Firebox M4800",
       "family": "M-Series",
@@ -1377,7 +1377,7 @@
       ]
     },
     {
-      "id": 162,
+      "id": 312,
       "slug": "M495",
       "name": "Firebox M495",
       "family": "M-Series",
@@ -1630,7 +1630,7 @@
       ]
     },
     {
-      "id": 163,
+      "id": 313,
       "slug": "M5800",
       "name": "Firebox M5800",
       "family": "M-Series",
@@ -1905,7 +1905,7 @@
       ]
     },
     {
-      "id": 164,
+      "id": 314,
       "slug": "M590",
       "name": "Firebox M590",
       "family": "M-Series",
@@ -2180,7 +2180,7 @@
       ]
     },
     {
-      "id": 165,
+      "id": 315,
       "slug": "M595",
       "name": "Firebox M595",
       "family": "M-Series",
@@ -2433,7 +2433,7 @@
       ]
     },
     {
-      "id": 166,
+      "id": 316,
       "slug": "M690",
       "name": "Firebox M690",
       "family": "M-Series",
@@ -2708,7 +2708,7 @@
       ]
     },
     {
-      "id": 167,
+      "id": 317,
       "slug": "M695",
       "name": "Firebox M695",
       "family": "M-Series",

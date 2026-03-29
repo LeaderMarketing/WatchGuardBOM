@@ -1,5 +1,5 @@
 {
-  "id": 153,
+  "id": 303,
   "slug": "AP330",
   "name": "WatchGuard AP330",
   "family": "Access Points",
@@ -7,7 +7,7 @@
   "description": "Medium-density AP for retail and K-12 schools",
   "image_file": "AP330.jpg",
   "appliance": {
-    "id": 2541,
+    "id": 5065,
     "sku_code": "WGA330000",
     "full_sku": "NWG-WGA330000",
     "name": "WatchGuard AP330 Appliance Only",
@@ -20,7 +20,7 @@
   },
   "subscriptions": [
     {
-      "id": 2546,
+      "id": 5070,
       "sku_code": "WGA33022101",
       "full_sku": "NWG-WGA33022101",
       "name": "Standard Wi-Fi Management for WatchGuard AP330 - 1-year",
@@ -32,7 +32,7 @@
       "term_years": 1
     },
     {
-      "id": 2547,
+      "id": 5071,
       "sku_code": "WGA33022103",
       "full_sku": "NWG-WGA33022103",
       "name": "Standard Wi-Fi Management for WatchGuard AP330 - 3-year",
@@ -44,7 +44,7 @@
       "term_years": 3
     },
     {
-      "id": 2548,
+      "id": 5072,
       "sku_code": "WGA33022105",
       "full_sku": "NWG-WGA33022105",
       "name": "Standard Wi-Fi Management for WatchGuard AP330 - 5-year",
@@ -56,7 +56,7 @@
       "term_years": 5
     },
     {
-      "id": 2543,
+      "id": 5067,
       "sku_code": "WGA33022001",
       "full_sku": "NWG-WGA33022001",
       "name": "USP Wi-Fi Management for WatchGuard AP330 - 1-year",
@@ -68,7 +68,7 @@
       "term_years": 1
     },
     {
-      "id": 2544,
+      "id": 5068,
       "sku_code": "WGA33022003",
       "full_sku": "NWG-WGA33022003",
       "name": "USP Wi-Fi Management for WatchGuard AP330 - 3-year",
@@ -80,7 +80,7 @@
       "term_years": 3
     },
     {
-      "id": 2545,
+      "id": 5069,
       "sku_code": "WGA33022005",
       "full_sku": "NWG-WGA33022005",
       "name": "USP Wi-Fi Management for WatchGuard AP330 - 5-year",
@@ -96,7 +96,7 @@
   "highAvailability": [],
   "activationBundles": [
     {
-      "id": 2542,
+      "id": 5066,
       "sku_code": "WGA33003309",
       "full_sku": "NWG-WGA33003309",
       "name": "Points Activation Bundle for WatchGuard AP330",
