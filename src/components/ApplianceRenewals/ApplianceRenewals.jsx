@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ShoppingCartSimple } from '@phosphor-icons/react';
 import styles from './ApplianceRenewals.module.css';
 import { useApplianceRenewals } from './useApplianceRenewals.js';
@@ -165,8 +165,22 @@ function IndividualSubCard({ sub, allModels, data, onAdd }) {
   );
   const [selectedModel, setSelectedModel] = useState(availableModels[0] || allModels[0]);
 
+  // Reset selection when available models change (data load or tab switch)
+  useEffect(() => {
+    if (availableModels.length > 0 && !availableModels.includes(selectedModel)) {
+      setSelectedModel(availableModels[0]);
+    }
+  }, [availableModels, selectedModel]);
+
   const terms = getAvailableTerms(selectedModel, sub.key);
   const [selectedTerm, setSelectedTerm] = useState(terms[0] || '1 Year');
+
+  // Reset term when terms change
+  useEffect(() => {
+    if (terms.length > 0 && !terms.includes(selectedTerm)) {
+      setSelectedTerm(terms[0]);
+    }
+  }, [terms, selectedTerm]);
 
   const handleModelChange = (e) => {
     const model = e.target.value;
@@ -251,6 +265,7 @@ function IndividualSubCard({ sub, allModels, data, onAdd }) {
 export default function ApplianceRenewals({ activeTab }) {
   const data = useApplianceRenewals();
   const {
+    loading,
     T_SERIES_MODELS,
     M_SERIES_MODELS,
     SECTIONS,
@@ -261,6 +276,7 @@ export default function ApplianceRenewals({ activeTab }) {
 
   // Only show for tabletop/mseries tabs (not wifi)
   if (activeTab === 'wifi') return null;
+  if (loading) return <div className={styles.wrapper}><p>Loading renewals…</p></div>;
 
   const showT = activeTab === 'tabletop';
   const showM = activeTab === 'mseries';
