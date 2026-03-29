@@ -52,9 +52,9 @@ const SECTION_NAV = [
   { id: 'purchase', label: 'New Purchase', Icon: ShoppingBagOpen },
   { id: 'renewals', label: 'Suite Renewals', Icon: ArrowsClockwise },
   { id: 'support', label: 'Support Renewals', Icon: Headset },
-  { id: 'individual', label: 'Individual Subs', Icon: ListChecks },
-  { id: 'tradeup', label: 'Trade-Up', Icon: TrendUp },
   { id: 'cloud', label: 'Cloud Retention', Icon: Cloud },
+  { id: 'tradeup', label: 'Trade-Up', Icon: TrendUp },
+  { id: 'individual', label: 'Individual Subs', Icon: ListChecks },
 ];
 
 /* ─── Drag-scroll for horizontal scroll container ─── */

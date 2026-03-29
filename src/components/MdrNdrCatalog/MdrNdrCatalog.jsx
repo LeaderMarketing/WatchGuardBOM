@@ -374,45 +374,35 @@ function ProtectMoreSection() {
       <div className={styles.protectMoreHeader}>
         <h2 className={styles.protectMoreTitle}>Protect More with WatchGuard MDR</h2>
       </div>
-      <div className={styles.protectMoreBody}>
-        {/* Left columns: attacker + response */}
-        <div className={styles.protectLeftCols}>
-          {/* Column Headers */}
-          <div className={styles.protectColHeaders}>
-            <div className={styles.protectColHeader}>
-              <span>Attacker Moves</span>
-              <WarningOctagon size={18} weight="duotone" className={styles.protectColIconPh} />
-            </div>
-            <div className={styles.protectColHeader}>
-              <span>WatchGuard MDR Stops Them</span>
-              <ShieldCheckered size={18} weight="duotone" className={styles.protectColIconPh} />
-            </div>
-          </div>
-          {/* Rows */}
-          {PROTECT_MORE_ROWS.map((row, i) => (
-            <div key={i} className={styles.protectRow}>
-              <div className={styles.chevronLeft}>
-                {row.attack}
-              </div>
-              <div className={styles.chevronRight}>
-                <strong>{row.responseLabel}</strong>&nbsp;{row.responseText}
-              </div>
-            </div>
-          ))}
+      <div className={styles.protectMoreGrid}>
+        {/* Header row */}
+        <div className={styles.protectColHeader}>
+          <span>Attacker Moves</span>
+          <WarningOctagon size={18} weight="duotone" className={styles.protectColIconPh} />
+        </div>
+        <div className={styles.protectColHeader}>
+          <span>WatchGuard MDR Stops Them</span>
+          <ShieldCheckered size={18} weight="duotone" className={styles.protectColIconPh} />
+        </div>
+        <div className={styles.protectedBoxHeader}>
+          <span>What Is Protected</span>
+          <MagnifyingGlass size={18} weight="duotone" className={styles.protectColIconPhRight} />
         </div>
 
-        {/* Right column: What Is Protected */}
-        <div className={styles.protectedBox}>
-          <div className={styles.protectedBoxHeader}>
-            <span>What Is Protected</span>
-            <MagnifyingGlass size={18} weight="duotone" className={styles.protectColIconPhRight} />
-          </div>
-          {PROTECT_MORE_ROWS.map((row, i) => (
-            <div key={i} className={`${styles.protectedRowCell} ${i % 2 === 1 ? styles.protectedRowAlt : ''}`}>
+        {/* Data rows */}
+        {PROTECT_MORE_ROWS.map((row, i) => (
+          <React.Fragment key={i}>
+            <div className={styles.chevronLeft}>
+              {row.attack}
+            </div>
+            <div className={styles.chevronRight}>
+              <strong>{row.responseLabel}</strong>&nbsp;{row.responseText}
+            </div>
+            <div className={`${styles.protectedRowCell} ${i % 2 === 1 ? styles.protectedRowAlt : ''}`}>
               {row.protects}
             </div>
-          ))}
-        </div>
+          </React.Fragment>
+        ))}
       </div>
     </section>
   );

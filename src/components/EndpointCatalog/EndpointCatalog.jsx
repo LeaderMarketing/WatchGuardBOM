@@ -49,7 +49,7 @@ function SkuLink({ sku, url }) {
 /* ═══════════════════════════════════════════════════════════
    Product Card — one per product line
    ═══════════════════════════════════════════════════════════ */
-function ProductCard({ product, data, onAdd }) {
+function ProductCard({ product, data, onAdd, variant }) {
   const { selections, setSelection, getAvailableTerms, getSkuForSelection, getPriceForSelection, getUrlForSelection } = data;
   const sel = selections[product.key] || {};
   const tier = sel.tier || product.tiers[0];
@@ -69,6 +69,82 @@ function ProductCard({ product, data, onAdd }) {
   };
 
   const imageUrl = sku ? `https://www.leadersystems.com.au/Images/${sku}.jpg` : null;
+
+  if (variant === 'wide') {
+    return (
+      <div className={styles.wideCard}>
+        <div className={styles.wideBody}>
+          <div className={styles.wideConfigSide}>
+            <div className={styles.cardHeader}>
+              <h3 className={styles.cardName}>{product.label}</h3>
+              {product.badge && (
+                <span className={`${styles.tierBadge} ${BADGE_CLASSES[product.badge] || ''}`}>
+                  {product.badge}
+                </span>
+              )}
+            </div>
+            <p className={styles.cardDesc}>{product.description}</p>
+
+            <div className={styles.fieldGroup}>
+              <label className={styles.fieldLabel}>License Tier</label>
+              <select
+                className={styles.selectField}
+                value={tier}
+                onChange={handleTierChange}
+              >
+                {product.tiers.map((t) => (
+                  <option key={t} value={t}>{t} licenses</option>
+                ))}
+              </select>
+            </div>
+
+            {terms.length > 0 && (
+              <div className={styles.fieldGroup}>
+                <label className={styles.fieldLabel}>Subscription Term</label>
+                <select
+                  className={styles.selectField}
+                  value={term}
+                  onChange={(e) => setSelection(product.key, 'term', e.target.value)}
+                >
+                  {terms.map((t) => (
+                    <option key={t} value={t}>{t}</option>
+                  ))}
+                </select>
+              </div>
+            )}
+
+            <div className={styles.priceRow}>
+              <span className={styles.price}>{formatPrice(price)}</span>
+              <span className={styles.priceNote}>MSRP <span className={styles.perSeat}>per user</span></span>
+            </div>
+
+            <button
+              className={styles.addBtn}
+              disabled={!sku}
+              onClick={() =>
+                onAdd({
+                  sku,
+                  name: product.label,
+                  description: `${tier} licenses (${term})`,
+                  unitPrice: price || 0,
+                })
+              }
+              title="Add to quote cart"
+            >
+              <ShoppingCartSimple size={14} weight="bold" />
+              Add to Cart
+            </button>
+            <SkuLink sku={sku} url={url} />
+          </div>
+          {imageUrl && (
+            <div className={styles.wideImageSide}>
+              <img src={imageUrl} alt={product.label} className={styles.cardImage} />
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className={styles.productCard}>
@@ -344,25 +420,13 @@ export default function EndpointCatalog() {
             ))}
           </div>
 
-          {/* DNS & Mobile — single card */}
-          <SectionHeader
-            title="DNS & Mobile Protection"
-            subtitle="DNS-level filtering for roaming and mobile users, no VPN required."
-          />
-          <div className={styles.singleCardWrap}>
+          {/* DNS & Mobile + User Security Bundle — wide cards side by side */}
+          <div className={styles.dualCardRow}>
             {dnsProducts.map((product) => (
-              <ProductCard key={product.key} product={product} data={data} onAdd={handleAdd} />
+              <ProductCard key={product.key} product={product} data={data} onAdd={handleAdd} variant="wide" />
             ))}
-          </div>
-
-          {/* User Security Bundle — single card */}
-          <SectionHeader
-            title="User Security Bundle"
-            subtitle="One license, complete per-user protection — endpoint, identity, and DNS."
-          />
-          <div className={styles.singleCardWrap}>
             {bundleProducts.map((product) => (
-              <ProductCard key={product.key} product={product} data={data} onAdd={handleAdd} />
+              <ProductCard key={product.key} product={product} data={data} onAdd={handleAdd} variant="wide" />
             ))}
           </div>
         </>

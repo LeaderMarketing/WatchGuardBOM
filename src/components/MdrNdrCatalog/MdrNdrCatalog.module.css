@@ -193,7 +193,6 @@
 
 .productCard:hover {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-  transform: translateY(-2px);
 }
 
 .cardImageWrap {
@@ -495,25 +494,13 @@
   margin: 0;
 }
 
-.protectMoreBody {
+.protectMoreGrid {
   display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 10px;
-  padding: 20px;
-  align-items: start;
-}
-
-.protectLeftCols {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.protectColHeaders {
-  display: grid;
-  grid-template-columns: 1fr 1.8fr;
+  grid-template-columns: 1fr 1.8fr auto;
   gap: 0;
-  margin-bottom: 2px;
+  padding: 20px;
+  align-items: stretch;
+  row-gap: 8px;
 }
 
 .protectColHeader {
@@ -535,13 +522,6 @@
 .protectColIconPhRight {
   color: var(--wgrd-red, #e81410);
   flex-shrink: 0;
-}
-
-/* Chevron row: attack arrow + response arrow */
-.protectRow {
-  display: grid;
-  grid-template-columns: 1fr 1.8fr;
-  align-items: center;
 }
 
 .chevronLeft {
@@ -573,17 +553,6 @@
   z-index: 1;
 }
 
-/* Protected column (right side with red border) */
-.protectedBox {
-  border: 2px solid var(--wgrd-red, #e81410);
-  border-radius: 16px;
-  overflow: hidden;
-  min-width: 180px;
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-}
-
 .protectedBoxHeader {
   color: var(--wgrd-red, #e81410);
   font-weight: 900;
@@ -596,6 +565,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
+  min-width: 180px;
 }
 
 .protectedRowCell {
@@ -604,10 +574,10 @@
   font-weight: 700;
   color: var(--wgrd-red, #e81410);
   font-size: 0.88rem;
-  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 180px;
 }
 
 .protectedRowAlt {
@@ -891,11 +861,12 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .protectMoreBody {
+  .protectMoreGrid {
     grid-template-columns: 1fr;
   }
 
-  .protectedBox {
+  .protectedRowCell,
+  .protectedBoxHeader {
     min-width: unset;
   }
 

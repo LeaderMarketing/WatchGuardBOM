@@ -1,5 +1,5 @@
 {
-  "id": 306,
+  "id": 473,
   "slug": "AP432",
   "name": "WatchGuard AP432",
   "family": "Access Points",
@@ -7,7 +7,7 @@
   "description": "High-density 4x4 AP for large campuses",
   "image_file": "AP432.jpg",
   "appliance": {
-    "id": 5089,
+    "id": 5206,
     "sku_code": "WGA432000",
     "full_sku": "NWG-WGA432000",
     "name": "WatchGuard AP432 Appliance Only",
@@ -20,7 +20,7 @@
   },
   "subscriptions": [
     {
-      "id": 5094,
+      "id": 5211,
       "sku_code": "WGA43222101",
       "full_sku": "NWG-WGA43222101",
       "name": "Standard Wi-Fi Management for WatchGuard AP432 - 1-year",
@@ -32,7 +32,7 @@
       "term_years": 1
     },
     {
-      "id": 5095,
+      "id": 5212,
       "sku_code": "WGA43222103",
       "full_sku": "NWG-WGA43222103",
       "name": "Standard Wi-Fi Management for WatchGuard AP432 - 3-year",
@@ -44,7 +44,7 @@
       "term_years": 3
     },
     {
-      "id": 5096,
+      "id": 5213,
       "sku_code": "WGA43222105",
       "full_sku": "NWG-WGA43222105",
       "name": "Standard Wi-Fi Management for WatchGuard AP432 - 5-year",
@@ -56,7 +56,7 @@
       "term_years": 5
     },
     {
-      "id": 5091,
+      "id": 5208,
       "sku_code": "WGA43222001",
       "full_sku": "NWG-WGA43222001",
       "name": "USP Wi-Fi Management for WatchGuard AP432 - 1-year",
@@ -68,7 +68,7 @@
       "term_years": 1
     },
     {
-      "id": 5092,
+      "id": 5209,
       "sku_code": "WGA43222003",
       "full_sku": "NWG-WGA43222003",
       "name": "USP Wi-Fi Management for WatchGuard AP432 - 3-year",
@@ -80,7 +80,7 @@
       "term_years": 3
     },
     {
-      "id": 5093,
+      "id": 5210,
       "sku_code": "WGA43222005",
       "full_sku": "NWG-WGA43222005",
       "name": "USP Wi-Fi Management for WatchGuard AP432 - 5-year",
@@ -96,7 +96,7 @@
   "highAvailability": [],
   "activationBundles": [
     {
-      "id": 5090,
+      "id": 5207,
       "sku_code": "WGA43203309",
       "full_sku": "NWG-WGA43203309",
       "name": "Points Activation Bundle for WatchGuard AP432",

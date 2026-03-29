@@ -47,7 +47,17 @@
       "Bash(\"/c/Users/John Tobit/.claude/skills/gstack/browse/dist/browse\" goto http://localhost:5174/WatchGuardBOM/email)",
       "Bash(\"/c/Users/John Tobit/.claude/skills/gstack/browse/dist/browse\" screenshot /tmp/email-page.png)",
       "Bash(\"/c/Users/John Tobit/.claude/skills/gstack/browse/dist/browse\" screenshot /tmp/email-final.png)",
-      "Bash(git status:*)"
+      "Bash(git status:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(git commit:*)",
+      "Bash(git worktree:*)",
+      "Bash(npm install:*)",
+      "Bash(ls public/static-data/category-*.json)",
+      "Bash(xargs wc:*)",
+      "Bash(grep -i \"\\\\.tsx\\\\|\\\\.ts\\\\|\\\\.jsx\\\\|\\\\.js$\")",
+      "Bash(grep -E \"\\\\.\\(jsx?|tsx?\\)$\")",
+      "Bash(grep:*)"
     ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "id": 308,
+  "id": 475,
   "slug": "M295",
   "name": "Firebox M295",
   "family": "M-Series",
@@ -7,7 +7,7 @@
   "description": "Rackmount UTM for medium-sized businesses",
   "image_file": "m295.jpg",
   "appliance": {
-    "id": 5109,
+    "id": 5226,
     "sku_code": "WGM295000",
     "full_sku": "NWG-WGM295000",
     "name": "WatchGuard Firebox M295 Appliance Only",
@@ -20,7 +20,7 @@
   },
   "subscriptions": [
     {
-      "id": 5922,
+      "id": 6039,
       "sku_code": "WGM29520801",
       "full_sku": "NWG-WGM29520801",
       "name": "WatchGuard APT Blocker 1-yr for Firebox M295",
@@ -32,7 +32,7 @@
       "term_years": 1
     },
     {
-      "id": 5923,
+      "id": 6040,
       "sku_code": "WGM29520803",
       "full_sku": "NWG-WGM29520803",
       "name": "WatchGuard APT Blocker 3-yr for Firebox M295",
@@ -44,7 +44,7 @@
       "term_years": 3
     },
     {
-      "id": 5914,
+      "id": 6031,
       "sku_code": "WGM29540201",
       "full_sku": "NWG-WGM29540201",
       "name": "WatchGuard Basic Security Suite Renewal/Upgrade 1-yr for Firebox M295",
@@ -56,7 +56,7 @@
       "term_years": 1
     },
     {
-      "id": 5915,
+      "id": 6032,
       "sku_code": "WGM29540203",
       "full_sku": "NWG-WGM29540203",
       "name": "WatchGuard Basic Security Suite Renewal/Upgrade 3-yr for Firebox M295",
@@ -68,7 +68,7 @@
       "term_years": 3
     },
     {
-      "id": 5112,
+      "id": 5229,
       "sku_code": "WGM2950071",
       "full_sku": "NWG-WGM2950071",
       "name": "WatchGuard Basic Security Suite for Firebox M295 - 1-Year",
@@ -80,7 +80,7 @@
       "term_years": 1
     },
     {
-      "id": 5113,
+      "id": 5230,
       "sku_code": "WGM2950073",
       "full_sku": "NWG-WGM2950073",
       "name": "WatchGuard Basic Security Suite for Firebox M295 - 3-Year",
@@ -92,7 +92,7 @@
       "term_years": 3
     },
     {
-      "id": 5924,
+      "id": 6041,
       "sku_code": "WGM29521801",
       "full_sku": "NWG-WGM29521801",
       "name": "WatchGuard Cloud 1-month data retention for M295 - 1-yr",
@@ -104,7 +104,7 @@
       "term_years": 1
     },
     {
-      "id": 5925,
+      "id": 6042,
       "sku_code": "WGM29521803",
       "full_sku": "NWG-WGM29521803",
       "name": "WatchGuard Cloud 1-month data retention for M295 - 3-yr",
@@ -116,7 +116,7 @@
       "term_years": 3
     },
     {
-      "id": 5920,
+      "id": 6037,
       "sku_code": "WGM29540701",
       "full_sku": "NWG-WGM29540701",
       "name": "WatchGuard Gold Support Renewal/Upgrade 1-yr for Firebox M295",
@@ -128,7 +128,7 @@
       "term_years": 1
     },
     {
-      "id": 5921,
+      "id": 6038,
       "sku_code": "WGM29540703",
       "full_sku": "NWG-WGM29540703",
       "name": "WatchGuard Gold Support Renewal/Upgrade 3-yr for Firebox M295",
@@ -140,7 +140,7 @@
       "term_years": 3
     },
     {
-      "id": 5110,
+      "id": 5227,
       "sku_code": "WGM2950061",
       "full_sku": "NWG-WGM2950061",
       "name": "WatchGuard Standard Support for Firebox M295 - 1-Year",
@@ -152,7 +152,7 @@
       "term_years": 1
     },
     {
-      "id": 5111,
+      "id": 5228,
       "sku_code": "WGM2950063",
       "full_sku": "NWG-WGM2950063",
       "name": "WatchGuard Standard Support for Firebox M295 - 3-Year",
@@ -164,7 +164,7 @@
       "term_years": 3
     },
     {
-      "id": 5918,
+      "id": 6035,
       "sku_code": "WGM29540101",
       "full_sku": "NWG-WGM29540101",
       "name": "WatchGuard Standard Support Renewal 1-yr for Firebox M295",
@@ -176,7 +176,7 @@
       "term_years": 1
     },
     {
-      "id": 5919,
+      "id": 6036,
       "sku_code": "WGM29540103",
       "full_sku": "NWG-WGM29540103",
       "name": "WatchGuard Standard Support Renewal 3-yr for Firebox M295",
@@ -188,7 +188,7 @@
       "term_years": 3
     },
     {
-      "id": 5916,
+      "id": 6033,
       "sku_code": "WGM29540301",
       "full_sku": "NWG-WGM29540301",
       "name": "WatchGuard Total Security Suite Renewal/Upgrade 1-yr for Firebox M295",
@@ -200,7 +200,7 @@
       "term_years": 1
     },
     {
-      "id": 5917,
+      "id": 6034,
       "sku_code": "WGM29540303",
       "full_sku": "NWG-WGM29540303",
       "name": "Total Security Renewal 3-yr for M295",
@@ -212,7 +212,7 @@
       "term_years": 3
     },
     {
-      "id": 5114,
+      "id": 5231,
       "sku_code": "WGM2950081",
       "full_sku": "NWG-WGM2950081",
       "name": "WatchGuard Total Security Suite for Firebox M295 - 1-Year",
@@ -224,7 +224,7 @@
       "term_years": 1
     },
     {
-      "id": 5115,
+      "id": 5232,
       "sku_code": "WGM2950083",
       "full_sku": "NWG-WGM2950083",
       "name": "WatchGuard Total Security Suite for Firebox M295 - 3-Year",
@@ -238,7 +238,7 @@
   ],
   "tradeUps": [
     {
-      "id": 5116,
+      "id": 5233,
       "sku_code": "WGM2950203",
       "full_sku": "NWG-WGM2950203",
       "name": "Trade Up to WatchGuard Basic Security Suite for Firebox M295 - 3-Year",
@@ -250,7 +250,7 @@
       "term_years": 3
     },
     {
-      "id": 5117,
+      "id": 5234,
       "sku_code": "WGM2950211",
       "full_sku": "NWG-WGM2950211",
       "name": "Trade Up to WatchGuard Total Security Suite for Firebox M295 - 1-Year",
@@ -262,7 +262,7 @@
       "term_years": 1
     },
     {
-      "id": 5118,
+      "id": 5235,
       "sku_code": "WGM2950213",
       "full_sku": "NWG-WGM2950213",
       "name": "Trade Up to WatchGuard Total Security Suite for Firebox M295 - 3-Year",
@@ -276,7 +276,7 @@
   ],
   "highAvailability": [
     {
-      "id": 5119,
+      "id": 5236,
       "sku_code": "WGM2951601",
       "full_sku": "NWG-WGM2951601",
       "name": "WatchGuard  Standard Support for Firebox M295 High Availability - 1-Year",
@@ -288,7 +288,7 @@
       "term_years": 1
     },
     {
-      "id": 5120,
+      "id": 5237,
       "sku_code": "WGM2951603",
       "full_sku": "NWG-WGM2951603",
       "name": "WatchGuard  Standard Support for Firebox M295 High Availability - 3-Year",
