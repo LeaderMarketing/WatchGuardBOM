@@ -39,27 +39,64 @@ function sortModels(models) {
 }
 
 export function useApplianceRenewals() {
-  const catalog = useApplianceCatalog('renewals');
+  // Fetch all three categories that contain T/M series renewal data:
+  // - renewals: legacy models (T15, T20, M270, M370, etc.)
+  // - tabletop: current T-series (T25, T45, T85-PoE, etc.)
+  // - mseries: current M-series (M290, M390, M495, etc.)
+  const renewalsCatalog = useApplianceCatalog('renewals');
+  const tabletopCatalog = useApplianceCatalog('tabletop');
+  const mseriesCatalog = useApplianceCatalog('mseries');
 
-  // Derive T-Series and M-Series model lists from API data
+  // Merge lookups from all three categories
+  const mergedLookups = useMemo(() => {
+    const merged = {};
+    for (const lookups of [renewalsCatalog.lookups, tabletopCatalog.lookups, mseriesCatalog.lookups]) {
+      for (const [model, services] of Object.entries(lookups)) {
+        if (!merged[model]) merged[model] = {};
+        for (const [svc, terms] of Object.entries(services)) {
+          if (!merged[model][svc]) merged[model][svc] = {};
+          Object.assign(merged[model][svc], terms);
+        }
+      }
+    }
+    return merged;
+  }, [renewalsCatalog.lookups, tabletopCatalog.lookups, mseriesCatalog.lookups]);
+
+  // Derive T-Series and M-Series model lists from merged data
   const { T_SERIES_MODELS, M_SERIES_MODELS } = useMemo(() => {
-    const allKeys = catalog.models.map(m => m.key);
+    const allKeys = Object.keys(mergedLookups);
     return {
       T_SERIES_MODELS: sortModels(allKeys.filter(k => k.startsWith('T'))),
       M_SERIES_MODELS: sortModels(allKeys.filter(k => k.startsWith('M'))),
     };
-  }, [catalog.models]);
+  }, [mergedLookups]);
 
   // Filter models that have at least one SKU in a given section
   const modelsForSection = useCallback((modelList, sectionId) => {
     const serviceKeys = SECTIONS[sectionId].map((o) => o.key);
     return modelList.filter((model) =>
-      serviceKeys.some((svc) => catalog.lookups[model]?.[svc]),
+      serviceKeys.some((svc) => mergedLookups[model]?.[svc]),
     );
-  }, [catalog.lookups]);
+  }, [mergedLookups]);
 
   // Per-card state: keyed by `${series}-${sectionId}` e.g. "t-renewal", "m-support"
   const [cardState, setCardState] = useState({});
+
+  const getAvailableTerms = useCallback((modelKey, serviceType) => {
+    return Object.keys(mergedLookups[modelKey]?.[serviceType] || {});
+  }, [mergedLookups]);
+
+  const getSkuForSelection = useCallback((modelKey, serviceType, term) => {
+    return mergedLookups[modelKey]?.[serviceType]?.[term]?.sku || null;
+  }, [mergedLookups]);
+
+  const getPriceForSelection = useCallback((modelKey, serviceType, term) => {
+    return mergedLookups[modelKey]?.[serviceType]?.[term]?.price || null;
+  }, [mergedLookups]);
+
+  const getUrlForSelection = useCallback((modelKey, serviceType, term) => {
+    return mergedLookups[modelKey]?.[serviceType]?.[term]?.url || '';
+  }, [mergedLookups]);
 
   const getCardState = useCallback(
     (series, sectionId) => {
@@ -68,11 +105,11 @@ export function useApplianceRenewals() {
       const sectionModels = modelsForSection(models, sectionId);
       const firstModel = sectionModels[0] || models[0];
       const firstService = SECTIONS[sectionId][0]?.key;
-      const terms = catalog.getAvailableTerms(firstModel, firstService);
+      const terms = getAvailableTerms(firstModel, firstService);
       const defaults = { model: firstModel, serviceType: firstService, term: terms[0] || '1 Year' };
       return cardState[key] ? { ...defaults, ...cardState[key] } : defaults;
     },
-    [cardState, T_SERIES_MODELS, M_SERIES_MODELS, modelsForSection, catalog],
+    [cardState, T_SERIES_MODELS, M_SERIES_MODELS, modelsForSection, getAvailableTerms],
   );
 
   const updateCardState = useCallback((series, sectionId, field, value) => {
@@ -84,20 +121,23 @@ export function useApplianceRenewals() {
       if (field === 'model' || field === 'serviceType') {
         const svcKey = field === 'serviceType' ? value : updated.serviceType || SECTIONS[sectionId][0]?.key;
         const modelKey = field === 'model' ? value : updated.model;
-        const terms = catalog.getAvailableTerms(modelKey, svcKey);
+        const terms = getAvailableTerms(modelKey, svcKey);
         updated.term = terms[0] || '1 Year';
       }
 
       return { ...prev, [key]: updated };
     });
-  }, [catalog]);
+  }, [getAvailableTerms]);
 
   // Filter service options to only those available for the selected model
   const getAvailableOptions = useCallback((model, sectionId) => {
     return SECTIONS[sectionId].filter(
-      (opt) => catalog.lookups[model]?.[opt.key],
+      (opt) => mergedLookups[model]?.[opt.key],
     );
-  }, [catalog.lookups]);
+  }, [mergedLookups]);
+
+  const loading = renewalsCatalog.loading || tabletopCatalog.loading || mseriesCatalog.loading;
+  const error = renewalsCatalog.error || tabletopCatalog.error || mseriesCatalog.error;
 
   return useMemo(
     () => ({
@@ -107,15 +147,16 @@ export function useApplianceRenewals() {
       modelsForSection,
       getCardState,
       updateCardState,
-      getAvailableTerms: catalog.getAvailableTerms,
-      getSkuForSelection: catalog.getSkuForSelection,
-      getPriceForSelection: catalog.getPriceForSelection,
-      getUrlForSelection: catalog.getUrlForSelection,
+      getAvailableTerms,
+      getSkuForSelection,
+      getPriceForSelection,
+      getUrlForSelection,
       getAvailableOptions,
-      loading: catalog.loading,
-      error: catalog.error,
+      loading,
+      error,
     }),
     [T_SERIES_MODELS, M_SERIES_MODELS, modelsForSection, getCardState, updateCardState,
-     catalog, getAvailableOptions],
+     getAvailableTerms, getSkuForSelection, getPriceForSelection, getUrlForSelection,
+     getAvailableOptions, loading, error],
   );
 }
