@@ -2,7 +2,7 @@
   "label": "Appliance Renewals",
   "products": [
     {
-      "id": 57,
+      "id": 207,
       "slug": "M270",
       "name": "Firebox M270",
       "family": "Renewals",
@@ -29,7 +29,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?hFUT95b244Q=HfvoV2YkqcdBUdUEiLXIrg==tdkOnbWRDJFlpZBekXlPpB8LWz8=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -62,7 +62,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?OfA02+BHiUU=k670DJfoNweBcXTumRx98A==i8IMpDv7GpEeVMf8fzLoPzHex/s=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -106,7 +106,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?1ff8BK7MFFA=aUra4UYlvgXtFxKCduF3qg==JHRwFOyyF/hLbESVMjRBzgvCd14=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -117,7 +117,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?l18OV3tFx6M=yA9zfnbcmmdTAUo7V8V8tQ==X4kKHPr6Bv8JTD64Zj0sB3LKKR8=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         },
         {
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "id": 58,
+      "id": 208,
       "slug": "M370",
       "name": "Firebox M370",
       "family": "Renewals",
@@ -183,7 +183,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?mP1S2oqzOOk=dl/wDZTWqZxbg215dsLoHw==Z6lHlvPKdHq4zrQUxqq9OWmpnPI=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -216,7 +216,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?EUkMKgU6xsg=F+XDm/UgwAqWZMKmB3t+RA==8FM9hlSwM7NNB6l8UCQrsL82QBI=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -260,7 +260,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?uyWR6Xe2o58=T2wcdBa+zZ7DzeYdXGGvZg==F7f0ZvOhnO3e6XjzDPtzm2kI5AA=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -271,7 +271,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?FRK5wDBmFfc=nReuZF/QhaFhXWCUJsml2A==FWsPOipZ8BEdeb7yukph77YiKS0=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         },
         {
@@ -299,7 +299,7 @@
       ]
     },
     {
-      "id": 59,
+      "id": 209,
       "slug": "M440",
       "name": "Firebox M440",
       "family": "Renewals",
@@ -321,7 +321,7 @@
       ]
     },
     {
-      "id": 60,
+      "id": 210,
       "slug": "M4600",
       "name": "Firebox M4600",
       "family": "Renewals",
@@ -359,7 +359,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?DSXDwHClp4c=cUMp7y7ayXqDjiAZm0mQSQ==V8g58bvuUmwvTZR7rrhqT5p8Ego=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -392,7 +392,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?5TOswi6M2nY=slmeH4E9YE+NEqEvyqxiwg==VTXUxloWBMNCVKWPyjddIxXxBNo=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -436,7 +436,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?UCALn6xCkHc=g1SW5Q1amI46kISuatyAFA==1eKDVJQppG8Aped5tsp+fELtsq4=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -447,7 +447,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?PMSrOKsN1dA=0Gp9KE/mhi39ABkXTJC9eA==jQgf41hsBURPdaXj6+43EVc4qvE=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         },
         {
@@ -475,7 +475,7 @@
       ]
     },
     {
-      "id": 61,
+      "id": 211,
       "slug": "M470",
       "name": "Firebox M470",
       "family": "Renewals",
@@ -513,7 +513,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?ddymggAVhxM=eUX1BxAdMFQEhUZzAP5rcg==PvuRGPfHqjesxLqBfrfnpb7ydFc=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -546,7 +546,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?L63x8zABbPU=dH2zxicmDaukpG8eGQV0KQ==n/P8RUy2qvHiwzLCsdbpEX59K40=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -590,7 +590,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?3OunB16RTBE=mHyAfOAnwMvH2XEi0XFLbg==EkqynvR2jKi6bkecthGykaZOFVc=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -601,7 +601,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?3ApkmLkE3vk=f3NTIHae1j+HChBFSjf/xg==xsrzw38GjwS7XWEDnLl3iowDqcs=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         },
         {
@@ -629,7 +629,7 @@
       ]
     },
     {
-      "id": 62,
+      "id": 212,
       "slug": "M5600",
       "name": "Firebox M5600",
       "family": "Renewals",
@@ -667,7 +667,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?fGcKXWM5pMQ=TPHs0TYwRVhGFu4Ci9j4lw==03LB0igdtWkZhKJlevOn+xEa7rI=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -700,7 +700,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?aA9NKvEy64I=vMUqaeTJQ93hA4IPRT6L4w==sYQki8rTvpg72CHyaq136xw+z/Q=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -744,7 +744,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?xSWWe+2Sc/Q=fO8pWQUDOMZXIEgLlLNiEQ==wZioy73crtXDkXFsmbEtz21fBg4=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -755,7 +755,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?Wr8PzK9R9kA=w8m1VHpWO1bN7LMNuskHfw==fd6dEY1KFHDXCCe1teeOSUOkyXM=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         },
         {
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "id": 63,
+      "id": 213,
       "slug": "M570",
       "name": "Firebox M570",
       "family": "Renewals",
@@ -821,7 +821,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?qsJ9U7OcEGw=oGkHoQUnkdn5dukyiuxTPg==Wfz+BJijGssFb6rj4KRmUy2b6Vw=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -854,7 +854,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?AKc5LRLMgfw=q7pJZYyjIvLNHmLlTgGJgA==/zHdEOx/fVE80XBip8mfy07NerY=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -898,7 +898,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?l7nnMGiR7fI=390ZlxrrUDhiqOKsg04rYQ==aE+3u0rkpiO872ORpB2/L+zyCoU=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -909,7 +909,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?LniOkZ76J0Y=dB8bSkGmbN/KTHkv1UXFcA==ROQRJYtyQ7Odwz8Z+RdUbXw82f0=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         },
         {
@@ -937,7 +937,7 @@
       ]
     },
     {
-      "id": 64,
+      "id": 214,
       "slug": "M670",
       "name": "Firebox M670",
       "family": "Renewals",
@@ -975,7 +975,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?+71A78q/mXA=Whx3e4/Ax9Lvs5Bm0AEoBA==UDWxowevMkFsuuSofp8jGkCgUzE=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -1008,7 +1008,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?VfkYhg3HTTY=FexnXnvY+/JR+JB2Vxo2KA==fPqp26NqFKFX1Erkp0Koez9jOGA=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -1052,7 +1052,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?op+dMeQICQA=YyKepAixHdNhDmMk9uiuaw==D/0EMtBgM5Qo0o6mfX2FhOJKFak=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -1063,7 +1063,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?cmxmFAOXmUE=tYuOXrvHltxEoHhnVTERbw==sFAVthjklA8fU0PVvdbZkRI/g0U=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         },
         {
@@ -1091,7 +1091,7 @@
       ]
     },
     {
-      "id": 65,
+      "id": 215,
       "slug": "T15",
       "name": "Firebox T15",
       "family": "Renewals",
@@ -1129,7 +1129,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?f6jUxsWB3FU=vcxjuHcxyJPhTjvAG/uv0A==/4UqRoC/hlZgSa7UUdGxfu5HBPA=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -1162,7 +1162,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?Fz4TJUQyIAQ=rLGIKDEGj9zNFb30grPLTg==oBEG0AV/v6Z3kqiZ6ihcZigDm8c=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -1206,7 +1206,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?Fsx+0oWwu50=G2SBybV+G1ge9/8rFCqrIA==cCg9TLwec/OS5DHx72MMkFvjjgw=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -1217,7 +1217,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?ykyD1E8HetA=i4yFKw/LU0cWc6Tg6UB8tw==z6Kbnty6HbsApQ5G8wE8Ai6iTLQ=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         },
         {
@@ -1245,7 +1245,7 @@
       ]
     },
     {
-      "id": 66,
+      "id": 216,
       "slug": "T15-W",
       "name": "Firebox T15-W",
       "family": "Renewals",
@@ -1283,7 +1283,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?x4pGSQcIU/w=U9F89RBzQA7jbd0n/ASwHw==wz7yGXVfV5GkydlsUV7C1L9dB/M=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -1305,7 +1305,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?rl2P7d1C0m0=LjfK8mHVk8ChjO2nJmqASg==1fifL1rOHhlljLWnQkHOACHpkVE=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -1349,7 +1349,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?bSHGodH2+14=5GSrqfkRQvVyuiYCUnHBMQ==pKNSS2qWY0i9eP/wDPbcmU5DcKo=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -1360,7 +1360,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?/SqYA3xPiOw=hZ/KuOiBaIaCjHp+m+xoAA==7Ef7/g+aIB3AefpHY6bMf2/dYNY=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         },
         {
@@ -1388,7 +1388,7 @@
       ]
     },
     {
-      "id": 67,
+      "id": 217,
       "slug": "T20",
       "name": "Firebox T20",
       "family": "Renewals",
@@ -1415,7 +1415,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?Yw+1Eqna57A=5Z3sTuHcucAJ1EgKLfLarA==ahm0QbfUE9t7qrseK3BjPsFHTtE=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -1426,7 +1426,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?KObK1Wbf2mE=m3gLPBFVAdxUUAwSWoJrSg==N4q3NDTASOaFXcG859i3Z9Nvu/A=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -1437,7 +1437,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?ZE+zcNfjgD8=SLiGJTxD0oFnvuLx/heYZg==A7NgvhjveU6WHXm1FCgU9wbgPQ0=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -1448,13 +1448,13 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?PTRW9WxO3bA=dYYiLC3loRLpZj2l/FmQgA==10MTq3MxQ1uLziz+g0FZvdSY+6o=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         }
       ]
     },
     {
-      "id": 68,
+      "id": 218,
       "slug": "T20-W",
       "name": "Firebox T20-W",
       "family": "Renewals",
@@ -1481,7 +1481,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?vr9MwkSfIN8=N5JNwFMdSrXJ1DBIHWGNbw==IHYfKcKMABkhk63nGoeM7HwoRTI=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -1492,7 +1492,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?MTNUQqVkjSI=TWGkZIMrp1ocY1q/lDc/2g==8289I0SgyapNxT3DVyIqGCb+A6U=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -1503,7 +1503,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?YEInInC86GM=8nA761GT6ijN0k/2Hgv5iw==22UThiIdpKbDxaqepGcgNck36hQ=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -1514,13 +1514,13 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?2jx+3gHY4aI=VDj78PQF1qHkdBjIehiZGg==UsQpQO77vLAtzmoihzDjLF+UKY4=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         }
       ]
     },
     {
-      "id": 69,
+      "id": 219,
       "slug": "T25",
       "name": "Firebox T25",
       "family": "Renewals",
@@ -1624,7 +1624,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?9txYiAAa9fg=bNbOFxxEou4J4ZdF4jOdYg==TTG4qdU1G5RrwgLaOEvIfLpr+Is=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -1635,7 +1635,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?+AefqGPRtbw=eNPQcbLHnFWrNJwYxm4Ytw==BK16GYD7xQkkf/3ONJuBtJtV6o8=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 3
         },
         {
@@ -1646,7 +1646,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?E16fFgtRoXw=Wj5UxB4H0FA9yghXHNwDfg==jbg8FtlX7Q9k6Legs4se3kEdMIw=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -1657,7 +1657,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?ObOhR2DmP2U=rBVasSucM6iklI9bRH3qsA==Gs9n9pWl6C/ZLdf9AW+S4M7Pd+4=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 3
         },
         {
@@ -1668,7 +1668,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?4Uuh+ZtXE1I=Wr1/2PcVEJuz1b3TQ0T4mQ==5ZJyy1fn68HKeDUJVWlMGh0dhEA=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -1679,7 +1679,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?DgFBcrOxmH8=YMc4aOjvIIMl4Z9U7Cd29Q==4gSu7QaN4xKg2H3h7xjezpgpySo=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 3
         },
         {
@@ -1690,7 +1690,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?glem4+hQFOY=ZSzz7/6EHXc+59Azs3mlMA==WRtkOc8BaCjHwZEhcARQGJ0nVgw=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         },
         {
@@ -1701,13 +1701,13 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?r/vYrTV2kzc=6PB9oShTSt63hwlmMXwVmQ==b29RoQWjuQ1qw93+ls6cl/tad88=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 3
         }
       ]
     },
     {
-      "id": 70,
+      "id": 220,
       "slug": "T35",
       "name": "Firebox T35",
       "family": "Renewals",
@@ -1723,7 +1723,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?BJBdJKn+Vy8=pTG8WCNdwj+2NpZkAgqYxA==VWhHVXefN+Bu/d0oZ9FCHLH95uQ=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -1734,7 +1734,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?xkwSoLuNPmc=hSDHdWyo1y/MMlOaE5oE1g==W8bYzibOk9nbfdnX55HV8t4i6pE=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -1745,7 +1745,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?0OY/l9Sf8CA=828LXkuVz9M7l/1yN1wc5A==X9gZWDshGARvcLOjJF6vqYmpj2U=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -1756,13 +1756,13 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?lJ3Oi83LdCA=Bn0eEz8GLYzHavrIUXCeLA==7XVb617pzCTPtn1nv9mNvBHgUng=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         }
       ]
     },
     {
-      "id": 71,
+      "id": 221,
       "slug": "T40",
       "name": "Firebox T40",
       "family": "Renewals",
@@ -1789,7 +1789,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?2iNoSoV9A2Q=akYOtlLLkGxGMj7E6zDXHA==z8ilh/9+a4bt5i+YBq/TnKCl/t0=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -1800,7 +1800,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?YrkJ5qVg5Lo=Z7nK2D5GgcAmSu+/7cQ7wg==cn2AAQHD/ayJL6Zm1ycpCGChkU8=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -1811,7 +1811,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?xEv1dds5ISI=UxgfuVh4YNnJrjNeUbT5rA==S37VlEjcVQgye+NZ+a5hQmCGxTw=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -1822,13 +1822,13 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?UHuG9017wjo=rVE+rhujxw+9ckNBHC6flw==JJg2oVg2o+63fs9uhDOADYn4UtE=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         }
       ]
     },
     {
-      "id": 72,
+      "id": 222,
       "slug": "T40-W",
       "name": "Firebox T40-W",
       "family": "Renewals",
@@ -1855,7 +1855,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?Ghu6BacNS8Q=qZMHGEAHBn1rFMhduEY1BQ==Q2Wb96HtO8E6uzkWmjlLclBxtSI=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -1866,7 +1866,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?cc/ho8ME9WA=gYaDBnxOiBk2pfqCHmZzSA==AL/ncKoTHoxEMYYPmSeuF6+FzL4=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -1877,7 +1877,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?KZjltn1rrbo=NEQEk0kzfJvweZtK/zslAg==hHNq6/IqC+zrmmYNVxawCY6bN9c=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -1888,13 +1888,13 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?i7XKPc1JfwU=03GH8nYT5mRAdZy5/S8dhw==XVRk/X5lkgrGzKNA6OGPCf+pgBI=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         }
       ]
     },
     {
-      "id": 73,
+      "id": 223,
       "slug": "T45",
       "name": "Firebox T45",
       "family": "Renewals",
@@ -1943,7 +1943,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?fMs5Cz9n2RU=sbXepq1Mp2WXVwfl8V/85Q==lhf3tIDwo2HYtUZ7jymB4uycqrM=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -1954,7 +1954,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?qx4mke0sI6Q=4rWZVkWBtIeFA4q1xQNMvw==TRYaeCsUvsdVovQv4VDAglSvnmU=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 3
         },
         {
@@ -1965,7 +1965,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?DzH9X9FYVns=N0YPS6g/9HH3u3wzYSxdZA==NbIB/dJk5Dt0eVcMYDBjjb1x7wQ=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -1976,13 +1976,13 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?jZkdeCapxjo=fGDQ97YE9q9XcKmQA9TYuA==OLWoJ2X9WQft269AOPqE+X2mF6g=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 3
         }
       ]
     },
     {
-      "id": 74,
+      "id": 224,
       "slug": "T80",
       "name": "Firebox T80",
       "family": "Renewals",
@@ -2009,7 +2009,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?60cCVHrWuPA=8Iyoe73QDT5SYOPFuW+A+g==QpIUEUL9rTY9Wsy+/1VXknHs6IE=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -2031,7 +2031,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?KMg46dOAahI=ATzNf9g9n4ecr2IVC7lwcQ==R3q09EZ57+rSmV0QVXa3wsVWXtc=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -2042,7 +2042,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?oJRhGg5KfRI=4oYkFVwPPs4XatUIR4BU+A==r9OA6LJ6k7Z8zMz52SIvnGhpuqg=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -2053,13 +2053,13 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?0Ss8qeZlvqw=/a2qfmAQlvtRSvL89N6FTw==b56vEE/3kudweayf1LPCF0p7B/c=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         }
       ]
     },
     {
-      "id": 75,
+      "id": 225,
       "slug": "T85-PoE",
       "name": "Firebox T85-PoE",
       "family": "Renewals",
@@ -2108,7 +2108,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?WJ0KF9ljR/c=gXngT7aA9L2eYLMkZQv/KA==wG2Dqp+wJrFDQd+EXTR4sUygrfA=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 1
         },
         {
@@ -2119,7 +2119,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?2x7MXIhTMps=OJzX/3QJwUzwQWCRxGAKLw==sTN7k6KGcI0u2qz/XXrlJ/61tzg=",
           "sku_type": "subscription",
-          "subscription_type": "Basic Security Suite",
+          "subscription_type": "Basic Security Renewal",
           "term_years": 3
         },
         {
@@ -2130,7 +2130,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?kWbVEpNG8oY=VKySTnYfoyUjJzj9pg8z9Q==aQcTq29H3+raa8bIkThd6kI1mMs=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 1
         },
         {
@@ -2141,7 +2141,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?mmljm+Ly3KQ=TqrW9AU3Yh7t58JFi5Mn+w==CgZYySNSFLg+8hfEeHNarwnFVKw=",
           "sku_type": "subscription",
-          "subscription_type": "Gold Support",
+          "subscription_type": "Gold Support Renewal",
           "term_years": 3
         },
         {
@@ -2152,7 +2152,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?1gy9wvWt+3s=CUZcfq4PrS/Wu8foBJObOw==rhiw/a2OdG0KPdCZR8nPJngEtWw=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 1
         },
         {
@@ -2163,7 +2163,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?Mvj7d9VIRcU=A2Kg76BF+EHCO6S0X/M6rA==cIWaD7ImZL9svsbEMEHoiuyhQbg=",
           "sku_type": "subscription",
-          "subscription_type": "Standard Support",
+          "subscription_type": "Standard Support Renewal",
           "term_years": 3
         },
         {
@@ -2174,7 +2174,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?I02SAcYk7Cg=B2+xgCHQVggSdlesl0JD6w==dPx11qoXyxFLgZ0tpIBMI96HF8A=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 1
         },
         {
@@ -2185,7 +2185,7 @@
           "delivery_method": "Electronic",
           "url": "https://partner.leadersystems.com.au/products.html?Oj7wKbDjTJU=9RAzWhtpj6p2FE0UU0IJ4A==StcmBa8GRew2W7Dj4laB55XE1co=",
           "sku_type": "subscription",
-          "subscription_type": "Total Security Suite",
+          "subscription_type": "Total Security Renewal",
           "term_years": 3
         }
       ]

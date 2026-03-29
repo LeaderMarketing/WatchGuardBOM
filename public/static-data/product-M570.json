@@ -1,5 +1,5 @@
 {
-  "id": 63,
+  "id": 213,
   "slug": "M570",
   "name": "Firebox M570",
   "family": "Renewals",
@@ -9,7 +9,7 @@
   "appliance": null,
   "subscriptions": [
     {
-      "id": 985,
+      "id": 3509,
       "sku_code": "WGM57171",
       "full_sku": "NWG-WGM57171",
       "name": "WatchGuard APT Blocker 1-yr for Firebox M570",
@@ -21,7 +21,7 @@
       "term_years": 1
     },
     {
-      "id": 984,
+      "id": 3508,
       "sku_code": "WGM57151",
       "full_sku": "NWG-WGM57151",
       "name": "WatchGuard Application Control 1-yr for Firebox M570",
@@ -33,7 +33,7 @@
       "term_years": 1
     },
     {
-      "id": 975,
+      "id": 3499,
       "sku_code": "WGM57331",
       "full_sku": "NWG-WGM57331",
       "name": "WatchGuard Basic Security Suite Renewal/Upgrade 1-yr for Firebox M570",
@@ -41,11 +41,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?qsJ9U7OcEGw=oGkHoQUnkdn5dukyiuxTPg==Wfz+BJijGssFb6rj4KRmUy2b6Vw=",
       "sku_type": "subscription",
-      "subscription_type": "Basic Security Suite",
+      "subscription_type": "Basic Security Renewal",
       "term_years": 1
     },
     {
-      "id": 987,
+      "id": 3511,
       "sku_code": "WGM57521",
       "full_sku": "NWG-WGM57521",
       "name": "WatchGuard Cloud 1-month data retention for M570 - 1-yr",
@@ -57,7 +57,7 @@
       "term_years": 1
     },
     {
-      "id": 981,
+      "id": 3505,
       "sku_code": "WGM57121",
       "full_sku": "NWG-WGM57121",
       "name": "WatchGuard Gateway AntiVirus 1-yr for Firebox M570",
@@ -69,7 +69,7 @@
       "term_years": 1
     },
     {
-      "id": 978,
+      "id": 3502,
       "sku_code": "WGM57261",
       "full_sku": "NWG-WGM57261",
       "name": "WatchGuard Gold Support Renewal/Upgrade 1-yr for Firebox M570",
@@ -77,11 +77,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?AKc5LRLMgfw=q7pJZYyjIvLNHmLlTgGJgA==/zHdEOx/fVE80XBip8mfy07NerY=",
       "sku_type": "subscription",
-      "subscription_type": "Gold Support",
+      "subscription_type": "Gold Support Renewal",
       "term_years": 1
     },
     {
-      "id": 982,
+      "id": 3506,
       "sku_code": "WGM57131",
       "full_sku": "NWG-WGM57131",
       "name": "WatchGuard Intrusion Prevention Service 1-yr for Firebox M570",
@@ -93,7 +93,7 @@
       "term_years": 1
     },
     {
-      "id": 986,
+      "id": 3510,
       "sku_code": "WGM57181",
       "full_sku": "NWG-WGM57181",
       "name": "WatchGuard Network Discovery 1-yr for Firebox M570",
@@ -105,7 +105,7 @@
       "term_years": 1
     },
     {
-      "id": 983,
+      "id": 3507,
       "sku_code": "WGM57141",
       "full_sku": "NWG-WGM57141",
       "name": "WatchGuard Reputation Enabled Defense 1-yr for Firebox M570",
@@ -117,7 +117,7 @@
       "term_years": 1
     },
     {
-      "id": 977,
+      "id": 3501,
       "sku_code": "WGM57201",
       "full_sku": "NWG-WGM57201",
       "name": "WatchGuard Standard Support Renewal 1-yr for Firebox M570",
@@ -125,11 +125,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?l7nnMGiR7fI=390ZlxrrUDhiqOKsg04rYQ==aE+3u0rkpiO872ORpB2/L+zyCoU=",
       "sku_type": "subscription",
-      "subscription_type": "Standard Support",
+      "subscription_type": "Standard Support Renewal",
       "term_years": 1
     },
     {
-      "id": 976,
+      "id": 3500,
       "sku_code": "WGM57351",
       "full_sku": "NWG-WGM57351",
       "name": "WatchGuard Total Security Suite Renewal/Upgrade 1-yr for Firebox M570",
@@ -137,11 +137,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?LniOkZ76J0Y=dB8bSkGmbN/KTHkv1UXFcA==ROQRJYtyQ7Odwz8Z+RdUbXw82f0=",
       "sku_type": "subscription",
-      "subscription_type": "Total Security Suite",
+      "subscription_type": "Total Security Renewal",
       "term_years": 1
     },
     {
-      "id": 979,
+      "id": 3503,
       "sku_code": "WGM57101",
       "full_sku": "NWG-WGM57101",
       "name": "WatchGuard WebBlocker 1-yr for Firebox M570",
@@ -153,7 +153,7 @@
       "term_years": 1
     },
     {
-      "id": 980,
+      "id": 3504,
       "sku_code": "WGM57111",
       "full_sku": "NWG-WGM57111",
       "name": "WatchGuard spamBlocker 1-yr for Firebox M570",

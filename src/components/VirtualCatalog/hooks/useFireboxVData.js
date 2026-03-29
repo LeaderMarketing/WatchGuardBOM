@@ -1,6 +1,5 @@
 import { useState, useCallback, useMemo } from 'react';
-import { fireboxVProductSkus } from '../../../data/productSkus/fireboxV.js';
-import { getPriceBySku } from '../../../data/productPrices.js';
+import { useApplianceCatalog } from '../../../hooks/useApplianceCatalog.js';
 
 const MODELS = [
   { key: 'FireboxV Small', label: 'Small', description: 'Up to 50 users' },
@@ -34,7 +33,7 @@ const SECTIONS = {
     { label: 'Network Discovery', key: 'Network Discovery' },
   ],
   cloud: [
-    { label: 'Cloud 1-Month Data Retention', key: 'Cloud 1-Month Data Retention' },
+    { label: 'Cloud 1-Month Data Retention', key: 'Cloud Data Retention' },
   ],
   tradeUp: [
     { label: 'Trade Up to Basic Security', key: 'Trade Up Basic Security' },
@@ -42,24 +41,23 @@ const SECTIONS = {
   ],
 };
 
-function buildInitialSelections() {
-  const selections = {};
-  for (const model of MODELS) {
-    selections[model.key] = {};
-    for (const [sectionId, options] of Object.entries(SECTIONS)) {
-      const firstOption = options[0]?.key;
-      const availableTerms = Object.keys(fireboxVProductSkus[model.key]?.[firstOption] || {});
-      selections[model.key][sectionId] = {
-        serviceType: firstOption,
-        term: availableTerms[0] || '1 Year',
-      };
-    }
-  }
-  return selections;
-}
-
 export function useFireboxVData() {
-  const [selections, setSelections] = useState(buildInitialSelections);
+  const catalog = useApplianceCatalog('virtual');
+
+  const [selections, setSelections] = useState(() => {
+    const initial = {};
+    for (const model of MODELS) {
+      initial[model.key] = {};
+      for (const sectionId of Object.keys(SECTIONS)) {
+        const firstOption = SECTIONS[sectionId][0]?.key;
+        initial[model.key][sectionId] = {
+          serviceType: firstOption,
+          term: '1 Year',
+        };
+      }
+    }
+    return initial;
+  });
 
   const setSelection = useCallback((modelKey, sectionId, field, value) => {
     setSelections((prev) => {
@@ -67,35 +65,24 @@ export function useFireboxVData() {
       updated[modelKey] = { ...updated[modelKey] };
       updated[modelKey][sectionId] = { ...updated[modelKey][sectionId], [field]: value };
 
-      // Reset term when service type changes
       if (field === 'serviceType') {
-        const availableTerms = Object.keys(fireboxVProductSkus[modelKey]?.[value] || {});
+        const availableTerms = catalog.getAvailableTerms(modelKey, value);
         updated[modelKey][sectionId].term = availableTerms[0] || '1 Year';
       }
       return updated;
     });
-  }, []);
-
-  const getAvailableTerms = useCallback((modelKey, serviceType) => {
-    return Object.keys(fireboxVProductSkus[modelKey]?.[serviceType] || {});
-  }, []);
-
-  const getSkuForSelection = useCallback((modelKey, serviceType, term) => {
-    return fireboxVProductSkus[modelKey]?.[serviceType]?.[term] || null;
-  }, []);
-
-  const getPriceForSelection = useCallback((modelKey, serviceType, term) => {
-    const sku = fireboxVProductSkus[modelKey]?.[serviceType]?.[term];
-    return sku ? getPriceBySku(sku) : null;
-  }, []);
+  }, [catalog]);
 
   return useMemo(() => ({
     MODELS,
     SECTIONS,
     selections,
     setSelection,
-    getAvailableTerms,
-    getSkuForSelection,
-    getPriceForSelection,
-  }), [selections, setSelection, getAvailableTerms, getSkuForSelection, getPriceForSelection]);
+    getAvailableTerms: catalog.getAvailableTerms,
+    getSkuForSelection: catalog.getSkuForSelection,
+    getPriceForSelection: catalog.getPriceForSelection,
+    getUrlForSelection: catalog.getUrlForSelection,
+    loading: catalog.loading,
+    error: catalog.error,
+  }), [selections, setSelection, catalog]);
 }

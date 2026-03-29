@@ -1,8 +1,5 @@
 import { useState, useCallback, useMemo } from 'react';
-import { fireboxApplianceSkus } from '../../data/productSkus/fireboxAppliances.js';
-import { fireboxVProductSkus } from '../../data/productSkus/fireboxV.js';
-import { fireboxCloudProductSkus } from '../../data/productSkus/fireboxCloud.js';
-import { getPriceBySku } from '../../data/productPrices.js';
+import { useApplianceCatalog } from '../../hooks/useApplianceCatalog.js';
 
 // ── Tab definitions ──
 export const TABS = [
@@ -12,53 +9,10 @@ export const TABS = [
   { key: 'cloud', label: 'Firebox Cloud' },
 ];
 
-// ── Model lists per tab ──
-const T_SERIES_MODELS = Object.keys(fireboxApplianceSkus)
-  .filter((k) => k.startsWith('T'))
-  .sort((a, b) => {
-    const numA = parseInt(a.replace(/\D/g, ''), 10);
-    const numB = parseInt(b.replace(/\D/g, ''), 10);
-    return numA - numB || a.localeCompare(b);
-  });
-
-const M_SERIES_MODELS = Object.keys(fireboxApplianceSkus)
-  .filter((k) => k.startsWith('M'))
-  .sort((a, b) => {
-    const numA = parseInt(a.replace(/\D/g, ''), 10);
-    const numB = parseInt(b.replace(/\D/g, ''), 10);
-    return numA - numB || a.localeCompare(b);
-  });
-
-const VIRTUAL_MODELS = Object.keys(fireboxVProductSkus).sort();
-const CLOUD_MODELS = Object.keys(fireboxCloudProductSkus).sort();
-
-// ── Unified SKU lookup — maps tab → SKU data source ──
-function getSkuSource(tab) {
-  switch (tab) {
-    case 'tabletop': return fireboxApplianceSkus;
-    case 'mseries': return fireboxApplianceSkus;
-    case 'virtual': return fireboxVProductSkus;
-    case 'cloud': return fireboxCloudProductSkus;
-    default: return {};
-  }
-}
-
-function getModels(tab) {
-  switch (tab) {
-    case 'tabletop': return T_SERIES_MODELS;
-    case 'mseries': return M_SERIES_MODELS;
-    case 'virtual': return VIRTUAL_MODELS;
-    case 'cloud': return CLOUD_MODELS;
-    default: return [];
-  }
-}
-
 export function getModelPrefix(tab) {
   switch (tab) {
     case 'tabletop': return 'Firebox';
     case 'mseries': return 'Firebox';
-    case 'virtual': return '';
-    case 'cloud': return '';
     default: return '';
   }
 }
@@ -78,7 +32,7 @@ export const SECTIONS = {
     { label: 'Trade Up to Total Security', key: 'Trade Up Total Security' },
   ],
   cloud: [
-    { label: 'Cloud 1-Month Data Retention', key: 'Cloud 1-Month Data Retention' },
+    { label: 'Cloud 1-Month Data Retention', key: 'Cloud Data Retention' },
   ],
   individual: [
     { label: 'WebBlocker', key: 'WebBlocker' },
@@ -92,28 +46,49 @@ export const SECTIONS = {
   ],
 };
 
-// ── Filter models that have at least one SKU in a given section for a tab ──
-function modelsForSection(tab, sectionId) {
-  const models = getModels(tab);
-  const source = getSkuSource(tab);
-  const serviceKeys = SECTIONS[sectionId].map((o) => o.key);
-  return models.filter((model) =>
-    serviceKeys.some((svc) => source[model]?.[svc]),
-  );
+function sortModels(models) {
+  return [...models].sort((a, b) => {
+    const numA = parseInt(a.replace(/\D/g, ''), 10);
+    const numB = parseInt(b.replace(/\D/g, ''), 10);
+    return numA - numB || a.localeCompare(b);
+  });
 }
 
 export function useRenewalsData() {
+  const renewalsCatalog = useApplianceCatalog('renewals');
+  const virtualCatalog = useApplianceCatalog('virtual');
+  const cloudCatalog = useApplianceCatalog('cloud');
+
   const [activeTab, setActiveTab] = useState('tabletop');
   const [cardState, setCardState] = useState({});
 
-  const models = useMemo(() => getModels(activeTab), [activeTab]);
-  const skuSource = useMemo(() => getSkuSource(activeTab), [activeTab]);
+  // Derive model lists from API data
+  const { tModels, mModels, vModels, cModels } = useMemo(() => {
+    const allRenewalKeys = renewalsCatalog.models.map(m => m.key);
+    return {
+      tModels: sortModels(allRenewalKeys.filter(k => k.startsWith('T'))),
+      mModels: sortModels(allRenewalKeys.filter(k => k.startsWith('M'))),
+      vModels: virtualCatalog.models.map(m => m.key).sort(),
+      cModels: cloudCatalog.models.map(m => m.key).sort(),
+    };
+  }, [renewalsCatalog.models, virtualCatalog.models, cloudCatalog.models]);
+
+  // Select the right catalog and model list for the active tab
+  const { catalog, models } = useMemo(() => {
+    switch (activeTab) {
+      case 'tabletop': return { catalog: renewalsCatalog, models: tModels };
+      case 'mseries': return { catalog: renewalsCatalog, models: mModels };
+      case 'virtual': return { catalog: virtualCatalog, models: vModels };
+      case 'cloud': return { catalog: cloudCatalog, models: cModels };
+      default: return { catalog: renewalsCatalog, models: [] };
+    }
+  }, [activeTab, renewalsCatalog, virtualCatalog, cloudCatalog, tModels, mModels, vModels, cModels]);
+
   const modelPrefix = getModelPrefix(activeTab);
 
   const getCardState = useCallback(
     (cardId) => {
-      const sectionModels = models;
-      const firstModel = sectionModels[0] || '';
+      const firstModel = models[0] || '';
       const defaults = { model: firstModel, serviceType: '', term: '1 Year' };
       return cardState[cardId] ? { ...defaults, ...cardState[cardId] } : defaults;
     },
@@ -128,37 +103,26 @@ export function useRenewalsData() {
       if (field === 'model' || field === 'serviceType') {
         const svcKey = field === 'serviceType' ? value : updated.serviceType;
         const modelKey = field === 'model' ? value : updated.model;
-        const src = getSkuSource(activeTab);
-        const terms = Object.keys(src[modelKey]?.[svcKey] || {});
+        const terms = catalog.getAvailableTerms(modelKey, svcKey);
         updated.term = terms[0] || '1 Year';
       }
 
       return { ...prev, [cardId]: updated };
     });
-  }, [activeTab]);
-
-  const getAvailableTerms = useCallback((model, serviceType) => {
-    return Object.keys(skuSource[model]?.[serviceType] || {});
-  }, [skuSource]);
-
-  const getSkuForSelection = useCallback((model, serviceType, term) => {
-    return skuSource[model]?.[serviceType]?.[term] || null;
-  }, [skuSource]);
-
-  const getPriceForSelection = useCallback((model, serviceType, term) => {
-    const sku = skuSource[model]?.[serviceType]?.[term];
-    return sku ? getPriceBySku(sku) : null;
-  }, [skuSource]);
+  }, [catalog]);
 
   const getAvailableOptions = useCallback((model, sectionId) => {
     return SECTIONS[sectionId].filter(
-      (opt) => skuSource[model]?.[opt.key],
+      (opt) => catalog.lookups[model]?.[opt.key],
     );
-  }, [skuSource]);
+  }, [catalog.lookups]);
 
   const getModelsForSection = useCallback((sectionId) => {
-    return modelsForSection(activeTab, sectionId);
-  }, [activeTab]);
+    const serviceKeys = SECTIONS[sectionId].map((o) => o.key);
+    return models.filter((model) =>
+      serviceKeys.some((svc) => catalog.lookups[model]?.[svc]),
+    );
+  }, [models, catalog.lookups]);
 
   return useMemo(
     () => ({
@@ -170,11 +134,16 @@ export function useRenewalsData() {
       getModelsForSection,
       getCardState,
       updateCardState,
-      getAvailableTerms,
-      getSkuForSelection,
-      getPriceForSelection,
+      getAvailableTerms: catalog.getAvailableTerms,
+      getSkuForSelection: catalog.getSkuForSelection,
+      getPriceForSelection: catalog.getPriceForSelection,
+      getUrlForSelection: catalog.getUrlForSelection,
       getAvailableOptions,
+      loading: renewalsCatalog.loading || virtualCatalog.loading || cloudCatalog.loading,
+      error: renewalsCatalog.error || virtualCatalog.error || cloudCatalog.error,
     }),
-    [activeTab, setActiveTab, models, modelPrefix, getModelsForSection, getCardState, updateCardState, getAvailableTerms, getSkuForSelection, getPriceForSelection, getAvailableOptions],
+    [activeTab, setActiveTab, models, modelPrefix, getModelsForSection, getCardState, updateCardState,
+     catalog, getAvailableOptions, renewalsCatalog.loading, virtualCatalog.loading, cloudCatalog.loading,
+     renewalsCatalog.error, virtualCatalog.error, cloudCatalog.error],
   );
 }

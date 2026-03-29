@@ -1,5 +1,5 @@
 {
-  "id": 27,
+  "id": 177,
   "slug": "T45-W-PoE",
   "name": "Firebox T45-W-PoE",
   "family": "T-Series",
@@ -7,7 +7,7 @@
   "description": "Tabletop firewall with Wi-Fi and PoE ports",
   "image_file": "T145.jpg",
   "appliance": {
-    "id": 324,
+    "id": 2848,
     "sku_code": "WGT48000-AU",
     "full_sku": "NWG-WGT48000-AU",
     "name": "WatchGuard Firebox T45-W-PoE  Appliance Only (AU)",
@@ -20,7 +20,7 @@
   },
   "subscriptions": [
     {
-      "id": 1243,
+      "id": 3767,
       "sku_code": "WGT48171",
       "full_sku": "NWG-WGT48171",
       "name": "WatchGuard APT Blocker 1-yr for Firebox T45-W-PoE",
@@ -32,7 +32,7 @@
       "term_years": 1
     },
     {
-      "id": 1244,
+      "id": 3768,
       "sku_code": "WGT48173",
       "full_sku": "NWG-WGT48173",
       "name": "WatchGuard APT Blocker 3-yr for Firebox T45-W-PoE",
@@ -44,7 +44,7 @@
       "term_years": 3
     },
     {
-      "id": 1245,
+      "id": 3769,
       "sku_code": "WGT48175",
       "full_sku": "NWG-WGT48175",
       "name": "WatchGuard APT Blocker 5-yr for Firebox T45-W-PoE",
@@ -56,7 +56,31 @@
       "term_years": 5
     },
     {
-      "id": 328,
+      "id": 3759,
+      "sku_code": "WGT48341",
+      "full_sku": "NWG-WGT48341",
+      "name": "WatchGuard Basic Security Suite Renewal/Upgrade 1-yr for Firebox T45-W-PoE",
+      "msrp": 1151,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?LGQpSKMspw8=+HYF37paaNjrzDYhsCTI2w==S5AO1OJmkRc4pVX7+yY4YY1FE3c=",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Renewal",
+      "term_years": 1
+    },
+    {
+      "id": 3760,
+      "sku_code": "WGT48343",
+      "full_sku": "NWG-WGT48343",
+      "name": "WatchGuard Basic Security Suite Renewal/Upgrade 3-yr for Firebox T45-W-PoE",
+      "msrp": 2743,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?UiLQ33xYvcs=tbMR53hs/rlFodlLzGSpqQ==yFuKotN3L8qRW3lCjD65EwcHv14=",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Renewal",
+      "term_years": 3
+    },
+    {
+      "id": 2852,
       "sku_code": "WGT480071",
       "full_sku": "NWG-WGT480071",
       "name": "WatchGuard Basic Security Suite for Firebox T45-W-PoE - 1-Year",
@@ -68,19 +92,7 @@
       "term_years": 1
     },
     {
-      "id": 1235,
-      "sku_code": "WGT48341",
-      "full_sku": "NWG-WGT48341",
-      "name": "WatchGuard Basic Security Suite Renewal/Upgrade 1-yr for Firebox T45-W-PoE",
-      "msrp": 1151,
-      "delivery_method": "Electronic",
-      "url": "https://partner.leadersystems.com.au/products.html?LGQpSKMspw8=+HYF37paaNjrzDYhsCTI2w==S5AO1OJmkRc4pVX7+yY4YY1FE3c=",
-      "sku_type": "subscription",
-      "subscription_type": "Basic Security Suite",
-      "term_years": 1
-    },
-    {
-      "id": 329,
+      "id": 2853,
       "sku_code": "WGT480073",
       "full_sku": "NWG-WGT480073",
       "name": "WatchGuard Basic Security Suite for Firebox T45-W-PoE - 3-Year",
@@ -92,19 +104,7 @@
       "term_years": 3
     },
     {
-      "id": 1236,
-      "sku_code": "WGT48343",
-      "full_sku": "NWG-WGT48343",
-      "name": "WatchGuard Basic Security Suite Renewal/Upgrade 3-yr for Firebox T45-W-PoE",
-      "msrp": 2743,
-      "delivery_method": "Electronic",
-      "url": "https://partner.leadersystems.com.au/products.html?UiLQ33xYvcs=tbMR53hs/rlFodlLzGSpqQ==yFuKotN3L8qRW3lCjD65EwcHv14=",
-      "sku_type": "subscription",
-      "subscription_type": "Basic Security Suite",
-      "term_years": 3
-    },
-    {
-      "id": 330,
+      "id": 2854,
       "sku_code": "WGT480075",
       "full_sku": "NWG-WGT480075",
       "name": "WatchGuard Basic Security Suite for Firebox T45-W-PoE - 5-Year",
@@ -116,7 +116,7 @@
       "term_years": 5
     },
     {
-      "id": 1241,
+      "id": 3765,
       "sku_code": "WGT48261",
       "full_sku": "NWG-WGT48261",
       "name": "WatchGuard Gold Support Renewal/Upgrade 1-yr for Firebox T45-W-PoE",
@@ -124,11 +124,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?XtUO7derZEs=L4AJUEZIHaZeOrDlnR0t4w==NF8vZnUJofgMnr6ibJwtjid2buc=",
       "sku_type": "subscription",
-      "subscription_type": "Gold Support",
+      "subscription_type": "Gold Support Renewal",
       "term_years": 1
     },
     {
-      "id": 1242,
+      "id": 3766,
       "sku_code": "WGT48263",
       "full_sku": "NWG-WGT48263",
       "name": "WatchGuard Gold Support Renewal/Upgrade 3-yr for Firebox T45-W-PoE",
@@ -136,11 +136,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?D+Tpo0lLAc4=TnYDGBNOBmZ/nRTNOp2ESQ==mvo0awsvjcPcSoiqXFORN/rkXAU=",
       "sku_type": "subscription",
-      "subscription_type": "Gold Support",
+      "subscription_type": "Gold Support Renewal",
       "term_years": 3
     },
     {
-      "id": 325,
+      "id": 2849,
       "sku_code": "WGT480061",
       "full_sku": "NWG-WGT480061",
       "name": "WatchGuard Standard Support for Firebox T45-W-PoE - 1-Year",
@@ -152,19 +152,7 @@
       "term_years": 1
     },
     {
-      "id": 1239,
-      "sku_code": "WGT48201",
-      "full_sku": "NWG-WGT48201",
-      "name": "WatchGuard Standard Support Renewal 1-yr for Firebox T45-W-PoE",
-      "msrp": 417,
-      "delivery_method": "Electronic",
-      "url": "https://partner.leadersystems.com.au/products.html?xyukx3Obg0E=Xx+WH7Gpbx/yVsCPL5Qtjw==tijNnNaIzJghmmbo6Q9sbWRsmDk=",
-      "sku_type": "subscription",
-      "subscription_type": "Standard Support",
-      "term_years": 1
-    },
-    {
-      "id": 326,
+      "id": 2850,
       "sku_code": "WGT480063",
       "full_sku": "NWG-WGT480063",
       "name": "WatchGuard Standard Support for Firebox T45-W-PoE - 3-Year",
@@ -176,19 +164,7 @@
       "term_years": 3
     },
     {
-      "id": 1240,
-      "sku_code": "WGT48203",
-      "full_sku": "NWG-WGT48203",
-      "name": "WatchGuard Standard Support Renewal 3-yr for Firebox T45-W-PoE",
-      "msrp": 990,
-      "delivery_method": "Electronic",
-      "url": "https://partner.leadersystems.com.au/products.html?aZyoD6X20zw=yI2qpE34ejdT6vBG1AZYhg==RmX8Mc8U0+PISL3rKw2K+UB6IKk=",
-      "sku_type": "subscription",
-      "subscription_type": "Standard Support",
-      "term_years": 3
-    },
-    {
-      "id": 327,
+      "id": 2851,
       "sku_code": "WGT480065",
       "full_sku": "NWG-WGT480065",
       "name": "WatchGuard Standard Support for Firebox T45-W-PoE - 5-Year",
@@ -200,7 +176,55 @@
       "term_years": 5
     },
     {
-      "id": 331,
+      "id": 3763,
+      "sku_code": "WGT48201",
+      "full_sku": "NWG-WGT48201",
+      "name": "WatchGuard Standard Support Renewal 1-yr for Firebox T45-W-PoE",
+      "msrp": 417,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?xyukx3Obg0E=Xx+WH7Gpbx/yVsCPL5Qtjw==tijNnNaIzJghmmbo6Q9sbWRsmDk=",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support Renewal",
+      "term_years": 1
+    },
+    {
+      "id": 3764,
+      "sku_code": "WGT48203",
+      "full_sku": "NWG-WGT48203",
+      "name": "WatchGuard Standard Support Renewal 3-yr for Firebox T45-W-PoE",
+      "msrp": 990,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?aZyoD6X20zw=yI2qpE34ejdT6vBG1AZYhg==RmX8Mc8U0+PISL3rKw2K+UB6IKk=",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support Renewal",
+      "term_years": 3
+    },
+    {
+      "id": 3761,
+      "sku_code": "WGT48351",
+      "full_sku": "NWG-WGT48351",
+      "name": "WatchGuard Total Security Suite Renewal/Upgrade 1-yr for Firebox T45-W-PoE",
+      "msrp": 2287,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?zI9z4kiJ0RA=qs3ScX8zTf3NByHYRwjg4Q==vV0LSqelDWH9yDPOZ8LackzBP1c=",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Renewal",
+      "term_years": 1
+    },
+    {
+      "id": 3762,
+      "sku_code": "WGT48353",
+      "full_sku": "NWG-WGT48353",
+      "name": "WatchGuard Total Security Suite Renewal/Upgrade 3-yr for Firebox T45-W-PoE",
+      "msrp": 5485,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?5I7BJ5pqdlU=dyv6ArMxrw/WTdHSYQl4PA==hPJwIHq0yhAEJdvChfcE49CCIG0=",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Renewal",
+      "term_years": 3
+    },
+    {
+      "id": 2855,
       "sku_code": "WGT480081",
       "full_sku": "NWG-WGT480081",
       "name": "WatchGuard Total Security Suite for Firebox T45-W-PoE - 1-Year",
@@ -212,19 +236,7 @@
       "term_years": 1
     },
     {
-      "id": 1237,
-      "sku_code": "WGT48351",
-      "full_sku": "NWG-WGT48351",
-      "name": "WatchGuard Total Security Suite Renewal/Upgrade 1-yr for Firebox T45-W-PoE",
-      "msrp": 2287,
-      "delivery_method": "Electronic",
-      "url": "https://partner.leadersystems.com.au/products.html?zI9z4kiJ0RA=qs3ScX8zTf3NByHYRwjg4Q==vV0LSqelDWH9yDPOZ8LackzBP1c=",
-      "sku_type": "subscription",
-      "subscription_type": "Total Security Suite",
-      "term_years": 1
-    },
-    {
-      "id": 332,
+      "id": 2856,
       "sku_code": "WGT480083",
       "full_sku": "NWG-WGT480083",
       "name": "WatchGuard Total Security Suite for Firebox T45-W-PoE - 3-Year",
@@ -236,19 +248,7 @@
       "term_years": 3
     },
     {
-      "id": 1238,
-      "sku_code": "WGT48353",
-      "full_sku": "NWG-WGT48353",
-      "name": "WatchGuard Total Security Suite Renewal/Upgrade 3-yr for Firebox T45-W-PoE",
-      "msrp": 5485,
-      "delivery_method": "Electronic",
-      "url": "https://partner.leadersystems.com.au/products.html?5I7BJ5pqdlU=dyv6ArMxrw/WTdHSYQl4PA==hPJwIHq0yhAEJdvChfcE49CCIG0=",
-      "sku_type": "subscription",
-      "subscription_type": "Total Security Suite",
-      "term_years": 3
-    },
-    {
-      "id": 333,
+      "id": 2857,
       "sku_code": "WGT480085",
       "full_sku": "NWG-WGT480085",
       "name": "WatchGuard Total Security Suite for Firebox T45-W-PoE - 5-Year",
@@ -262,7 +262,7 @@
   ],
   "tradeUps": [
     {
-      "id": 334,
+      "id": 2858,
       "sku_code": "WGT480201",
       "full_sku": "NWG-WGT480201",
       "name": "Trade Up to WatchGuard Basic Security Suite for T45-W-PoE - 1-Year",
@@ -274,7 +274,7 @@
       "term_years": 1
     },
     {
-      "id": 335,
+      "id": 2859,
       "sku_code": "WGT480203",
       "full_sku": "NWG-WGT480203",
       "name": "Trade Up to WatchGuard Basic Security Suite for Firebox T45-W-PoE - 3-Year",
@@ -286,7 +286,7 @@
       "term_years": 3
     },
     {
-      "id": 336,
+      "id": 2860,
       "sku_code": "WGT480205",
       "full_sku": "NWG-WGT480205",
       "name": "Trade Up to WatchGuard Basic Security Suite for Firebox T45-W-PoE - 5-Year",
@@ -298,7 +298,7 @@
       "term_years": 5
     },
     {
-      "id": 337,
+      "id": 2861,
       "sku_code": "WGT480211",
       "full_sku": "NWG-WGT480211",
       "name": "Trade Up to WatchGuard Total Security Suite for Firebox T45-W-PoE - 1-Year",
@@ -310,7 +310,7 @@
       "term_years": 1
     },
     {
-      "id": 338,
+      "id": 2862,
       "sku_code": "WGT480213",
       "full_sku": "NWG-WGT480213",
       "name": "Trade Up to WatchGuard Total Security Suite for Firebox T45-W-PoE - 3-Year",
@@ -322,7 +322,7 @@
       "term_years": 3
     },
     {
-      "id": 339,
+      "id": 2863,
       "sku_code": "WGT480215",
       "full_sku": "NWG-WGT480215",
       "name": "Trade Up to WatchGuard Total Security Suite for Firebox T45-W-PoE - 5-Year",

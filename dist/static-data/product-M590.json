@@ -1,5 +1,5 @@
 {
-  "id": 328,
+  "id": 164,
   "slug": "M590",
   "name": "Firebox M590",
   "family": "M-Series",
@@ -7,7 +7,7 @@
   "description": "High-performance rackmount for large organizations",
   "image_file": "m595.jpg",
   "appliance": {
-    "id": 3867,
+    "id": 2662,
     "sku_code": "WGM590000",
     "full_sku": "NWG-WGM590000",
     "name": "WatchGuard Firebox M590 Appliance Only",
@@ -20,7 +20,55 @@
   },
   "subscriptions": [
     {
-      "id": 3870,
+      "id": 3530,
+      "sku_code": "WGM59020801",
+      "full_sku": "NWG-WGM59020801",
+      "name": "WatchGuard APT Blocker 1-yr for Firebox M590",
+      "msrp": 2798,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?CTsWCXAkKm0=wbnZ9XNc0iXaw4TpLd4D0A==Q3U53tX0MJqFv+RxIr+58sxdeHNhBlo=",
+      "sku_type": "subscription",
+      "subscription_type": "APT Blocker",
+      "term_years": 1
+    },
+    {
+      "id": 3531,
+      "sku_code": "WGM59020803",
+      "full_sku": "NWG-WGM59020803",
+      "name": "WatchGuard APT Blocker 3-yr for Firebox M590",
+      "msrp": 6726,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?Ah+ev0Auz5Y=KHOz/YclzB8Q18YlrGFNhA==7VkLZMISqwHDwMg8Sq1hHD8FIwPN4y4=",
+      "sku_type": "subscription",
+      "subscription_type": "APT Blocker",
+      "term_years": 3
+    },
+    {
+      "id": 3522,
+      "sku_code": "WGM59040201",
+      "full_sku": "NWG-WGM59040201",
+      "name": "WatchGuard Basic Security Suite Renewal/Upgrade 1-yr for Firebox M590",
+      "msrp": 5744,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?+scWm1Vuix8=iO+RZCoR0Ox+9oHrCrVvjg==7BJv7GKcOVXgdxn4OXB0jjJRUlxzCZs=",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Renewal",
+      "term_years": 1
+    },
+    {
+      "id": 3523,
+      "sku_code": "WGM59040203",
+      "full_sku": "NWG-WGM59040203",
+      "name": "WatchGuard Basic Security Suite Renewal/Upgrade 3-yr for Firebox M590",
+      "msrp": 13774,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?TWL/0cy4bPc=VIs3fGGuUUuvtQugQAd1gA==B0ta//2qKdAaGuHaBtvTvZhwQvQvKDQ=",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Renewal",
+      "term_years": 3
+    },
+    {
+      "id": 2665,
       "sku_code": "WGM5900071",
       "full_sku": "NWG-WGM5900071",
       "name": "WatchGuard Basic Security Suite for Firebox M590 - 1-Year",
@@ -32,7 +80,7 @@
       "term_years": 1
     },
     {
-      "id": 3871,
+      "id": 2666,
       "sku_code": "WGM5900073",
       "full_sku": "NWG-WGM5900073",
       "name": "WatchGuard Basic Security Suite for Firebox M590 - 3-Year",
@@ -44,7 +92,55 @@
       "term_years": 3
     },
     {
-      "id": 3868,
+      "id": 3532,
+      "sku_code": "WGM59021801",
+      "full_sku": "NWG-WGM59021801",
+      "name": "WatchGuard Cloud 1-month data retention for M590 - 1-yr",
+      "msrp": 2381,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?wHufDiNBpUQ=ug/iAPOr3ErYVTz0HyxiEw==Uz7cwjFMlMfm8cBZedl1K9woEnH1RNw=",
+      "sku_type": "subscription",
+      "subscription_type": "Cloud Data Retention",
+      "term_years": 1
+    },
+    {
+      "id": 3533,
+      "sku_code": "WGM59021803",
+      "full_sku": "NWG-WGM59021803",
+      "name": "WatchGuard Cloud 1-month data retention for M590 - 3-yr",
+      "msrp": 7143,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?GTSQqO4q/Bo=gYIn77uFy+XYfQvQUzTCIg==1fusGthe2B57Xo+Jen74XwOR/U9MqW8=",
+      "sku_type": "subscription",
+      "subscription_type": "Cloud Data Retention",
+      "term_years": 3
+    },
+    {
+      "id": 3528,
+      "sku_code": "WGM59040701",
+      "full_sku": "NWG-WGM59040701",
+      "name": "WatchGuard Gold Support Renewal/Upgrade 1-yr for Firebox M590",
+      "msrp": 3002,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?vpXBwaqQZec=MZEzMZkybWjfdqRWpphzsA==32roKsLyPzUTfNMAlCzatWBloi0Zur0=",
+      "sku_type": "subscription",
+      "subscription_type": "Gold Support Renewal",
+      "term_years": 1
+    },
+    {
+      "id": 3529,
+      "sku_code": "WGM59040703",
+      "full_sku": "NWG-WGM59040703",
+      "name": "WatchGuard Gold Support Renewal/Upgrade 3-yr for Firebox M590",
+      "msrp": 6970,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?6FYpzFTMIIQ=oZGj/WrhkFBX7y8aw+FN5Q==NyDfg79iyo/4cqpS3lpl7TfzKXBnWmM=",
+      "sku_type": "subscription",
+      "subscription_type": "Gold Support Renewal",
+      "term_years": 3
+    },
+    {
+      "id": 2663,
       "sku_code": "WGM5900061",
       "full_sku": "NWG-WGM5900061",
       "name": "WatchGuard Standard Support for Firebox M590 - 1-Year",
@@ -56,7 +152,7 @@
       "term_years": 1
     },
     {
-      "id": 3869,
+      "id": 2664,
       "sku_code": "WGM5900063",
       "full_sku": "NWG-WGM5900063",
       "name": "WatchGuard Standard Support for Firebox M590 - 3-Year",
@@ -68,7 +164,55 @@
       "term_years": 3
     },
     {
-      "id": 3872,
+      "id": 3526,
+      "sku_code": "WGM59040101",
+      "full_sku": "NWG-WGM59040101",
+      "name": "WatchGuard Standard Support Renewal 1-yr for Firebox M590",
+      "msrp": 2083,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?5UXVTgq1xVI=N6oG5LDTULwApq/o+CP0dw==0+gapJNS2ro92ymK3ki3VSSwztXZrHw=",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support Renewal",
+      "term_years": 1
+    },
+    {
+      "id": 3527,
+      "sku_code": "WGM59040103",
+      "full_sku": "NWG-WGM59040103",
+      "name": "WatchGuard Standard Support Renewal 3-yr for Firebox M590",
+      "msrp": 4998,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?6wBIwrPK0oY=cRrIxQ1G0liCe0d95OE4Rw==aW622rvRgLFSAjskSU8KnHHiezTq5S0=",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support Renewal",
+      "term_years": 3
+    },
+    {
+      "id": 3524,
+      "sku_code": "WGM59040301",
+      "full_sku": "NWG-WGM59040301",
+      "name": "WatchGuard Total Security Suite Renewal/Upgrade 1-yr for Firebox M590",
+      "msrp": 11008,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?8BEi1do3M40=q5SLl1/vF3zg0KWLSjScMg==nvUx9/jvtnfGaXAhsTBfHksHlNgKyVI=",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Renewal",
+      "term_years": 1
+    },
+    {
+      "id": 3525,
+      "sku_code": "WGM59040303",
+      "full_sku": "NWG-WGM59040303",
+      "name": "WatchGuard Total Security Suite Renewal/Upgrade 3-yr for Firebox M590",
+      "msrp": 26408,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?2dZH6VByh/M=Cof/WcYy3GcKXOeEDQIFxA==j7hofZUv4684KMBaRneoTLplbeHUNxQ=",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Renewal",
+      "term_years": 3
+    },
+    {
+      "id": 2667,
       "sku_code": "WGM5900081",
       "full_sku": "NWG-WGM5900081",
       "name": "WatchGuard Total Security Suite for Firebox M590 - 1-Year",
@@ -80,7 +224,7 @@
       "term_years": 1
     },
     {
-      "id": 3873,
+      "id": 2668,
       "sku_code": "WGM5900083",
       "full_sku": "NWG-WGM5900083",
       "name": "WatchGuard Total Security Suite for Firebox M590 - 3-Year",
@@ -92,10 +236,47 @@
       "term_years": 3
     }
   ],
-  "tradeUps": [],
+  "tradeUps": [
+    {
+      "id": 2669,
+      "sku_code": "WGM5900203",
+      "full_sku": "NWG-WGM5900203",
+      "name": "Trade Up to WatchGuard Basic Security Suite for Firebox M590 - 3-Year",
+      "msrp": 10820,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?L65sFjlivm8=8zCw/FYrhJ0u9IVTvprNUQ==tGWUUTR2Ha7QPyoWZwKuB3ulhgLlbw==",
+      "sku_type": "trade_up",
+      "subscription_type": "Basic Security Suite",
+      "term_years": 3
+    },
+    {
+      "id": 2670,
+      "sku_code": "WGM5900211",
+      "full_sku": "NWG-WGM5900211",
+      "name": "Trade Up to WatchGuard Total Security Suite for Firebox M590 - 1-Year",
+      "msrp": 8345,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?ltzAT2j/Mfo=YqVQCCRYkPtfS0127f/f+w==E1yfUv7Y/6BgtkoKldL9GcYNle6K3A==",
+      "sku_type": "trade_up",
+      "subscription_type": "Total Security Suite",
+      "term_years": 1
+    },
+    {
+      "id": 2671,
+      "sku_code": "WGM5900213",
+      "full_sku": "NWG-WGM5900213",
+      "name": "Trade Up to WatchGuard Total Security Suite for Firebox M590 - 3-Year",
+      "msrp": 22873,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?gr7lubBbjZc=fOcC+gtPQkRfzj2xNfImQw==0/SrQziszV53YVKMpoE4B5MRBuimOg==",
+      "sku_type": "trade_up",
+      "subscription_type": "Total Security Suite",
+      "term_years": 3
+    }
+  ],
   "highAvailability": [
     {
-      "id": 3877,
+      "id": 2672,
       "sku_code": "WGM5901601",
       "full_sku": "NWG-WGM5901601",
       "name": "WatchGuard High Availability for M590 - 1-Year",
@@ -107,7 +288,7 @@
       "term_years": 1
     },
     {
-      "id": 3866,
+      "id": 2661,
       "sku_code": "WGM5901603",
       "full_sku": "NWG-WGM5901603",
       "name": "WatchGuard High Availability for M590 - 3-Year",

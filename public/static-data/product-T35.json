@@ -1,5 +1,5 @@
 {
-  "id": 70,
+  "id": 220,
   "slug": "T35",
   "name": "Firebox T35",
   "family": "Renewals",
@@ -9,7 +9,7 @@
   "appliance": null,
   "subscriptions": [
     {
-      "id": 1192,
+      "id": 3716,
       "sku_code": "WG35R331",
       "full_sku": "NWG-WG35R331",
       "name": "WatchGuard Basic Security Suite Renewal/Upgrade 1-yr for Firebox T35-Rugged",
@@ -17,11 +17,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?BJBdJKn+Vy8=pTG8WCNdwj+2NpZkAgqYxA==VWhHVXefN+Bu/d0oZ9FCHLH95uQ=",
       "sku_type": "subscription",
-      "subscription_type": "Basic Security Suite",
+      "subscription_type": "Basic Security Renewal",
       "term_years": 1
     },
     {
-      "id": 1195,
+      "id": 3719,
       "sku_code": "WG35R261",
       "full_sku": "NWG-WG35R261",
       "name": "WatchGuard Gold Support Renewal/Upgrade 1-yr for Firebox T35-Rugged",
@@ -29,11 +29,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?xkwSoLuNPmc=hSDHdWyo1y/MMlOaE5oE1g==W8bYzibOk9nbfdnX55HV8t4i6pE=",
       "sku_type": "subscription",
-      "subscription_type": "Gold Support",
+      "subscription_type": "Gold Support Renewal",
       "term_years": 1
     },
     {
-      "id": 1194,
+      "id": 3718,
       "sku_code": "WG35R201",
       "full_sku": "NWG-WG35R201",
       "name": "WatchGuard Standard Support Renewal 1-yr for Firebox T35-Rugged",
@@ -41,11 +41,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?0OY/l9Sf8CA=828LXkuVz9M7l/1yN1wc5A==X9gZWDshGARvcLOjJF6vqYmpj2U=",
       "sku_type": "subscription",
-      "subscription_type": "Standard Support",
+      "subscription_type": "Standard Support Renewal",
       "term_years": 1
     },
     {
-      "id": 1193,
+      "id": 3717,
       "sku_code": "WG35R351",
       "full_sku": "NWG-WG35R351",
       "name": "WatchGuard Total Security Suite Renewal/Upgrade 1-yr for Firebox T35-Rugged",
@@ -53,7 +53,7 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?lJ3Oi83LdCA=Bn0eEz8GLYzHavrIUXCeLA==7XVb617pzCTPtn1nv9mNvBHgUng=",
       "sku_type": "subscription",
-      "subscription_type": "Total Security Suite",
+      "subscription_type": "Total Security Renewal",
       "term_years": 1
     }
   ],

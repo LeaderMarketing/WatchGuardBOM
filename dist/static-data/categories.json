@@ -1,165 +1,401 @@
 {
-  "tabletop": {
-    "label": "Firebox Tabletop (T-Series)",
+  "wifi": {
+    "label": "Wi-Fi 6 Access Points",
     "products": [
       {
-        "id": 332,
-        "slug": "T115-W",
-        "name": "Firebox T115-W",
-        "family": "T-Series",
-        "category": "tabletop",
-        "description": "Entry-level firewall with built-in Wi-Fi 7 for small offices",
-        "image_file": "T115-W.jpg",
+        "id": 151,
+        "slug": "AP130",
+        "name": "WatchGuard AP130",
+        "family": "Access Points",
+        "category": "wifi",
+        "description": "Entry-level Wi-Fi 6 for small offices and remote workers",
+        "image_file": "AP130.jpg",
         "appliance": {
-          "sku_code": "WGT116000",
-          "full_sku": "NWG-WGT116000",
-          "name": "WatchGuard Firebox T115-W Appliance Only",
-          "msrp": 346,
-          "url": "https://partner.leadersystems.com.au/products.html?+i6HO7kKXsI=bcqpDp2O5kUC0433hv2qvg==0iZad6QcJowHs9kG2PvwRLyJulsl"
+          "sku_code": "WGA130000",
+          "full_sku": "NWG-WGA130000",
+          "name": "WatchGuard AP130 Appliance Only",
+          "msrp": 550,
+          "url": "https://partner.leadersystems.com.au/products.html?6EVpuIu6FoM=c/1I+JS+hHPXuIbDqHRnKA==S/EIT5FjrgNA/g+xAdkFN4e2/9DB"
         }
       },
       {
-        "id": 334,
-        "slug": "T125",
-        "name": "Firebox T125",
-        "family": "T-Series",
-        "category": "tabletop",
-        "description": "Compact UTM appliance for small business networks",
-        "image_file": "T125.jpg",
+        "id": 152,
+        "slug": "AP230W",
+        "name": "WatchGuard AP230W",
+        "family": "Access Points",
+        "category": "wifi",
+        "description": "Wall-plate AP with built-in switch for hospitality",
+        "image_file": "AP230W.jpg",
         "appliance": {
-          "sku_code": "WGT125000",
-          "full_sku": "NWG-WGT125000",
-          "name": "WatchGuard Firebox T125 Appliance Only",
-          "msrp": 409,
-          "url": "https://partner.leadersystems.com.au/products.html?6eWCO27Ee4o=9Lof2Sw9i+1b11c13Zn2Iw==JNCR50rfWpB7Z3FqVThNGmztr9qy"
+          "sku_code": "WGA230000",
+          "full_sku": "NWG-WGA230000",
+          "name": "WatchGuard AP230W Appliance Only",
+          "msrp": 802,
+          "url": "https://partner.leadersystems.com.au/products.html?+hOXrde1yiM=WC55myYIzjlg0eaWGvZ8sw==/l2iKm/jCydEbz4Mjz4xm3FenpL7"
         }
       },
       {
-        "id": 335,
-        "slug": "T125-W",
-        "name": "Firebox T125-W",
-        "family": "T-Series",
-        "category": "tabletop",
-        "description": "Compact UTM appliance with built-in Wi-Fi 7 antennas",
-        "image_file": "T125-W.jpg",
+        "id": 153,
+        "slug": "AP330",
+        "name": "WatchGuard AP330",
+        "family": "Access Points",
+        "category": "wifi",
+        "description": "Medium-density AP for retail and K-12 schools",
+        "image_file": "AP330.jpg",
         "appliance": {
-          "sku_code": "WGT126000",
-          "full_sku": "NWG-WGT126000",
-          "name": "WatchGuard Firebox T125-W Appliance Only",
-          "msrp": 472,
-          "url": "https://partner.leadersystems.com.au/products.html?SdLcAVG/IYw=sUlrEpBkC2u6sBJSRtIfPQ==r34O4D2tYHsakngY+Dsr4fVUa4r3"
+          "sku_code": "WGA330000",
+          "full_sku": "NWG-WGA330000",
+          "name": "WatchGuard AP330 Appliance Only",
+          "msrp": 970,
+          "url": "https://partner.leadersystems.com.au/products.html?wbhF3IUL39w=NEiDZH5ln1m5MCxAexi2Ww==0jAB01qHFIiot3aQ7PJzmikIUJEs"
         }
       },
       {
-        "id": 336,
-        "slug": "T145",
-        "name": "Firebox T145",
-        "family": "T-Series",
-        "category": "tabletop",
-        "description": "Mid-range tabletop firewall with SFP+ connectivity",
-        "image_file": "T145.jpg",
+        "id": 154,
+        "slug": "AP332CR",
+        "name": "WatchGuard AP332CR",
+        "family": "Access Points",
+        "category": "wifi",
+        "description": "Rugged outdoor AP for retail and manufacturing",
+        "image_file": "AP332CER.jpg",
         "appliance": {
-          "sku_code": "WGT145000",
-          "full_sku": "NWG-WGT145000",
-          "name": "WatchGuard Firebox T145 Appliance Only",
-          "msrp": 621,
-          "url": "https://partner.leadersystems.com.au/products.html?PZFtf5v+W2U=XcnwhxE9RNTwfmsBZseWTQ==dr9PBwbcTUKTNCHMWCKS7FcYiIKe"
+          "sku_code": "WGA332000",
+          "full_sku": "NWG-WGA332000",
+          "name": "WatchGuard AP332CR Appliance Only",
+          "msrp": 1157,
+          "url": "https://partner.leadersystems.com.au/products.html?evx8XDgtEQA=zaPfBa5+Vsc87bckzCYYcQ==n05Q3FvbgQ3SuKNp3M/GaWKTv9D+"
         }
       },
       {
-        "id": 337,
-        "slug": "T145-W",
-        "name": "Firebox T145-W",
-        "family": "T-Series",
-        "category": "tabletop",
-        "description": "Mid-range tabletop firewall with Wi-Fi 7",
-        "image_file": "T145.jpg",
+        "id": 155,
+        "slug": "AP430CR",
+        "name": "WatchGuard AP430CR",
+        "family": "Access Points",
+        "category": "wifi",
+        "description": "High-density outdoor AP for stadiums and campuses",
+        "image_file": "AP430CR.jpg",
         "appliance": {
-          "sku_code": "WGT146000",
-          "full_sku": "NWG-WGT146000",
-          "name": "WatchGuard Firebox T145-W Appliance Only",
-          "msrp": 692,
-          "url": "https://partner.leadersystems.com.au/products.html?YAJDGj0WfNU=i6GQ54/SlH6vcw811EOWmA==So59XbGcwSifxziR3nUuBZHmBo8e"
+          "sku_code": "WGA430000",
+          "full_sku": "NWG-WGA430000",
+          "name": "WatchGuard AP430CR Appliance Only",
+          "msrp": 2152,
+          "url": "https://partner.leadersystems.com.au/products.html?fc5j5BkoWHY=oNv0mHAddQeDw/dCwXNbvg==5XjaTqBzOetV4MRYYamtZoZOl10d"
         }
       },
       {
-        "id": 338,
-        "slug": "T185",
-        "name": "Firebox T185",
-        "family": "T-Series",
-        "category": "tabletop",
-        "description": "High-performance tabletop for growing businesses",
-        "image_file": "T185.jpg",
+        "id": 156,
+        "slug": "AP432",
+        "name": "WatchGuard AP432",
+        "family": "Access Points",
+        "category": "wifi",
+        "description": "High-density 4x4 AP for large campuses",
+        "image_file": "AP432.jpg",
         "appliance": {
-          "sku_code": "WGT185000",
-          "full_sku": "NWG-WGT185000",
-          "name": "WatchGuard Firebox T185 Appliance Only",
-          "msrp": 1226,
-          "url": "https://partner.leadersystems.com.au/products.html?XgJTyGqWKSs=RI6mkbQaSNgdTWuw9JoArA==qKuTcjzxDMLaqqxm0jCFk5EK47bQ"
+          "sku_code": "WGA432000",
+          "full_sku": "NWG-WGA432000",
+          "name": "WatchGuard AP432 Appliance Only",
+          "msrp": 1187,
+          "url": "https://partner.leadersystems.com.au/products.html?A1sbM3vwCRI=P6L9Q8/KWjlyeRgiimFJEw==g4exg6byYSIJs6kPb7QH7d0qs0tl"
+        }
+      }
+    ]
+  },
+  "cloud": {
+    "label": "Firebox Cloud",
+    "products": [
+      {
+        "id": 184,
+        "slug": "Firebox Cloud Large",
+        "name": "Firebox Cloud Large",
+        "family": "Cloud",
+        "category": "cloud",
+        "description": "Cloud-native firewall for large cloud environments",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 183,
+        "slug": "Firebox Cloud Medium",
+        "name": "Firebox Cloud Medium",
+        "family": "Cloud",
+        "category": "cloud",
+        "description": "Cloud-native firewall for medium cloud workloads",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 182,
+        "slug": "Firebox Cloud Small",
+        "name": "Firebox Cloud Small",
+        "family": "Cloud",
+        "category": "cloud",
+        "description": "Cloud-native firewall for small AWS/Azure deployments",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 185,
+        "slug": "Firebox Cloud XLarge",
+        "name": "Firebox Cloud XLarge",
+        "family": "Cloud",
+        "category": "cloud",
+        "description": "Cloud-native firewall for enterprise cloud infrastructure",
+        "image_file": null,
+        "appliance": null
+      }
+    ]
+  },
+  "email": {
+    "label": "Email Security",
+    "products": [
+      {
+        "id": 206,
+        "slug": "Panda Email Protection",
+        "name": "Panda Email Protection",
+        "family": "Email Security",
+        "category": "email",
+        "description": "Cloud email security with anti-spam and anti-phishing",
+        "image_file": null,
+        "appliance": {
+          "sku_code": "WGEMA011",
+          "full_sku": "NWG-WGEMA011",
+          "name": "Panda Email Protection - 1 Year - 1 to 10 users",
+          "msrp": 31,
+          "url": "https://partner.leadersystems.com.au/products.html?C9LLfojDO9c=gbfka9UICyYqWxNbdhvKqw==nsZ0s6noFRytLl2p/PBMV5alSDI="
+        }
+      }
+    ]
+  },
+  "endpoint": {
+    "label": "Endpoint & Mobile",
+    "products": [
+      {
+        "id": 195,
+        "slug": "Advanced EPDR",
+        "name": "Advanced EPDR",
+        "family": "Endpoint & Mobile",
+        "category": "endpoint",
+        "description": "EPDR with zero-trust application service and threat hunting",
+        "image_file": null,
+        "appliance": {
+          "sku_code": "WGAEPDR30101",
+          "full_sku": "NWG-WGAEPDR30101",
+          "name": "WatchGuard Advanced EPDR - 1 Year - 1 to 50 licenses",
+          "msrp": 136,
+          "url": "https://partner.leadersystems.com.au/products.html?AUuYT+CVIn8=s5x0UdUYChYhuyWrcOHnew==cW8BfkGsA9cVrxaRoCeehX7kxhwlUzJp"
         }
       },
       {
-        "id": 339,
-        "slug": "T25-W",
-        "name": "Firebox T25-W",
-        "family": "T-Series",
-        "category": "tabletop",
-        "description": "Entry-level firewall with Wi-Fi for home offices",
-        "image_file": "T115-W.jpg",
+        "id": 198,
+        "slug": "Advanced Reporting Tool",
+        "name": "Advanced Reporting Tool",
+        "family": "Endpoint & Mobile",
+        "category": "endpoint",
+        "description": "Advanced security reporting and analytics",
+        "image_file": null,
         "appliance": {
-          "sku_code": "WGT26000",
-          "full_sku": "NWG-WGT26000",
-          "name": "WatchGuard Firebox T25-W Appliance Only",
-          "msrp": 653,
-          "url": "https://partner.leadersystems.com.au/products.html?Mt6+n+1vrzc=STF9BMD3mOECNm+oPeNxUA==wKevsv3Ya7YGKg1zHbwOgwn+UaI="
+          "sku_code": "WGINSG30101",
+          "full_sku": "NWG-WGINSG30101",
+          "name": "Watchguard Endpoint Module - Advanced Reporting Tool - 1 Year - 1 to 50 licenses",
+          "msrp": 28,
+          "url": "https://partner.leadersystems.com.au/products.html?YcoV+FF429E=WQQYUzJXjUznoJhrWWCupA==pYFwfvf1g1Pf0MlXrubfWA2D3+Mi/q8="
         }
       },
       {
-        "id": 340,
-        "slug": "T45-CW",
-        "name": "Firebox T45-CW",
-        "family": "T-Series",
-        "category": "tabletop",
-        "description": "Cellular WAN tabletop firewall with 5G/LTE",
-        "image_file": "T145.jpg",
+        "id": 199,
+        "slug": "DNSWatchGO",
+        "name": "DNSWatchGO",
+        "family": "Endpoint & Mobile",
+        "category": "endpoint",
+        "description": "DNS-level protection and content filtering for remote users",
+        "image_file": null,
         "appliance": {
-          "sku_code": "WGT49000-AU",
-          "full_sku": "NWG-WGT49000-AU",
-          "name": "WatchGuard Firebox T45-CW  Appliance Only (AU)",
-          "msrp": 1397,
-          "url": "https://partner.leadersystems.com.au/products.html?o0Bh/WpKcog=habsB3qdV54BegP1Hg7y1A==kSbd5xz14Xbl9ZoMlRkh4IN6Qx5MR90="
+          "sku_code": "WGDNS30101",
+          "full_sku": "NWG-WGDNS30101",
+          "name": "WatchGuard DNSWatchGO - 1 Year - 1 to 50 Users - License Per User",
+          "msrp": 60,
+          "url": "https://partner.leadersystems.com.au/products.html?hU1qjM8ktaQ=Ca+/SHaK0hV8GhSyNVbSzw==wuYnNg9gzD5SQUh1J1qqBA6jKIyTZg=="
         }
       },
       {
-        "id": 341,
-        "slug": "T45-PoE",
-        "name": "Firebox T45-PoE",
-        "family": "T-Series",
-        "category": "tabletop",
-        "description": "Tabletop firewall with Power over Ethernet ports",
-        "image_file": "T145.jpg",
+        "id": 193,
+        "slug": "EDR",
+        "name": "EDR",
+        "family": "Endpoint & Mobile",
+        "category": "endpoint",
+        "description": "Endpoint Detection and Response — advanced threat hunting",
+        "image_file": null,
         "appliance": {
-          "sku_code": "WGT47000-AU",
-          "full_sku": "NWG-WGT47000-AU",
-          "name": "WatchGuard Firebox T45-PoE  Appliance Only (AU)",
-          "msrp": 939,
-          "url": "https://partner.leadersystems.com.au/products.html?YCGmGhMvRdg=rkSt+tNGql+FNVRs3jCrqw==mfop2de0pflG/4no8Hbks+BCf2Bt6gk="
+          "sku_code": "WGEDR30101",
+          "full_sku": "NWG-WGEDR30101",
+          "name": "WatchGuard EDR - 1 Year - 1 to 50 licenses - License Per User",
+          "msrp": 85,
+          "url": "https://partner.leadersystems.com.au/products.html?7u8Rl3W/BJI=QNMTJwwzeG1QoRfM5kyLPw==Wj9ywKzjRlocjbCgk2vuDwRYsTQxXw=="
         }
       },
       {
-        "id": 342,
-        "slug": "T45-W-PoE",
-        "name": "Firebox T45-W-PoE",
-        "family": "T-Series",
-        "category": "tabletop",
-        "description": "Tabletop firewall with Wi-Fi and PoE ports",
-        "image_file": "T145.jpg",
+        "id": 194,
+        "slug": "EPDR",
+        "name": "EPDR",
+        "family": "Endpoint & Mobile",
+        "category": "endpoint",
+        "description": "Combined EPP + EDR for complete endpoint security",
+        "image_file": null,
         "appliance": {
-          "sku_code": "WGT48000-AU",
-          "full_sku": "NWG-WGT48000-AU",
-          "name": "WatchGuard Firebox T45-W-PoE  Appliance Only (AU)",
-          "msrp": 1220,
-          "url": "https://partner.leadersystems.com.au/products.html?J/MKJxRJ5FE=mHMqDkcdrw6rz01E5XBDeg==l6OjGbHKZHnUozC4ol8rzFg+6c8OhDQ="
+          "sku_code": "WGEPDR30101",
+          "full_sku": "NWG-WGEPDR30101",
+          "name": "WatchGuard EPDR - 1 Year - 1 to 50 licenses - License Per User",
+          "msrp": 109,
+          "url": "https://partner.leadersystems.com.au/products.html?ps8TN7IUfCA=jP/KFzVLn52QTUKCWFtaSg==dkG+aUaM+iR6TRRRgsXSPkSyfTTwpgY="
+        }
+      },
+      {
+        "id": 192,
+        "slug": "EPP",
+        "name": "EPP",
+        "family": "Endpoint & Mobile",
+        "category": "endpoint",
+        "description": "Endpoint Protection Platform — antivirus and threat prevention",
+        "image_file": null,
+        "appliance": {
+          "sku_code": "WGEPP30101",
+          "full_sku": "NWG-WGEPP30101",
+          "name": "WatchGuard EPP - 1 Year - 1 to 50 licenses - License Per User",
+          "msrp": 63,
+          "url": "https://partner.leadersystems.com.au/products.html?tAGmYtsE3tM=+NjwsfxeOMcEddS2drJ6ow==Nzr5a+u+OuLn5lDYzYzBajNSQ7y+Ww=="
+        }
+      },
+      {
+        "id": 196,
+        "slug": "Full Encryption",
+        "name": "Full Encryption",
+        "family": "Endpoint & Mobile",
+        "category": "endpoint",
+        "description": "Full disk encryption add-on for endpoint protection",
+        "image_file": null,
+        "appliance": {
+          "sku_code": "WGENCR30101",
+          "full_sku": "NWG-WGENCR30101",
+          "name": "Watchguard Endpoint Module - Full Encryption - 1 Year - 1 to 50 licenses",
+          "msrp": 29,
+          "url": "https://partner.leadersystems.com.au/products.html?P07zepYDHqo=qk0S66Ldqs8OhHbQZ5CRBQ==zwRXMUJfpBSRS6i58Bm9NHSQR+r9WsM="
+        }
+      },
+      {
+        "id": 202,
+        "slug": "Panda AD360",
+        "name": "Panda AD360",
+        "family": "Endpoint & Mobile",
+        "category": "endpoint",
+        "description": "Legacy Panda full-spectrum endpoint security",
+        "image_file": null,
+        "appliance": {
+          "sku_code": "WGAD3011",
+          "full_sku": "NWG-WGAD3011",
+          "name": "Panda Adaptive Defense 360 - 1 Year - 1 to 50 licenses",
+          "msrp": 109,
+          "url": "https://partner.leadersystems.com.au/products.html?SkeUvg7qKy0=ExCHR7c+un5M71zXWbtdUA==N/M4+bkLqfZO7/BGD0+meTIHxdU="
+        }
+      },
+      {
+        "id": 201,
+        "slug": "Panda EPP+",
+        "name": "Panda EPP+",
+        "family": "Endpoint & Mobile",
+        "category": "endpoint",
+        "description": "Legacy Panda endpoint protection plus",
+        "image_file": null,
+        "appliance": {
+          "sku_code": "WGEPL011",
+          "full_sku": "NWG-WGEPL011",
+          "name": "Panda Endpoint Protection Plus - 1 Year - 1 to 10 users",
+          "msrp": 63,
+          "url": "https://partner.leadersystems.com.au/products.html?8LpnsUCW69M=ZN1Ohzv/dxyVItXbgldDrw==pvsoHuIXJ/AB75j55DkoP/Z5g5c="
+        }
+      },
+      {
+        "id": 203,
+        "slug": "Panda Patch Management",
+        "name": "Panda Patch Management",
+        "family": "Endpoint & Mobile",
+        "category": "endpoint",
+        "description": "Legacy Panda automated patch management",
+        "image_file": null,
+        "appliance": {
+          "sku_code": "WGPAT011",
+          "full_sku": "NWG-WGPAT011",
+          "name": "Panda Patch Management - 1 Year - 1 to 10 users",
+          "msrp": 38,
+          "url": "https://partner.leadersystems.com.au/products.html?T6ztnw9w1N0=17F+s95Sm0i1xEw5PXoy3w==hr4YzH4L1FH/6rWUTPArZWKGHpg="
+        }
+      },
+      {
+        "id": 200,
+        "slug": "Passport",
+        "name": "Passport",
+        "family": "Endpoint & Mobile",
+        "category": "endpoint",
+        "description": "User security bundle: DNSWatchGO + AuthPoint + EPDR",
+        "image_file": null,
+        "appliance": {
+          "sku_code": "WGPSP30101",
+          "full_sku": "NWG-WGPSP30101",
+          "name": "WatchGuard Passport (EPDR + AuthPoint + DNSWatchGO) - 1 Year - 1 to 50 Users - License Per User",
+          "msrp": 159,
+          "url": "https://partner.leadersystems.com.au/products.html?Al56kGHveKI=keZiJdFqXWHiMFaOsCS7og==dB26rVeNhJEXBeuaqD3WkjXPkWTrmQ=="
+        }
+      },
+      {
+        "id": 197,
+        "slug": "Patch Management",
+        "name": "Patch Management",
+        "family": "Endpoint & Mobile",
+        "category": "endpoint",
+        "description": "Automated patch management for OS and third-party apps",
+        "image_file": null,
+        "appliance": {
+          "sku_code": "WGPTCH30101",
+          "full_sku": "NWG-WGPTCH30101",
+          "name": "Watchguard Endpoint Module - Patch Management - 1 Year - 1 to 50 licenses",
+          "msrp": 38,
+          "url": "https://partner.leadersystems.com.au/products.html?8qdB/FplowE=kosxNtO6N8Lyufn9IDEgYA==rAFFoYxwOeXbe+3ZMQRrbgdR386oFHQ="
+        }
+      }
+    ]
+  },
+  "identity": {
+    "label": "Identity & Access",
+    "products": [
+      {
+        "id": 204,
+        "slug": "AuthPoint",
+        "name": "AuthPoint",
+        "family": "Identity & Access",
+        "category": "identity",
+        "description": "Cloud-based multi-factor authentication (MFA)",
+        "image_file": null,
+        "appliance": {
+          "sku_code": "WGATH30101",
+          "full_sku": "NWG-WGATH30101",
+          "name": "WatchGuard AuthPoint - 1 Year - 1 to 50 Users - License Per User",
+          "msrp": 45,
+          "url": "https://partner.leadersystems.com.au/products.html?BxMsV9F32VM=9d+Zocs/gD4A91egLJftLw==jYL9WEwjwLriN0u3TYWhmRFIlpBjXg=="
+        }
+      },
+      {
+        "id": 205,
+        "slug": "Total Identity Security",
+        "name": "Total Identity Security",
+        "family": "Identity & Access",
+        "category": "identity",
+        "description": "AuthPoint MFA + dark web monitoring + credentials manager",
+        "image_file": null,
+        "appliance": {
+          "sku_code": "WGTIS30101",
+          "full_sku": "NWG-WGTIS30101",
+          "name": "WatchGuard AuthPoint Total Identity Security - 1 Year - 1 to 50 users",
+          "msrp": 68,
+          "url": "https://partner.leadersystems.com.au/products.html?vXqN/UXrqAI=zaqmGCZllF80U3oFitBgUA==pxDijevYxJepJoZnHS7m5oOJrwzRRg=="
         }
       }
     ]
@@ -168,7 +404,7 @@
     "label": "Firebox Rackmount (M-Series)",
     "products": [
       {
-        "id": 320,
+        "id": 157,
         "slug": "M290",
         "name": "Firebox M290",
         "family": "M-Series",
@@ -184,7 +420,7 @@
         }
       },
       {
-        "id": 322,
+        "id": 158,
         "slug": "M295",
         "name": "Firebox M295",
         "family": "M-Series",
@@ -200,7 +436,7 @@
         }
       },
       {
-        "id": 323,
+        "id": 159,
         "slug": "M390",
         "name": "Firebox M390",
         "family": "M-Series",
@@ -216,7 +452,7 @@
         }
       },
       {
-        "id": 324,
+        "id": 160,
         "slug": "M395",
         "name": "Firebox M395",
         "family": "M-Series",
@@ -232,7 +468,7 @@
         }
       },
       {
-        "id": 325,
+        "id": 161,
         "slug": "M4800",
         "name": "Firebox M4800",
         "family": "M-Series",
@@ -248,7 +484,7 @@
         }
       },
       {
-        "id": 326,
+        "id": 162,
         "slug": "M495",
         "name": "Firebox M495",
         "family": "M-Series",
@@ -264,7 +500,7 @@
         }
       },
       {
-        "id": 327,
+        "id": 163,
         "slug": "M5800",
         "name": "Firebox M5800",
         "family": "M-Series",
@@ -280,7 +516,7 @@
         }
       },
       {
-        "id": 328,
+        "id": 164,
         "slug": "M590",
         "name": "Firebox M590",
         "family": "M-Series",
@@ -296,7 +532,7 @@
         }
       },
       {
-        "id": 329,
+        "id": 165,
         "slug": "M595",
         "name": "Firebox M595",
         "family": "M-Series",
@@ -312,7 +548,7 @@
         }
       },
       {
-        "id": 330,
+        "id": 166,
         "slug": "M690",
         "name": "Firebox M690",
         "family": "M-Series",
@@ -328,7 +564,7 @@
         }
       },
       {
-        "id": 331,
+        "id": 167,
         "slug": "M695",
         "name": "Firebox M695",
         "family": "M-Series",
@@ -345,104 +581,509 @@
       }
     ]
   },
-  "wifi": {
-    "label": "Wi-Fi 6 Access Points",
+  "mdr_ndr": {
+    "label": "MDR & NDR",
     "products": [
       {
-        "id": 314,
-        "slug": "AP130",
-        "name": "WatchGuard AP130",
-        "family": "Access Points",
-        "category": "wifi",
-        "description": "Entry-level Wi-Fi 6 for small offices and remote workers",
-        "image_file": "AP130.jpg",
+        "id": 186,
+        "slug": "Core MDR",
+        "name": "Core MDR",
+        "family": "MDR & NDR",
+        "category": "mdr_ndr",
+        "description": "Managed detection and response for endpoints",
+        "image_file": null,
         "appliance": {
-          "sku_code": "WGA130000",
-          "full_sku": "NWG-WGA130000",
-          "name": "WatchGuard AP130 Appliance Only",
-          "msrp": 550,
-          "url": "https://partner.leadersystems.com.au/products.html?6EVpuIu6FoM=c/1I+JS+hHPXuIbDqHRnKA==S/EIT5FjrgNA/g+xAdkFN4e2/9DB"
+          "sku_code": "WGMDR30101",
+          "full_sku": "NWG-WGMDR30101",
+          "name": "WatchGuard Core MDR - 1 Year - 1 to 50 licenses",
+          "msrp": 118,
+          "url": "https://partner.leadersystems.com.au/products.html?K/qTqJ2mGpo=QE6Pon8Gjhf6804H/S4tNw==PCNtYGHdExcYTRTicz9QxytPetYQPQ=="
         }
       },
       {
-        "id": 315,
-        "slug": "AP230W",
-        "name": "WatchGuard AP230W",
-        "family": "Access Points",
-        "category": "wifi",
-        "description": "Wall-plate AP with built-in switch for hospitality",
-        "image_file": "AP230W.jpg",
+        "id": 187,
+        "slug": "Core MDR for Microsoft",
+        "name": "Core MDR for Microsoft",
+        "family": "MDR & NDR",
+        "category": "mdr_ndr",
+        "description": "MDR optimized for Microsoft 365 environments",
+        "image_file": null,
         "appliance": {
-          "sku_code": "WGA230000",
-          "full_sku": "NWG-WGA230000",
-          "name": "WatchGuard AP230W Appliance Only",
-          "msrp": 802,
-          "url": "https://partner.leadersystems.com.au/products.html?+hOXrde1yiM=WC55myYIzjlg0eaWGvZ8sw==/l2iKm/jCydEbz4Mjz4xm3FenpL7"
+          "sku_code": "WGMDRM30101",
+          "full_sku": "NWG-WGMDRM30101",
+          "name": "WatchGuard Core MDR for Microsoft - 1 Year - 1 to 50 licenses",
+          "msrp": 118,
+          "url": "https://partner.leadersystems.com.au/products.html?EuL3LAkFaQU=54iXHvl1yOlXAC02QzC/Ug==tuBU1z8V0qpc7vrM7x4FwZCAVAEXZxE="
         }
       },
       {
-        "id": 316,
-        "slug": "AP330",
-        "name": "WatchGuard AP330",
-        "family": "Access Points",
-        "category": "wifi",
-        "description": "Medium-density AP for retail and K-12 schools",
-        "image_file": "AP330.jpg",
+        "id": 189,
+        "slug": "ThreatSync+ NDR",
+        "name": "ThreatSync+ NDR",
+        "family": "MDR & NDR",
+        "category": "mdr_ndr",
+        "description": "Network detection and response with AI correlation",
+        "image_file": null,
         "appliance": {
-          "sku_code": "WGA330000",
-          "full_sku": "NWG-WGA330000",
-          "name": "WatchGuard AP330 Appliance Only",
-          "msrp": 970,
-          "url": "https://partner.leadersystems.com.au/products.html?wbhF3IUL39w=NEiDZH5ln1m5MCxAexi2Ww==0jAB01qHFIiot3aQ7PJzmikIUJEs"
+          "sku_code": "WGTSNDR30101",
+          "full_sku": "NWG-WGTSNDR30101",
+          "name": "WatchGuard ThreatSync+ NDR   - 1 Year - 1 to 50 licenses",
+          "msrp": 107,
+          "url": "https://partner.leadersystems.com.au/products.html?VeL0UaxPpfU=PmTE4vEa+le+JxhEhc9S9Q==eU1ILhFsK6P07QMkP0//N3Z0ghtecHK4"
         }
       },
       {
-        "id": 317,
-        "slug": "AP332CR",
-        "name": "WatchGuard AP332CR",
-        "family": "Access Points",
-        "category": "wifi",
-        "description": "Rugged outdoor AP for retail and manufacturing",
-        "image_file": "AP332CER.jpg",
+        "id": 191,
+        "slug": "ThreatSync+ SaaS",
+        "name": "ThreatSync+ SaaS",
+        "family": "MDR & NDR",
+        "category": "mdr_ndr",
+        "description": "SaaS application threat detection and response",
+        "image_file": null,
         "appliance": {
-          "sku_code": "WGA332000",
-          "full_sku": "NWG-WGA332000",
-          "name": "WatchGuard AP332CR Appliance Only",
-          "msrp": 1157,
-          "url": "https://partner.leadersystems.com.au/products.html?evx8XDgtEQA=zaPfBa5+Vsc87bckzCYYcQ==n05Q3FvbgQ3SuKNp3M/GaWKTv9D+"
+          "sku_code": "WGTSSAAS30401",
+          "full_sku": "NWG-WGTSSAAS30401",
+          "name": "WatchGuard ThreatSync+ SAAS  - 1 Year - 251+ licenses",
+          "msrp": 35,
+          "url": "https://partner.leadersystems.com.au/products.html?+HE81DBnlnU=232WxWtBbEgZDLTFizQ3Dw==mU9W9/PXRQjW+Ac5n0WZl7v+GoC/TfMNXQ=="
         }
       },
       {
-        "id": 318,
-        "slug": "AP430CR",
-        "name": "WatchGuard AP430CR",
-        "family": "Access Points",
-        "category": "wifi",
-        "description": "High-density outdoor AP for stadiums and campuses",
-        "image_file": "AP430CR.jpg",
+        "id": 188,
+        "slug": "Total MDR",
+        "name": "Total MDR",
+        "family": "MDR & NDR",
+        "category": "mdr_ndr",
+        "description": "Comprehensive managed detection and response",
+        "image_file": null,
         "appliance": {
-          "sku_code": "WGA430000",
-          "full_sku": "NWG-WGA430000",
-          "name": "WatchGuard AP430CR Appliance Only",
-          "msrp": 2152,
-          "url": "https://partner.leadersystems.com.au/products.html?fc5j5BkoWHY=oNv0mHAddQeDw/dCwXNbvg==5XjaTqBzOetV4MRYYamtZoZOl10d"
+          "sku_code": "WGMDRT30101",
+          "full_sku": "NWG-WGMDRT30101",
+          "name": "WatchGuard Total MDR - 1 Year - 1 to 50 licenses",
+          "msrp": 150,
+          "url": "https://partner.leadersystems.com.au/products.html?4XghZCdE7gY=NmVe5KzxXpBiqG+iWPIimA==65A7aqWQkRr8v7ctRmaB+hsMTV3/djw="
         }
       },
       {
-        "id": 319,
-        "slug": "AP432",
-        "name": "WatchGuard AP432",
-        "family": "Access Points",
-        "category": "wifi",
-        "description": "High-density 4x4 AP for large campuses",
-        "image_file": "AP432.jpg",
+        "id": 190,
+        "slug": "Total NDR",
+        "name": "Total NDR",
+        "family": "MDR & NDR",
+        "category": "mdr_ndr",
+        "description": "Full-spectrum network detection and response",
+        "image_file": null,
         "appliance": {
-          "sku_code": "WGA432000",
-          "full_sku": "NWG-WGA432000",
-          "name": "WatchGuard AP432 Appliance Only",
-          "msrp": 1187,
-          "url": "https://partner.leadersystems.com.au/products.html?A1sbM3vwCRI=P6L9Q8/KWjlyeRgiimFJEw==g4exg6byYSIJs6kPb7QH7d0qs0tl"
+          "sku_code": "WGTSST30101",
+          "full_sku": "NWG-WGTSST30101",
+          "name": "WatchGuard Total NDR - 1 Year - 1 to 50 licenses",
+          "msrp": 155,
+          "url": "https://partner.leadersystems.com.au/products.html?f83r4bhQv/o=VJNl60zrRnhw5AIwLkTzZQ==Ad2HHYydxMmDibW2k9O3NpzEpBnedMQ="
         }
+      }
+    ]
+  },
+  "renewals": {
+    "label": "Appliance Renewals",
+    "products": [
+      {
+        "id": 207,
+        "slug": "M270",
+        "name": "Firebox M270",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 208,
+        "slug": "M370",
+        "name": "Firebox M370",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 209,
+        "slug": "M440",
+        "name": "Firebox M440",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 210,
+        "slug": "M4600",
+        "name": "Firebox M4600",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 211,
+        "slug": "M470",
+        "name": "Firebox M470",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 212,
+        "slug": "M5600",
+        "name": "Firebox M5600",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 213,
+        "slug": "M570",
+        "name": "Firebox M570",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 214,
+        "slug": "M670",
+        "name": "Firebox M670",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 215,
+        "slug": "T15",
+        "name": "Firebox T15",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 216,
+        "slug": "T15-W",
+        "name": "Firebox T15-W",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 217,
+        "slug": "T20",
+        "name": "Firebox T20",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 218,
+        "slug": "T20-W",
+        "name": "Firebox T20-W",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 219,
+        "slug": "T25",
+        "name": "Firebox T25",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 220,
+        "slug": "T35",
+        "name": "Firebox T35",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 221,
+        "slug": "T40",
+        "name": "Firebox T40",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 222,
+        "slug": "T40-W",
+        "name": "Firebox T40-W",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 223,
+        "slug": "T45",
+        "name": "Firebox T45",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 224,
+        "slug": "T80",
+        "name": "Firebox T80",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 225,
+        "slug": "T85-PoE",
+        "name": "Firebox T85-PoE",
+        "family": "Renewals",
+        "category": "renewals",
+        "description": "",
+        "image_file": null,
+        "appliance": null
+      }
+    ]
+  },
+  "tabletop": {
+    "label": "Firebox Tabletop (T-Series)",
+    "products": [
+      {
+        "id": 168,
+        "slug": "T115-W",
+        "name": "Firebox T115-W",
+        "family": "T-Series",
+        "category": "tabletop",
+        "description": "Entry-level firewall with built-in Wi-Fi 7 for small offices",
+        "image_file": "T115-W.jpg",
+        "appliance": {
+          "sku_code": "WGT116000",
+          "full_sku": "NWG-WGT116000",
+          "name": "WatchGuard Firebox T115-W Appliance Only",
+          "msrp": 346,
+          "url": "https://partner.leadersystems.com.au/products.html?+i6HO7kKXsI=bcqpDp2O5kUC0433hv2qvg==0iZad6QcJowHs9kG2PvwRLyJulsl"
+        }
+      },
+      {
+        "id": 169,
+        "slug": "T125",
+        "name": "Firebox T125",
+        "family": "T-Series",
+        "category": "tabletop",
+        "description": "Compact UTM appliance for small business networks",
+        "image_file": "T125.jpg",
+        "appliance": {
+          "sku_code": "WGT125000",
+          "full_sku": "NWG-WGT125000",
+          "name": "WatchGuard Firebox T125 Appliance Only",
+          "msrp": 409,
+          "url": "https://partner.leadersystems.com.au/products.html?6eWCO27Ee4o=9Lof2Sw9i+1b11c13Zn2Iw==JNCR50rfWpB7Z3FqVThNGmztr9qy"
+        }
+      },
+      {
+        "id": 170,
+        "slug": "T125-W",
+        "name": "Firebox T125-W",
+        "family": "T-Series",
+        "category": "tabletop",
+        "description": "Compact UTM appliance with built-in Wi-Fi 7 antennas",
+        "image_file": "T125-W.jpg",
+        "appliance": {
+          "sku_code": "WGT126000",
+          "full_sku": "NWG-WGT126000",
+          "name": "WatchGuard Firebox T125-W Appliance Only",
+          "msrp": 472,
+          "url": "https://partner.leadersystems.com.au/products.html?SdLcAVG/IYw=sUlrEpBkC2u6sBJSRtIfPQ==r34O4D2tYHsakngY+Dsr4fVUa4r3"
+        }
+      },
+      {
+        "id": 171,
+        "slug": "T145",
+        "name": "Firebox T145",
+        "family": "T-Series",
+        "category": "tabletop",
+        "description": "Mid-range tabletop firewall with SFP+ connectivity",
+        "image_file": "T145.jpg",
+        "appliance": {
+          "sku_code": "WGT145000",
+          "full_sku": "NWG-WGT145000",
+          "name": "WatchGuard Firebox T145 Appliance Only",
+          "msrp": 621,
+          "url": "https://partner.leadersystems.com.au/products.html?PZFtf5v+W2U=XcnwhxE9RNTwfmsBZseWTQ==dr9PBwbcTUKTNCHMWCKS7FcYiIKe"
+        }
+      },
+      {
+        "id": 172,
+        "slug": "T145-W",
+        "name": "Firebox T145-W",
+        "family": "T-Series",
+        "category": "tabletop",
+        "description": "Mid-range tabletop firewall with Wi-Fi 7",
+        "image_file": "T145.jpg",
+        "appliance": {
+          "sku_code": "WGT146000",
+          "full_sku": "NWG-WGT146000",
+          "name": "WatchGuard Firebox T145-W Appliance Only",
+          "msrp": 692,
+          "url": "https://partner.leadersystems.com.au/products.html?YAJDGj0WfNU=i6GQ54/SlH6vcw811EOWmA==So59XbGcwSifxziR3nUuBZHmBo8e"
+        }
+      },
+      {
+        "id": 173,
+        "slug": "T185",
+        "name": "Firebox T185",
+        "family": "T-Series",
+        "category": "tabletop",
+        "description": "High-performance tabletop for growing businesses",
+        "image_file": "T185.jpg",
+        "appliance": {
+          "sku_code": "WGT185000",
+          "full_sku": "NWG-WGT185000",
+          "name": "WatchGuard Firebox T185 Appliance Only",
+          "msrp": 1226,
+          "url": "https://partner.leadersystems.com.au/products.html?XgJTyGqWKSs=RI6mkbQaSNgdTWuw9JoArA==qKuTcjzxDMLaqqxm0jCFk5EK47bQ"
+        }
+      },
+      {
+        "id": 174,
+        "slug": "T25-W",
+        "name": "Firebox T25-W",
+        "family": "T-Series",
+        "category": "tabletop",
+        "description": "Entry-level firewall with Wi-Fi for home offices",
+        "image_file": "T115-W.jpg",
+        "appliance": {
+          "sku_code": "WGT26000",
+          "full_sku": "NWG-WGT26000",
+          "name": "WatchGuard Firebox T25-W Appliance Only",
+          "msrp": 653,
+          "url": "https://partner.leadersystems.com.au/products.html?Mt6+n+1vrzc=STF9BMD3mOECNm+oPeNxUA==wKevsv3Ya7YGKg1zHbwOgwn+UaI="
+        }
+      },
+      {
+        "id": 175,
+        "slug": "T45-CW",
+        "name": "Firebox T45-CW",
+        "family": "T-Series",
+        "category": "tabletop",
+        "description": "Cellular WAN tabletop firewall with 5G/LTE",
+        "image_file": "T145.jpg",
+        "appliance": {
+          "sku_code": "WGT49000-AU",
+          "full_sku": "NWG-WGT49000-AU",
+          "name": "WatchGuard Firebox T45-CW  Appliance Only (AU)",
+          "msrp": 1397,
+          "url": "https://partner.leadersystems.com.au/products.html?o0Bh/WpKcog=habsB3qdV54BegP1Hg7y1A==kSbd5xz14Xbl9ZoMlRkh4IN6Qx5MR90="
+        }
+      },
+      {
+        "id": 176,
+        "slug": "T45-PoE",
+        "name": "Firebox T45-PoE",
+        "family": "T-Series",
+        "category": "tabletop",
+        "description": "Tabletop firewall with Power over Ethernet ports",
+        "image_file": "T145.jpg",
+        "appliance": {
+          "sku_code": "WGT47000-AU",
+          "full_sku": "NWG-WGT47000-AU",
+          "name": "WatchGuard Firebox T45-PoE  Appliance Only (AU)",
+          "msrp": 939,
+          "url": "https://partner.leadersystems.com.au/products.html?YCGmGhMvRdg=rkSt+tNGql+FNVRs3jCrqw==mfop2de0pflG/4no8Hbks+BCf2Bt6gk="
+        }
+      },
+      {
+        "id": 177,
+        "slug": "T45-W-PoE",
+        "name": "Firebox T45-W-PoE",
+        "family": "T-Series",
+        "category": "tabletop",
+        "description": "Tabletop firewall with Wi-Fi and PoE ports",
+        "image_file": "T145.jpg",
+        "appliance": {
+          "sku_code": "WGT48000-AU",
+          "full_sku": "NWG-WGT48000-AU",
+          "name": "WatchGuard Firebox T45-W-PoE  Appliance Only (AU)",
+          "msrp": 1220,
+          "url": "https://partner.leadersystems.com.au/products.html?J/MKJxRJ5FE=mHMqDkcdrw6rz01E5XBDeg==l6OjGbHKZHnUozC4ol8rzFg+6c8OhDQ="
+        }
+      }
+    ]
+  },
+  "virtual": {
+    "label": "FireboxV Virtual Appliances",
+    "products": [
+      {
+        "id": 180,
+        "slug": "FireboxV Large",
+        "name": "FireboxV Large",
+        "family": "Virtual",
+        "category": "virtual",
+        "description": "Virtual firewall for large cloud environments",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 179,
+        "slug": "FireboxV Medium",
+        "name": "FireboxV Medium",
+        "family": "Virtual",
+        "category": "virtual",
+        "description": "Virtual firewall for medium cloud workloads",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 178,
+        "slug": "FireboxV Small",
+        "name": "FireboxV Small",
+        "family": "Virtual",
+        "category": "virtual",
+        "description": "Virtual firewall for small cloud deployments",
+        "image_file": null,
+        "appliance": null
+      },
+      {
+        "id": 181,
+        "slug": "FireboxV XLarge",
+        "name": "FireboxV XLarge",
+        "family": "Virtual",
+        "category": "virtual",
+        "description": "Virtual firewall for enterprise cloud infrastructure",
+        "image_file": null,
+        "appliance": null
       }
     ]
   }

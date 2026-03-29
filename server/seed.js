@@ -102,10 +102,19 @@ function classifySku(name, deliveryMethod) {
     return { type: 'trade_up', subType: null };
   }
   if (lower.includes('high availability'))      return { type: 'high_availability', subType: 'High Availability' };
-  if (lower.includes('total security'))         return { type: 'subscription', subType: 'Total Security Suite' };
-  if (lower.includes('basic security'))         return { type: 'subscription', subType: 'Basic Security Suite' };
-  if (lower.includes('standard support'))       return { type: 'subscription', subType: 'Standard Support' };
-  if (lower.includes('gold support'))           return { type: 'subscription', subType: 'Gold Support' };
+  const isRenewal = lower.includes('renewal') || lower.includes('upgrade');
+  if (lower.includes('total security')) {
+    return { type: 'subscription', subType: isRenewal ? 'Total Security Renewal' : 'Total Security Suite' };
+  }
+  if (lower.includes('basic security')) {
+    return { type: 'subscription', subType: isRenewal ? 'Basic Security Renewal' : 'Basic Security Suite' };
+  }
+  if (lower.includes('standard support')) {
+    return { type: 'subscription', subType: isRenewal ? 'Standard Support Renewal' : 'Standard Support' };
+  }
+  if (lower.includes('gold support')) {
+    return { type: 'subscription', subType: isRenewal ? 'Gold Support Renewal' : 'Gold Support' };
+  }
   if (lower.includes('usp wi-fi'))              return { type: 'subscription', subType: 'USP Wi-Fi' };
   if (lower.includes('standard wi-fi'))         return { type: 'subscription', subType: 'Standard Wi-Fi' };
   // Individual security service subscriptions

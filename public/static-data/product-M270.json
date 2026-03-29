@@ -1,5 +1,5 @@
 {
-  "id": 57,
+  "id": 207,
   "slug": "M270",
   "name": "Firebox M270",
   "family": "Renewals",
@@ -9,7 +9,7 @@
   "appliance": null,
   "subscriptions": [
     {
-      "id": 851,
+      "id": 3375,
       "sku_code": "WGM27171",
       "full_sku": "NWG-WGM27171",
       "name": "WatchGuard APT Blocker 1-yr for Firebox M270",
@@ -21,7 +21,7 @@
       "term_years": 1
     },
     {
-      "id": 842,
+      "id": 3366,
       "sku_code": "WGM27331",
       "full_sku": "NWG-WGM27331",
       "name": "WatchGuard Basic Security Suite Renewal/Upgrade 1-yr for Firebox M270",
@@ -29,11 +29,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?hFUT95b244Q=HfvoV2YkqcdBUdUEiLXIrg==tdkOnbWRDJFlpZBekXlPpB8LWz8=",
       "sku_type": "subscription",
-      "subscription_type": "Basic Security Suite",
+      "subscription_type": "Basic Security Renewal",
       "term_years": 1
     },
     {
-      "id": 853,
+      "id": 3377,
       "sku_code": "WGM27521",
       "full_sku": "NWG-WGM27521",
       "name": "WatchGuard Cloud 1-month data retention for M270 - 1-yr",
@@ -45,7 +45,7 @@
       "term_years": 1
     },
     {
-      "id": 848,
+      "id": 3372,
       "sku_code": "WGM27121",
       "full_sku": "NWG-WGM27121",
       "name": "WatchGuard Gateway AntiVirus 1-yr for Firebox M270",
@@ -57,7 +57,7 @@
       "term_years": 1
     },
     {
-      "id": 845,
+      "id": 3369,
       "sku_code": "WGM27261",
       "full_sku": "NWG-WGM27261",
       "name": "WatchGuard Gold Support Renewal/Upgrade 1-yr for Firebox M270",
@@ -65,11 +65,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?OfA02+BHiUU=k670DJfoNweBcXTumRx98A==i8IMpDv7GpEeVMf8fzLoPzHex/s=",
       "sku_type": "subscription",
-      "subscription_type": "Gold Support",
+      "subscription_type": "Gold Support Renewal",
       "term_years": 1
     },
     {
-      "id": 849,
+      "id": 3373,
       "sku_code": "WGM27131",
       "full_sku": "NWG-WGM27131",
       "name": "WatchGuard Intrusion Prevention Service 1-yr for Firebox M270",
@@ -81,7 +81,7 @@
       "term_years": 1
     },
     {
-      "id": 852,
+      "id": 3376,
       "sku_code": "WGM27181",
       "full_sku": "NWG-WGM27181",
       "name": "WatchGuard Network Discovery 1-yr for Firebox M270",
@@ -93,7 +93,7 @@
       "term_years": 1
     },
     {
-      "id": 850,
+      "id": 3374,
       "sku_code": "WGM27141",
       "full_sku": "NWG-WGM27141",
       "name": "WatchGuard Reputation Enabled Defense 1-yr for Firebox M270",
@@ -105,7 +105,7 @@
       "term_years": 1
     },
     {
-      "id": 844,
+      "id": 3368,
       "sku_code": "WGM27201",
       "full_sku": "NWG-WGM27201",
       "name": "WatchGuard Standard Support Renewal 1-yr for Firebox M270",
@@ -113,11 +113,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?1ff8BK7MFFA=aUra4UYlvgXtFxKCduF3qg==JHRwFOyyF/hLbESVMjRBzgvCd14=",
       "sku_type": "subscription",
-      "subscription_type": "Standard Support",
+      "subscription_type": "Standard Support Renewal",
       "term_years": 1
     },
     {
-      "id": 843,
+      "id": 3367,
       "sku_code": "WGM27351",
       "full_sku": "NWG-WGM27351",
       "name": "WatchGuard Total Security Suite Renewal/Upgrade 1-yr for Firebox M270",
@@ -125,11 +125,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?l18OV3tFx6M=yA9zfnbcmmdTAUo7V8V8tQ==X4kKHPr6Bv8JTD64Zj0sB3LKKR8=",
       "sku_type": "subscription",
-      "subscription_type": "Total Security Suite",
+      "subscription_type": "Total Security Renewal",
       "term_years": 1
     },
     {
-      "id": 846,
+      "id": 3370,
       "sku_code": "WGM27101",
       "full_sku": "NWG-WGM27101",
       "name": "WatchGuard WebBlocker 1-yr for Firebox M270",
@@ -141,7 +141,7 @@
       "term_years": 1
     },
     {
-      "id": 847,
+      "id": 3371,
       "sku_code": "WGM27111",
       "full_sku": "NWG-WGM27111",
       "name": "WatchGuard spamBlocker 1-yr for Firebox M270",

@@ -1,5 +1,5 @@
 {
-  "id": 66,
+  "id": 216,
   "slug": "T15-W",
   "name": "Firebox T15-W",
   "family": "Renewals",
@@ -9,7 +9,7 @@
   "appliance": null,
   "subscriptions": [
     {
-      "id": 1141,
+      "id": 3665,
       "sku_code": "WGT16171",
       "full_sku": "NWG-WGT16171",
       "name": "WatchGuard APT Blocker 1-yr for Firebox T15-W",
@@ -21,7 +21,7 @@
       "term_years": 1
     },
     {
-      "id": 1140,
+      "id": 3664,
       "sku_code": "WGT16151",
       "full_sku": "NWG-WGT16151",
       "name": "WatchGuard Application Control 1-yr for Firebox T15-W",
@@ -33,7 +33,7 @@
       "term_years": 1
     },
     {
-      "id": 1131,
+      "id": 3655,
       "sku_code": "WGT16331",
       "full_sku": "NWG-WGT16331",
       "name": "WatchGuard Basic Security Suite Renewal/Upgrade 1-yr for Firebox T15-W",
@@ -41,11 +41,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?x4pGSQcIU/w=U9F89RBzQA7jbd0n/ASwHw==wz7yGXVfV5GkydlsUV7C1L9dB/M=",
       "sku_type": "subscription",
-      "subscription_type": "Basic Security Suite",
+      "subscription_type": "Basic Security Renewal",
       "term_years": 1
     },
     {
-      "id": 1137,
+      "id": 3661,
       "sku_code": "WGT16121",
       "full_sku": "NWG-WGT16121",
       "name": "WatchGuard Gateway AntiVirus 1-yr for Firebox T15-W",
@@ -57,7 +57,7 @@
       "term_years": 1
     },
     {
-      "id": 1134,
+      "id": 3658,
       "sku_code": "WGT16261",
       "full_sku": "NWG-WGT16261",
       "name": "WatchGuard Gold Support Renewal/Upgrade 1-yr for Firebox T15-W",
@@ -65,11 +65,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?rl2P7d1C0m0=LjfK8mHVk8ChjO2nJmqASg==1fifL1rOHhlljLWnQkHOACHpkVE=",
       "sku_type": "subscription",
-      "subscription_type": "Gold Support",
+      "subscription_type": "Gold Support Renewal",
       "term_years": 1
     },
     {
-      "id": 1138,
+      "id": 3662,
       "sku_code": "WGT16131",
       "full_sku": "NWG-WGT16131",
       "name": "WatchGuard Intrusion Prevention Service 1-yr for Firebox T15-W",
@@ -81,7 +81,7 @@
       "term_years": 1
     },
     {
-      "id": 1142,
+      "id": 3666,
       "sku_code": "WGT16181",
       "full_sku": "NWG-WGT16181",
       "name": "WatchGuard Network Discovery 1-yr for Firebox T15-W",
@@ -93,7 +93,7 @@
       "term_years": 1
     },
     {
-      "id": 1139,
+      "id": 3663,
       "sku_code": "WGT16141",
       "full_sku": "NWG-WGT16141",
       "name": "WatchGuard Reputation Enabled Defense 1-yr for Firebox T15-W",
@@ -105,7 +105,7 @@
       "term_years": 1
     },
     {
-      "id": 1133,
+      "id": 3657,
       "sku_code": "WGT16201",
       "full_sku": "NWG-WGT16201",
       "name": "WatchGuard Standard Support Renewal 1-yr for Firebox T15-W",
@@ -113,11 +113,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?bSHGodH2+14=5GSrqfkRQvVyuiYCUnHBMQ==pKNSS2qWY0i9eP/wDPbcmU5DcKo=",
       "sku_type": "subscription",
-      "subscription_type": "Standard Support",
+      "subscription_type": "Standard Support Renewal",
       "term_years": 1
     },
     {
-      "id": 1132,
+      "id": 3656,
       "sku_code": "WGT16351",
       "full_sku": "NWG-WGT16351",
       "name": "WatchGuard Total Security Suite Renewal/Upgrade 1-yr for Firebox T15-W",
@@ -125,11 +125,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?/SqYA3xPiOw=hZ/KuOiBaIaCjHp+m+xoAA==7Ef7/g+aIB3AefpHY6bMf2/dYNY=",
       "sku_type": "subscription",
-      "subscription_type": "Total Security Suite",
+      "subscription_type": "Total Security Renewal",
       "term_years": 1
     },
     {
-      "id": 1135,
+      "id": 3659,
       "sku_code": "WGT16101",
       "full_sku": "NWG-WGT16101",
       "name": "WatchGuard WebBlocker 1-yr for Firebox T15-W",
@@ -141,7 +141,7 @@
       "term_years": 1
     },
     {
-      "id": 1136,
+      "id": 3660,
       "sku_code": "WGT16111",
       "full_sku": "NWG-WGT16111",
       "name": "WatchGuard spamBlocker 1-yr for Firebox T15-W",

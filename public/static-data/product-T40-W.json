@@ -1,5 +1,5 @@
 {
-  "id": 72,
+  "id": 222,
   "slug": "T40-W",
   "name": "Firebox T40-W",
   "family": "Renewals",
@@ -9,7 +9,7 @@
   "appliance": null,
   "subscriptions": [
     {
-      "id": 1205,
+      "id": 3729,
       "sku_code": "WGT41171",
       "full_sku": "NWG-WGT41171",
       "name": "WatchGuard APT Blocker 1-yr for Firebox T40-W",
@@ -21,7 +21,7 @@
       "term_years": 1
     },
     {
-      "id": 1201,
+      "id": 3725,
       "sku_code": "WGT41341",
       "full_sku": "NWG-WGT41341",
       "name": "WatchGuard Basic Security Suite Renewal/Upgrade 1-yr for Firebox T40-W",
@@ -29,11 +29,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?Ghu6BacNS8Q=qZMHGEAHBn1rFMhduEY1BQ==Q2Wb96HtO8E6uzkWmjlLclBxtSI=",
       "sku_type": "subscription",
-      "subscription_type": "Basic Security Suite",
+      "subscription_type": "Basic Security Renewal",
       "term_years": 1
     },
     {
-      "id": 1204,
+      "id": 3728,
       "sku_code": "WGT41261",
       "full_sku": "NWG-WGT41261",
       "name": "WatchGuard Gold Support Renewal/Upgrade 1-yr for Firebox T40-W",
@@ -41,11 +41,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?cc/ho8ME9WA=gYaDBnxOiBk2pfqCHmZzSA==AL/ncKoTHoxEMYYPmSeuF6+FzL4=",
       "sku_type": "subscription",
-      "subscription_type": "Gold Support",
+      "subscription_type": "Gold Support Renewal",
       "term_years": 1
     },
     {
-      "id": 1203,
+      "id": 3727,
       "sku_code": "WGT41201",
       "full_sku": "NWG-WGT41201",
       "name": "WatchGuard Standard Support Renewal 1-yr for Firebox T40-W",
@@ -53,11 +53,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?KZjltn1rrbo=NEQEk0kzfJvweZtK/zslAg==hHNq6/IqC+zrmmYNVxawCY6bN9c=",
       "sku_type": "subscription",
-      "subscription_type": "Standard Support",
+      "subscription_type": "Standard Support Renewal",
       "term_years": 1
     },
     {
-      "id": 1202,
+      "id": 3726,
       "sku_code": "WGT41351",
       "full_sku": "NWG-WGT41351",
       "name": "WatchGuard Total Security Suite Renewal/Upgrade 1-yr for Firebox T40-W",
@@ -65,7 +65,7 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?i7XKPc1JfwU=03GH8nYT5mRAdZy5/S8dhw==XVRk/X5lkgrGzKNA6OGPCf+pgBI=",
       "sku_type": "subscription",
-      "subscription_type": "Total Security Suite",
+      "subscription_type": "Total Security Renewal",
       "term_years": 1
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "id": 28,
+  "id": 178,
   "slug": "FireboxV Small",
   "name": "FireboxV Small",
   "family": "Virtual",
@@ -9,7 +9,7 @@
   "appliance": null,
   "subscriptions": [
     {
-      "id": 360,
+      "id": 2884,
       "sku_code": "WGVSM171",
       "full_sku": "NWG-WGVSM171",
       "name": "WatchGuard APT Blocker 1-yr for FireboxV Small",
@@ -21,7 +21,7 @@
       "term_years": 1
     },
     {
-      "id": 361,
+      "id": 2885,
       "sku_code": "WGVSM173",
       "full_sku": "NWG-WGVSM173",
       "name": "WatchGuard APT Blocker 3-yr for FireboxV Small",
@@ -33,7 +33,7 @@
       "term_years": 3
     },
     {
-      "id": 359,
+      "id": 2883,
       "sku_code": "WGVSM151",
       "full_sku": "NWG-WGVSM151",
       "name": "WatchGuard Application Control 1-yr for FireboxV Small",
@@ -45,7 +45,31 @@
       "term_years": 1
     },
     {
-      "id": 342,
+      "id": 2870,
+      "sku_code": "WGVSM331",
+      "full_sku": "NWG-WGVSM331",
+      "name": "WatchGuard Basic Security Suite Renewal/Upgrade 1-yr for FireboxV Small",
+      "msrp": 1184,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?RXHtbIKYEws=QYHRM49d76MCawDV5uKleg==NqF5p1gTFKk1b9SRQOKQP5OGL0A=",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Renewal",
+      "term_years": 1
+    },
+    {
+      "id": 2871,
+      "sku_code": "WGVSM333",
+      "full_sku": "NWG-WGVSM333",
+      "name": "WatchGuard Basic Security Suite Renewal/Upgrade 3-yr for FireboxV Small",
+      "msrp": 2750,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?cBWUSBU03v8=AbJeMpyfnUHq6h/IpK318A==agO8czW5o97mObQW6JjL2+3q3RY=",
+      "sku_type": "subscription",
+      "subscription_type": "Basic Security Renewal",
+      "term_years": 3
+    },
+    {
+      "id": 2866,
       "sku_code": "WGVSM031",
       "full_sku": "NWG-WGVSM031",
       "name": "WatchGuard FireboxV Small with 1-yr Basic Security Suite",
@@ -57,19 +81,7 @@
       "term_years": 1
     },
     {
-      "id": 346,
-      "sku_code": "WGVSM331",
-      "full_sku": "NWG-WGVSM331",
-      "name": "WatchGuard Basic Security Suite Renewal/Upgrade 1-yr for FireboxV Small",
-      "msrp": 1184,
-      "delivery_method": "Electronic",
-      "url": "https://partner.leadersystems.com.au/products.html?RXHtbIKYEws=QYHRM49d76MCawDV5uKleg==NqF5p1gTFKk1b9SRQOKQP5OGL0A=",
-      "sku_type": "subscription",
-      "subscription_type": "Basic Security Suite",
-      "term_years": 1
-    },
-    {
-      "id": 343,
+      "id": 2867,
       "sku_code": "WGVSM033",
       "full_sku": "NWG-WGVSM033",
       "name": "WatchGuard FireboxV Small with 3-yr Basic Security Suite",
@@ -81,19 +93,7 @@
       "term_years": 3
     },
     {
-      "id": 347,
-      "sku_code": "WGVSM333",
-      "full_sku": "NWG-WGVSM333",
-      "name": "WatchGuard Basic Security Suite Renewal/Upgrade 3-yr for FireboxV Small",
-      "msrp": 2750,
-      "delivery_method": "Electronic",
-      "url": "https://partner.leadersystems.com.au/products.html?cBWUSBU03v8=AbJeMpyfnUHq6h/IpK318A==agO8czW5o97mObQW6JjL2+3q3RY=",
-      "sku_type": "subscription",
-      "subscription_type": "Basic Security Suite",
-      "term_years": 3
-    },
-    {
-      "id": 363,
+      "id": 2887,
       "sku_code": "WGVSM521",
       "full_sku": "NWG-WGVSM521",
       "name": "WatchGuard Cloud 1-month data retention for FireboxV Small - 1-yr",
@@ -105,7 +105,7 @@
       "term_years": 1
     },
     {
-      "id": 364,
+      "id": 2888,
       "sku_code": "WGVSM523",
       "full_sku": "NWG-WGVSM523",
       "name": "WatchGuard Cloud 1-month data retention for FireboxV Small - 3-yr",
@@ -117,7 +117,7 @@
       "term_years": 3
     },
     {
-      "id": 356,
+      "id": 2880,
       "sku_code": "WGVSM121",
       "full_sku": "NWG-WGVSM121",
       "name": "WatchGuard Gateway AntiVirus 1-yr for FireboxV Small",
@@ -129,7 +129,7 @@
       "term_years": 1
     },
     {
-      "id": 352,
+      "id": 2876,
       "sku_code": "WGVSM261",
       "full_sku": "NWG-WGVSM261",
       "name": "WatchGuard Gold Support Renewal/Upgrade 1-yr for FireboxV Small",
@@ -137,11 +137,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?rHIeZHLIX4I=VmcIm8F6yeCY0s8nYhWjNQ==J/ceO7lURD6fRCtejF5RWrQIwsE=",
       "sku_type": "subscription",
-      "subscription_type": "Gold Support",
+      "subscription_type": "Gold Support Renewal",
       "term_years": 1
     },
     {
-      "id": 353,
+      "id": 2877,
       "sku_code": "WGVSM263",
       "full_sku": "NWG-WGVSM263",
       "name": "WatchGuard Gold Support Renewal/Upgrade 3-yr for FireboxV Small",
@@ -149,11 +149,11 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?YVtPtT5dqZo=m/AzLhcj8CgOBahJHxkUHQ==0n7BGanPsq3oXCy5W9J3jFWbj60=",
       "sku_type": "subscription",
-      "subscription_type": "Gold Support",
+      "subscription_type": "Gold Support Renewal",
       "term_years": 3
     },
     {
-      "id": 357,
+      "id": 2881,
       "sku_code": "WGVSM131",
       "full_sku": "NWG-WGVSM131",
       "name": "WatchGuard Intrusion Prevention Service 1-yr for FireboxV Small",
@@ -165,7 +165,7 @@
       "term_years": 1
     },
     {
-      "id": 362,
+      "id": 2886,
       "sku_code": "WGVSM181",
       "full_sku": "NWG-WGVSM181",
       "name": "WatchGuard Network Discovery 1-yr for FireboxV Small",
@@ -177,7 +177,7 @@
       "term_years": 1
     },
     {
-      "id": 358,
+      "id": 2882,
       "sku_code": "WGVSM141",
       "full_sku": "NWG-WGVSM141",
       "name": "WatchGuard Reputation Enabled Defense 1-yr for FireboxV Small",
@@ -189,7 +189,7 @@
       "term_years": 1
     },
     {
-      "id": 340,
+      "id": 2864,
       "sku_code": "WGVSM001",
       "full_sku": "NWG-WGVSM001",
       "name": "WatchGuard FireboxV Small with 1-yr Standard Support - Only available to WGOne Silver/Gold Partners",
@@ -201,19 +201,7 @@
       "term_years": 1
     },
     {
-      "id": 350,
-      "sku_code": "WGVSM201",
-      "full_sku": "NWG-WGVSM201",
-      "name": "WatchGuard Standard Support Renewal 1-yr for FireboxV Small",
-      "msrp": 384,
-      "delivery_method": "Electronic",
-      "url": "https://partner.leadersystems.com.au/products.html?ujzi6y1kFR0=y/yHtNXyjkZX3hZbX5tdXw==KnFy03vw88EuvRp9ja5MIMJtg2c=",
-      "sku_type": "subscription",
-      "subscription_type": "Standard Support",
-      "term_years": 1
-    },
-    {
-      "id": 341,
+      "id": 2865,
       "sku_code": "WGVSM003",
       "full_sku": "NWG-WGVSM003",
       "name": "WatchGuard FireboxV Small with 3-yr Standard Support - Only available to WGOne Silver/Gold Partners",
@@ -225,7 +213,19 @@
       "term_years": 3
     },
     {
-      "id": 351,
+      "id": 2874,
+      "sku_code": "WGVSM201",
+      "full_sku": "NWG-WGVSM201",
+      "name": "WatchGuard Standard Support Renewal 1-yr for FireboxV Small",
+      "msrp": 384,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?ujzi6y1kFR0=y/yHtNXyjkZX3hZbX5tdXw==KnFy03vw88EuvRp9ja5MIMJtg2c=",
+      "sku_type": "subscription",
+      "subscription_type": "Standard Support Renewal",
+      "term_years": 1
+    },
+    {
+      "id": 2875,
       "sku_code": "WGVSM203",
       "full_sku": "NWG-WGVSM203",
       "name": "WatchGuard Standard Support Renewal 3-yr for FireboxV Small",
@@ -233,11 +233,35 @@
       "delivery_method": "Electronic",
       "url": "https://partner.leadersystems.com.au/products.html?zDRW7gOBxF0=eQa8jvCwc8WRbgZnPumMYQ==93mkgAcqp62HrwiVMOmXXUrX4UU=",
       "sku_type": "subscription",
-      "subscription_type": "Standard Support",
+      "subscription_type": "Standard Support Renewal",
       "term_years": 3
     },
     {
-      "id": 344,
+      "id": 2872,
+      "sku_code": "WGVSM351",
+      "full_sku": "NWG-WGVSM351",
+      "name": "WatchGuard Total Security Suite Renewal/Upgrade 1-yr for FireboxV Small",
+      "msrp": 2515,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?i58XF+JlxoQ=FEUb48G1jZ+p3ll79s4AYg==MM14ZNbgESTg0TeEGAYlJWPqfds=",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Renewal",
+      "term_years": 1
+    },
+    {
+      "id": 2873,
+      "sku_code": "WGVSM353",
+      "full_sku": "NWG-WGVSM353",
+      "name": "WatchGuard Total Security Suite Renewal/Upgrade 3-yr for FireboxV Small",
+      "msrp": 5830,
+      "delivery_method": "Electronic",
+      "url": "https://partner.leadersystems.com.au/products.html?oDpVg/922BM=K5lT0xPL5aMwvDrV2SrT4w==MufdJuCFBVZ6IYPodHeFk/6lvZw=",
+      "sku_type": "subscription",
+      "subscription_type": "Total Security Renewal",
+      "term_years": 3
+    },
+    {
+      "id": 2868,
       "sku_code": "WGVSM641",
       "full_sku": "NWG-WGVSM641",
       "name": "WatchGuard FireboxV Small with 1-yr Total Security Suite",
@@ -249,19 +273,7 @@
       "term_years": 1
     },
     {
-      "id": 348,
-      "sku_code": "WGVSM351",
-      "full_sku": "NWG-WGVSM351",
-      "name": "WatchGuard Total Security Suite Renewal/Upgrade 1-yr for FireboxV Small",
-      "msrp": 2515,
-      "delivery_method": "Electronic",
-      "url": "https://partner.leadersystems.com.au/products.html?i58XF+JlxoQ=FEUb48G1jZ+p3ll79s4AYg==MM14ZNbgESTg0TeEGAYlJWPqfds=",
-      "sku_type": "subscription",
-      "subscription_type": "Total Security Suite",
-      "term_years": 1
-    },
-    {
-      "id": 345,
+      "id": 2869,
       "sku_code": "WGVSM643",
       "full_sku": "NWG-WGVSM643",
       "name": "WatchGuard FireboxV Small with 3-yr Total Security Suite",
@@ -273,19 +285,7 @@
       "term_years": 3
     },
     {
-      "id": 349,
-      "sku_code": "WGVSM353",
-      "full_sku": "NWG-WGVSM353",
-      "name": "WatchGuard Total Security Suite Renewal/Upgrade 3-yr for FireboxV Small",
-      "msrp": 5830,
-      "delivery_method": "Electronic",
-      "url": "https://partner.leadersystems.com.au/products.html?oDpVg/922BM=K5lT0xPL5aMwvDrV2SrT4w==MufdJuCFBVZ6IYPodHeFk/6lvZw=",
-      "sku_type": "subscription",
-      "subscription_type": "Total Security Suite",
-      "term_years": 3
-    },
-    {
-      "id": 354,
+      "id": 2878,
       "sku_code": "WGVSM101",
       "full_sku": "NWG-WGVSM101",
       "name": "WatchGuard WebBlocker 1-yr for FireboxV Small",
@@ -297,7 +297,7 @@
       "term_years": 1
     },
     {
-      "id": 355,
+      "id": 2879,
       "sku_code": "WGVSM111",
       "full_sku": "NWG-WGVSM111",
       "name": "WatchGuard spamBlocker 1-yr for FireboxV Small",
@@ -311,7 +311,7 @@
   ],
   "tradeUps": [
     {
-      "id": 365,
+      "id": 2889,
       "sku_code": "WGVSM061",
       "full_sku": "NWG-WGVSM061",
       "name": "Trade up to WatchGuard FireboxV Small with 1-yr Basic Security Suite",
@@ -323,7 +323,7 @@
       "term_years": 1
     },
     {
-      "id": 366,
+      "id": 2890,
       "sku_code": "WGVSM063",
       "full_sku": "NWG-WGVSM063",
       "name": "Trade up to WatchGuard FireboxV Small with 3-yr Basic Security Suite",
@@ -335,7 +335,7 @@
       "term_years": 3
     },
     {
-      "id": 367,
+      "id": 2891,
       "sku_code": "WGVSM671",
       "full_sku": "NWG-WGVSM671",
       "name": "Trade up to WatchGuard FireboxV Small with 1-yr Total Security Suite",
@@ -347,7 +347,7 @@
       "term_years": 1
     },
     {
-      "id": 368,
+      "id": 2892,
       "sku_code": "WGVSM673",
       "full_sku": "NWG-WGVSM673",
       "name": "Trade up to WatchGuard FireboxV Small with 3-yr Total Security Suite",

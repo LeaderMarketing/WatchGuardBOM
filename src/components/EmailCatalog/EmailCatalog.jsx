@@ -8,38 +8,11 @@ import { useEmailData, PRODUCTS } from './hooks/useEmailData.js';
 import { useQuote } from '../../context/QuoteContext.jsx';
 import { formatPrice } from '../../data/productPrices.js';
 
-/* ─── SKU → Partner Portal URLs ─── */
-const SKU_URLS = {
-  'NWG-WGEMA011': 'https://partner.leadersystems.com.au/products.html?C9LLfojDO9c=gbfka9UICyYqWxNbdhvKqw==nsZ0s6noFRytLl2p/PBMV5alSDI=',
-  'NWG-WGEMA013': 'https://partner.leadersystems.com.au/products.html?TI1ndeX2aY0=mpr+C7Uz4qumuAAgPL+29Q==h/1w3sG1q1oAi/GKUrMlelXvBLY=',
-  'NWG-WGEMA021': 'https://partner.leadersystems.com.au/products.html?Km+Ydtk1n/Q=9opSp+ISNND5xjnaIHoNdw==mjykHKSqaC1hKj2AnaTI/+jiH/s=',
-  'NWG-WGEMA023': 'https://partner.leadersystems.com.au/products.html?Sxc+hOGpLFY=yl5uma2JA8hGgZVQRH/4Aw==wEV1y6SbE4v12gHzB5Zx2sd5joo=',
-  'NWG-WGEMA031': 'https://partner.leadersystems.com.au/products.html?2o3NwnflOzY=PaNUz4wXn1b3gdNEriZ4zA==X8wWnd5LqXPCyh3sUrEL6PuL7N8=',
-  'NWG-WGEMA033': 'https://partner.leadersystems.com.au/products.html?veURCUC1SrQ=4b9vowPCn+A3bt/dolZmCQ==YzEDjW5LCDCH/SdcWdC+16YdoNg=',
-  'NWG-WGEMA041': 'https://partner.leadersystems.com.au/products.html?HjWbUQVFhuY=kflfHI3XhytfvEaUAScSYw==/iMFsc8O6R7+lQ52ZRnZNUevcvI=',
-  'NWG-WGEMA043': 'https://partner.leadersystems.com.au/products.html?m6ycxrBqDeE=CMec3zLuYLgZX5VBjR9DIg==dPH5st9WLxm+UNxZUM6OM6OtJos=',
-  'NWG-WGEMA051': 'https://partner.leadersystems.com.au/products.html?sQD+pXmBYfY=P8fBTYHPxm0lW3vsiBUKCw==lnF74Fv/CNGJKKcn1BWVu69vAaU=',
-  'NWG-WGEMA053': 'https://partner.leadersystems.com.au/products.html?iWWn8mm8DAU=yuUiOPd0tplBXCW4ZckwVw==moj0cJGn0RPK7O6iMwEL0u8FRhI=',
-  'NWG-WGEMA061': 'https://partner.leadersystems.com.au/products.html?stZw9khJ1js=mA4G/NIHZRpx9aIwJx+zJw==Ptj9Cak/vWSbV3CyqOmOeBMwlYw=',
-  'NWG-WGEMA063': 'https://partner.leadersystems.com.au/products.html?5gqjaAlZgP8=aaKNnTSj4oM1SF9bCehCJQ==6B5WSWVltntHxWk2tNVsDEJOQ2E=',
-  'NWG-WGEMA071': 'https://partner.leadersystems.com.au/products.html?CWWypiVCF88=75FcNLWwTO22NwzWSqr2hQ==VsjNddVk39ophVLKusjqQTsvvVA=',
-  'NWG-WGEMA073': 'https://partner.leadersystems.com.au/products.html?REI46siHHOw=y1dszI1zmyXGf74UQDvjCQ==fVEUQESCKsZE48JbllSpjtblbpg=',
-  'NWG-WGEMA081': 'https://partner.leadersystems.com.au/products.html?wIyLA+7fGuY=rxrz3dBxeLLG1A1f+evkmg==3Shi3/nYFiKRJA43KFni16Uqi6o=',
-  'NWG-WGEMA083': 'https://partner.leadersystems.com.au/products.html?BnTF7UlOAwo=92gJMZvOtvH0e+um6dQn2g==Ev8mRlLN88U8KWKKi6qoCZdHCWQ=',
-  'NWG-WGEMA091': 'https://partner.leadersystems.com.au/products.html?CYKRElsWXxA=dxgTyQ1vy8Ews07GjUp9bA==5vLjCInQI91bWHp+xE4emr2kukY=',
-  'NWG-WGEMA093': 'https://partner.leadersystems.com.au/products.html?7sbtPcqqtWY=YMR41iF0zQ0DPA5+tvF1Gw==k+pDFKElajxTWRsDU4n2p56ky2Q=',
-};
-
-function getSkuUrl(sku) {
-  return SKU_URLS[sku] || '';
-}
-
 /* ═══════════════════════════════════════════════════════════
    Reusable SKU display
    ═══════════════════════════════════════════════════════════ */
-function SkuLink({ sku }) {
+function SkuLink({ sku, url }) {
   if (!sku) return null;
-  const url = getSkuUrl(sku);
   if (url) {
     return (
       <a href={url} target="_blank" rel="noopener noreferrer" className={styles.skuLink}>
@@ -54,13 +27,14 @@ function SkuLink({ sku }) {
    Product Card
    ═══════════════════════════════════════════════════════════ */
 function ProductCard({ product, data, onAdd }) {
-  const { selections, setSelection, getAvailableTerms, getSkuForSelection, getPriceForSelection } = data;
+  const { selections, setSelection, getAvailableTerms, getSkuForSelection, getPriceForSelection, getUrlForSelection } = data;
   const sel = selections[product.key] || {};
   const tier = sel.tier || product.tiers[0];
   const terms = getAvailableTerms(product.key, tier);
   const term = sel.term || terms[0];
   const sku = getSkuForSelection(product.key, tier, term);
   const price = getPriceForSelection(product.key, tier, term);
+  const url = getUrlForSelection(product.key, tier, term);
 
   const handleTierChange = (e) => {
     const newTier = e.target.value;
@@ -137,7 +111,7 @@ function ProductCard({ product, data, onAdd }) {
           <ShoppingCartSimple size={14} weight="bold" />
           Add to Cart
         </button>
-        <SkuLink sku={sku} />
+        <SkuLink sku={sku} url={url} />
       </div>
     </div>
   );

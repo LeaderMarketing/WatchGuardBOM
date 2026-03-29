@@ -1,23 +1,5 @@
 import { useState, useCallback, useMemo } from 'react';
-import { fireboxApplianceSkus } from '../../data/productSkus/fireboxAppliances.js';
-import { getPriceBySku } from '../../data/productPrices.js';
-
-// ── Model lists split by series ──
-const T_SERIES_MODELS = Object.keys(fireboxApplianceSkus)
-  .filter((k) => k.startsWith('T'))
-  .sort((a, b) => {
-    const numA = parseInt(a.replace(/\D/g, ''), 10);
-    const numB = parseInt(b.replace(/\D/g, ''), 10);
-    return numA - numB || a.localeCompare(b);
-  });
-
-const M_SERIES_MODELS = Object.keys(fireboxApplianceSkus)
-  .filter((k) => k.startsWith('M'))
-  .sort((a, b) => {
-    const numA = parseInt(a.replace(/\D/g, ''), 10);
-    const numB = parseInt(b.replace(/\D/g, ''), 10);
-    return numA - numB || a.localeCompare(b);
-  });
+import { useApplianceCatalog } from '../../hooks/useApplianceCatalog.js';
 
 // ── Section definitions (service type options per section) ──
 const SECTIONS = {
@@ -34,7 +16,7 @@ const SECTIONS = {
     { label: 'Trade Up to Total Security', key: 'Trade Up Total Security' },
   ],
   cloud: [
-    { label: 'Cloud 1-Month Data Retention', key: 'Cloud 1-Month Data Retention' },
+    { label: 'Cloud 1-Month Data Retention', key: 'Cloud Data Retention' },
   ],
   individual: [
     { label: 'WebBlocker', key: 'WebBlocker' },
@@ -48,33 +30,49 @@ const SECTIONS = {
   ],
 };
 
-// ── Filter models that have at least one SKU in a given section ──
-function modelsForSection(modelList, sectionId) {
-  const serviceKeys = SECTIONS[sectionId].map((o) => o.key);
-  return modelList.filter((model) =>
-    serviceKeys.some((svc) => fireboxApplianceSkus[model]?.[svc]),
-  );
+function sortModels(models) {
+  return [...models].sort((a, b) => {
+    const numA = parseInt(a.replace(/\D/g, ''), 10);
+    const numB = parseInt(b.replace(/\D/g, ''), 10);
+    return numA - numB || a.localeCompare(b);
+  });
 }
 
 export function useApplianceRenewals() {
+  const catalog = useApplianceCatalog('renewals');
+
+  // Derive T-Series and M-Series model lists from API data
+  const { T_SERIES_MODELS, M_SERIES_MODELS } = useMemo(() => {
+    const allKeys = catalog.models.map(m => m.key);
+    return {
+      T_SERIES_MODELS: sortModels(allKeys.filter(k => k.startsWith('T'))),
+      M_SERIES_MODELS: sortModels(allKeys.filter(k => k.startsWith('M'))),
+    };
+  }, [catalog.models]);
+
+  // Filter models that have at least one SKU in a given section
+  const modelsForSection = useCallback((modelList, sectionId) => {
+    const serviceKeys = SECTIONS[sectionId].map((o) => o.key);
+    return modelList.filter((model) =>
+      serviceKeys.some((svc) => catalog.lookups[model]?.[svc]),
+    );
+  }, [catalog.lookups]);
+
   // Per-card state: keyed by `${series}-${sectionId}` e.g. "t-renewal", "m-support"
   const [cardState, setCardState] = useState({});
-
-  const getCardKey = useCallback((series, sectionId) => `${series}-${sectionId}`, []);
 
   const getCardState = useCallback(
     (series, sectionId) => {
       const key = `${series}-${sectionId}`;
-      // Always compute defaults, then merge saved state on top
       const models = series === 't' ? T_SERIES_MODELS : M_SERIES_MODELS;
       const sectionModels = modelsForSection(models, sectionId);
       const firstModel = sectionModels[0] || models[0];
       const firstService = SECTIONS[sectionId][0]?.key;
-      const terms = Object.keys(fireboxApplianceSkus[firstModel]?.[firstService] || {});
+      const terms = catalog.getAvailableTerms(firstModel, firstService);
       const defaults = { model: firstModel, serviceType: firstService, term: terms[0] || '1 Year' };
       return cardState[key] ? { ...defaults, ...cardState[key] } : defaults;
     },
-    [cardState],
+    [cardState, T_SERIES_MODELS, M_SERIES_MODELS, modelsForSection, catalog],
   );
 
   const updateCardState = useCallback((series, sectionId, field, value) => {
@@ -83,37 +81,23 @@ export function useApplianceRenewals() {
       const current = prev[key] || {};
       const updated = { ...current, [field]: value };
 
-      // Reset term when model or serviceType changes
       if (field === 'model' || field === 'serviceType') {
         const svcKey = field === 'serviceType' ? value : updated.serviceType || SECTIONS[sectionId][0]?.key;
         const modelKey = field === 'model' ? value : updated.model;
-        const terms = Object.keys(fireboxApplianceSkus[modelKey]?.[svcKey] || {});
+        const terms = catalog.getAvailableTerms(modelKey, svcKey);
         updated.term = terms[0] || '1 Year';
       }
 
       return { ...prev, [key]: updated };
     });
-  }, []);
-
-  const getAvailableTerms = useCallback((model, serviceType) => {
-    return Object.keys(fireboxApplianceSkus[model]?.[serviceType] || {});
-  }, []);
-
-  const getSkuForSelection = useCallback((model, serviceType, term) => {
-    return fireboxApplianceSkus[model]?.[serviceType]?.[term] || null;
-  }, []);
-
-  const getPriceForSelection = useCallback((model, serviceType, term) => {
-    const sku = fireboxApplianceSkus[model]?.[serviceType]?.[term];
-    return sku ? getPriceBySku(sku) : null;
-  }, []);
+  }, [catalog]);
 
   // Filter service options to only those available for the selected model
   const getAvailableOptions = useCallback((model, sectionId) => {
     return SECTIONS[sectionId].filter(
-      (opt) => fireboxApplianceSkus[model]?.[opt.key],
+      (opt) => catalog.lookups[model]?.[opt.key],
     );
-  }, []);
+  }, [catalog.lookups]);
 
   return useMemo(
     () => ({
@@ -123,11 +107,15 @@ export function useApplianceRenewals() {
       modelsForSection,
       getCardState,
       updateCardState,
-      getAvailableTerms,
-      getSkuForSelection,
-      getPriceForSelection,
+      getAvailableTerms: catalog.getAvailableTerms,
+      getSkuForSelection: catalog.getSkuForSelection,
+      getPriceForSelection: catalog.getPriceForSelection,
+      getUrlForSelection: catalog.getUrlForSelection,
       getAvailableOptions,
+      loading: catalog.loading,
+      error: catalog.error,
     }),
-    [getCardState, updateCardState, getAvailableTerms, getSkuForSelection, getPriceForSelection, getAvailableOptions],
+    [T_SERIES_MODELS, M_SERIES_MODELS, modelsForSection, getCardState, updateCardState,
+     catalog, getAvailableOptions],
   );
 }

@@ -5,12 +5,10 @@ import { useApplianceRenewals } from './useApplianceRenewals.js';
 import { useQuote } from '../../context/QuoteContext.jsx';
 import { formatPrice } from '../../data/productPrices.js';
 import BannerCarousel from './BannerCarousel.jsx';
-import { SKU_URLS } from './skuUrls.js';
 
 /* ─── SKU link (mirrors VirtualCatalog pattern) ─── */
-function SkuLink({ sku }) {
+function SkuLink({ sku, url }) {
   if (!sku) return null;
-  const url = SKU_URLS[sku] || '';
   if (url) {
     return (
       <a href={url} target="_blank" rel="noopener noreferrer" className={styles.skuLink}>
@@ -44,6 +42,7 @@ function RenewalCard({
     getAvailableTerms,
     getSkuForSelection,
     getPriceForSelection,
+    getUrlForSelection,
     getAvailableOptions,
   } = data;
 
@@ -55,6 +54,7 @@ function RenewalCard({
   const activeTerm = state.term || availableTerms[0];
   const sku = getSkuForSelection(selectedModel, activeServiceType, activeTerm);
   const price = getPriceForSelection(selectedModel, activeServiceType, activeTerm);
+  const url = getUrlForSelection(selectedModel, activeServiceType, activeTerm);
   const imageUrl = sku ? `https://www.leadersystems.com.au/Images/${sku}.jpg` : null;
 
   return (
@@ -125,7 +125,7 @@ function RenewalCard({
             <ShoppingCartSimple size={14} weight="bold" />
             Add to Cart
           </button>
-          <SkuLink sku={sku} />
+          <SkuLink sku={sku} url={url} />
         </div>
         <div className={styles.renewalImageSide}>
           {imageUrl && (
@@ -157,7 +157,7 @@ const SUB_DESCRIPTIONS = {
 };
 
 function IndividualSubCard({ sub, allModels, data, onAdd }) {
-  const { getAvailableTerms, getSkuForSelection, getPriceForSelection } = data;
+  const { getAvailableTerms, getSkuForSelection, getPriceForSelection, getUrlForSelection } = data;
 
   // Filter to models that actually have this subscription
   const availableModels = allModels.filter(
@@ -177,6 +177,7 @@ function IndividualSubCard({ sub, allModels, data, onAdd }) {
 
   const sku = getSkuForSelection(selectedModel, sub.key, selectedTerm);
   const price = getPriceForSelection(selectedModel, sub.key, selectedTerm);
+  const skuUrl = getUrlForSelection(selectedModel, sub.key, selectedTerm);
   const imageUrl = sku ? `https://www.leadersystems.com.au/Images/${sku}.jpg` : null;
 
   if (availableModels.length === 0) return null;
@@ -237,7 +238,7 @@ function IndividualSubCard({ sub, allModels, data, onAdd }) {
           <ShoppingCartSimple size={14} weight="bold" />
           Add to Cart
         </button>
-        <SkuLink sku={sku} />
+        <SkuLink sku={sku} url={skuUrl} />
       </div>
     </div>
   );
